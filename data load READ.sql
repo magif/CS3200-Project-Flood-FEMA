@@ -252,8 +252,6 @@ IGNORE 1 ROWS
 
 ALTER TABLE fima_nfip_claims_staging ENABLE KEYS;
 
--- DROP TABLE fima_nfip_claims_staging;
-
 -- 1. Tell MySQL to relax just enough so we can search for the bad dates without it throwing an error
 SET SQL_SAFE_UPDATES = 0;
 SET SESSION sql_mode = '';
@@ -285,6 +283,10 @@ ORDER BY id;
 SET SESSION net_read_timeout = 30;
 SET SESSION net_write_timeout = 30;
 
+-- DROP TABLE fima_nfip_claims_staging;
+-- drop staging after verifying youve imported correctly,
+-- there will be a warning symbol, if there ISNT a message, its fine, its date being 0000-00-000 
+-- which is what the update statements will fix
 
 -- 2. Run Data Loads
 -- TRUNCATE nanda_land_cover;
