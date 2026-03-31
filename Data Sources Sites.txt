@@ -1,0 +1,33 @@
+National Neighborhood Data Archive (NaNDA): Land Cover by Census Tract and ZIP Code Tabulation Area, United States, 1985-2023
+https://www.icpsr.umich.edu/sites/nanda/view/studies/38598
+
+Land Cover by ZIP Code Tabulation Area Data 2020 -- Delimited
+USE Uni login to get access
+
+will need to setup zip code zcta crosswalk.
+
+----
+OpenFEMA Dataset: FIMA NFIP Redacted Claims - v2
+
+https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2
+download csv
+
+insurance and flood claims data by zip here
+-----
+zip code zcta crosswalk., download and use the excel file, convert to csv
+
+https://linkagelibrary.icpsr.umich.edu/linkagelibrary/project/124461/version/V4/view;jsessionid=55A7851406C6B0754527DFABB6DB73C1
+----
+
+
+
+
+
+Will later if time
+NOAA NCEI - Global Historical Climatology Network daily (GHCNd). Provides precipitation baseline data by ZIP code to control for heavier-than-average rain years.
+
+https://www.ncei.noaa.gov/access/search/dataset-search
+
+----
+
+----
