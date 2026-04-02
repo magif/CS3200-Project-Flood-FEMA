@@ -4,7 +4,7 @@ https://www.icpsr.umich.edu/sites/nanda/view/studies/38598
 Land Cover by ZIP Code Tabulation Area Data 2020 -- Delimited
 USE Uni login to get access
 
-will need to setup zip code zcta crosswalk.
+will need to setup zip code zcta crosswalk. - (done below)
 
 ----
 OpenFEMA Dataset: FIMA NFIP Redacted Claims - v2
@@ -15,6 +15,7 @@ download csv
 insurance and flood claims data by zip here
 -----
 zip code zcta crosswalk., download and use the excel file, convert to csv
+done in folder
 
 https://linkagelibrary.icpsr.umich.edu/linkagelibrary/project/124461/version/V4/view;jsessionid=55A7851406C6B0754527DFABB6DB73C1
 ----
@@ -24,12 +25,14 @@ Fema claims table has a countyCode column, which a 5-digit FIPS code. gives read
 
 https://data.transportation.gov/Railroads/State-County-and-City-FIPS-Reference-Table/eek5-pv8d/about_data
 download csv
+in folder
 -----------
 
 Consumer Price Index for All Urban Consumers: All Items in U.S. City Average (CPIAUCSL)
 
 https://fred.stlouisfed.org/series/CPIAUCSL#
 we have financial data spanning multiple years. table allows adjustments all historical claims for inflation to analyze real economic impact.
+done in folder
 
 
 

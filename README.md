@@ -2,7 +2,7 @@
 
 
 
-Read "Data Sources Sites.txt" to pull data used.
+Read "Data Sources Sites.txt" in DATA folder to pull big data used.
 
 
 
@@ -29,4 +29,6 @@ clarify which queries will need and which to closeout, document more
 
 
 python code and charts after more queries are ran for analysis
+
+make tables 3rd form normative, ie alter table for the clean zips as part of load file
 
