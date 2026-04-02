@@ -208,4 +208,57 @@ ORDER BY z.yearOfLoss DESC, l.impervious_pct_bucket;
 
 
 
+WITH ZipYearAgg AS (
+    SELECT clean_zip,
+           yearOfLoss,
+           COUNT(id) AS claim_count,
+           -- Dropped total_policies here because it's meaningless without the non-claim policies
+           SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0) +
+               GREATEST(IFNULL(amountPaidOnContentsClaim, 0), 0)) AS nominal_paid
+    FROM fima_nfip_claims
+    WHERE yearOfLoss >= 1985
+    GROUP BY clean_zip, yearOfLoss
+),
+ZctaYearAgg AS (
+    SELECT x.zcta,
+           z.yearOfLoss,
+           SUM(z.claim_count)  AS total_claims,
+           SUM(z.nominal_paid) AS nominal_paid
+    FROM ZipYearAgg z
+    JOIN zip_to_zcta x ON z.clean_zip = x.zip_code
+    GROUP BY x.zcta, z.yearOfLoss
+),
+LandCoverBuckets AS (
+    SELECT ZCTA20,
+           YEAR,
+           ROUND((PROP_DEV_LOWINTENSITY + PROP_DEV_MEDINTENSITY + PROP_DEV_HIINTENSITY) * 10) * 10 AS impervious_pct_bucket
+    FROM nanda_land_cover
+    WHERE YEAR >= 1985
+),
+-- NEW: Isolate the 2020 CPI value cleanly
+CPI_2020 AS (
+    SELECT cpi_value AS cpi_2020_baseline
+    FROM inflation_cpi
+    WHERE cpi_year = 2020
+    LIMIT 1
+)
+SELECT z.yearOfLoss                                  AS `Year`,
+       l.impervious_pct_bucket                       AS `Percent Impervious Surface`,
+       SUM(z.total_claims)                           AS `Total Claims`,
 
+       -- Average payout per FILED claim (Building + Contents combined)
+       (SUM(z.nominal_paid) * (c2020.cpi_2020_baseline / i.cpi_value)) / NULLIF(SUM(z.total_claims), 0)
+                                                     AS `Avg Payout per Claim (2020 Dollars)`,
+
+       -- Total payouts adjusted to 2020 dollars
+       SUM(z.nominal_paid) * (c2020.cpi_2020_baseline / i.cpi_value)
+                                                     AS `Total Payouts (2020 Dollars)`
+
+FROM ZctaYearAgg z
+-- WARNING: If NANDA doesn't have every year, you will lose claims data here.
+-- You may need to use a LEFT JOIN or map claim years to the *closest* NANDA year.
+JOIN LandCoverBuckets l ON z.zcta = l.ZCTA20 AND z.yearOfLoss = l.YEAR
+JOIN inflation_cpi i ON z.yearOfLoss = i.cpi_year
+CROSS JOIN CPI_2020 c2020
+GROUP BY z.yearOfLoss, l.impervious_pct_bucket, i.cpi_value, c2020.cpi_2020_baseline
+ORDER BY z.yearOfLoss DESC, l.impervious_pct_bucket;

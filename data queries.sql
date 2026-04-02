@@ -27,73 +27,46 @@ ORDER BY yearOfLoss ASC;
 -- zip from fima data cleaned to remove postal specific after -  9 rows exist, ughhh
 -- + removes the rows without a zip code to reference, ie a lot
 -- also the 60 rows of <5 digit zips
-WITH CleanedClaims AS (SELECT clean_zip,
-                              yearOfLoss,
-                              id,
-                              GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0) AS building_paid,
-                              GREATEST(IFNULL(amountPaidOnContentsClaim, 0), 0) AS contents_paid,
-                              waterDepth
-                       FROM fima_nfip_claims
-                       WHERE yearOfLoss IS NOT NULL),
-     AggregatedClaims AS (
-         -- Route the cleaned ZIP codes through the crosswalk to get the ZCTA
-         SELECT x.zcta                                 AS mapped_zcta,
-                c.yearOfLoss                           AS claim_year,
-                COUNT(c.id)                            AS total_claims,
-                SUM(c.building_paid + c.contents_paid) AS total_damage_paid,
-                AVG(c.waterDepth)                      AS avg_water_depth
-         FROM CleanedClaims c
-                  JOIN
-              zip_to_zcta x ON c.clean_zip = x.zip_code
-         WHERE x.zcta IS NOT NULL
-         GROUP BY x.zcta,
-                  c.yearOfLoss)
--- join the aggregated claims to the Land Cover dataset
-SELECT lc.YEAR,
-       lc.ZCTA20,
-       -- Dependent Variables (Claims)
-       IFNULL(ac.total_claims, 0)      AS total_claims,
-       IFNULL(ac.total_damage_paid, 0) AS total_damage_paid,
-       ac.avg_water_depth,
 
-       -- Independent Variables (Land Cover Proportions)
-       lc.PROP_DEV_HIINTENSITY,
-       lc.PROP_DEV_MEDINTENSITY,
-       lc.PROP_DEV_OPENSPACE,
-       lc.PROP_OPENWATER,
-       lc.PROP_WOODYWET,
-       lc.PROP_HERBWET
-FROM nanda_land_cover lc
-         LEFT JOIN
-     AggregatedClaims ac ON lc.ZCTA20 = ac.mapped_zcta AND lc.YEAR = ac.claim_year
-ORDER BY lc.YEAR, lc.ZCTA20;
-
--- Identifying High-Risk vs. High-Resilience Areas
--- categorizes ZCTAs into "Highly Developed" vs "Highly Natural (Wetlands/Forests)"
--- and compares their average payout per claim.
-WITH ClaimStatsByZipYear AS (
--- STEP 1: Pre-aggregate claims down to just Zip + Year summaries.
--- stops MySQL from trying to evaluate string functions on every single row during the JOIN.
-    SELECT clean_zip,
-           yearOfLoss,
-           COUNT(id)                                              AS claim_count,
-           SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_building_paid
-    FROM fima_nfip_claims
-    WHERE yearOfLoss IS NOT NULL
-      AND reportedZipCode IS NOT NULL
-    GROUP BY LEFT(TRIM(reportedZipCode), 5), yearOfLoss),
+WITH AnnualCPI AS (
+    -- Safely extract the annual average CPI (groups by year to guarantee one row per year) -- rework uneccassry
+    SELECT cpi_year,
+           AVG(cpi_value) AS avg_cpi
+    FROM inflation_cpi
+    GROUP BY cpi_year),
+     CPI_2020 AS (
+         -- Isolate the 2020 baseline for the cross join
+         SELECT avg_cpi
+         FROM AnnualCPI
+         WHERE cpi_year = 2020),
+     ClaimStatsByZipYear AS (
+         -- STEP 1: Pre-aggregate claims down to just Zip + Year summaries.
+         SELECT clean_zip,
+                yearOfLoss,
+                COUNT(id)                                                                 AS claim_count,
+                -- Track claims that actually involved building damage to fix the denominator
+                SUM(CASE WHEN IFNULL(amountPaidOnBuildingClaim, 0) > 0 THEN 1 ELSE 0 END) AS building_claim_count,
+                SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0))                    AS total_building_paid
+         FROM fima_nfip_claims
+         WHERE yearOfLoss IS NOT NULL
+           AND reportedZipCode IS NOT NULL
+         GROUP BY clean_zip, yearOfLoss),
      MappedClaims AS (
--- STEP 2: Join the much smaller aggregated table to the crosswalk
+         -- STEP 2: Join the much smaller aggregated table to the crosswalk and CPI tables
          SELECT x.zcta,
                 c.yearOfLoss,
                 c.claim_count,
-                c.total_building_paid
+                c.building_claim_count,
+                c.total_building_paid,
+                -- Convert to 2020 dollars: Nominal * (CPI_2020 / CPI_CurrentYear)
+                (c.total_building_paid * (c2020.avg_cpi / cpi.avg_cpi)) AS total_building_paid_2020
          FROM ClaimStatsByZipYear c
-                  JOIN
-              zip_to_zcta x ON c.clean_zip = x.zip_code
+                  JOIN zip_to_zcta x ON c.clean_zip = x.zip_code
+                  JOIN AnnualCPI cpi ON c.yearOfLoss = cpi.cpi_year
+                  CROSS JOIN CPI_2020 c2020
          WHERE x.zcta IS NOT NULL),
      ZCTACategory AS (
--- STEP 3: Define the archetypes
+         -- STEP 3: Define the archetypes
          SELECT ZCTA20,
                 YEAR,
                 CASE
@@ -104,19 +77,26 @@ WITH ClaimStatsByZipYear AS (
          FROM nanda_land_cover)
 -- STEP 4: Final Join and math
 SELECT zc.land_archetype,
-       SUM(mc.claim_count)                               AS total_claims_in_archetype,
-       SUM(mc.total_building_paid) / SUM(mc.claim_count) AS avg_payout_per_claim
+       SUM(mc.claim_count)                                                        AS total_claims_in_archetype,
+       -- claims for actual damaged building
+       NULLIF(SUM(mc.building_claim_count), 0)                                    AS true_total_claims_in_archetyp,
+       --  original flawed nominal calculation
+       SUM(mc.total_building_paid) / SUM(mc.claim_count)                          AS avg_nominal_payout_all_claims,
+       --  2020 inflation adjustment (still diluted by all claims)
+       SUM(mc.total_building_paid_2020) / SUM(mc.claim_count)                     AS avg_2020_payout_all_claims,
+       --  original flawed nominal calculation for damaged buildings
+       SUM(mc.total_building_paid) / NULLIF(SUM(mc.building_claim_count), 0)      AS true_nominal_payout_all_claims,
+       -- The TRUE 2020 average payout for buildings that were actually damaged
+       SUM(mc.total_building_paid_2020) / NULLIF(SUM(mc.building_claim_count), 0) AS true_avg_2020_building_payout
 FROM MappedClaims mc
-         JOIN
-     ZCTACategory zc ON mc.zcta = zc.ZCTA20 AND mc.yearOfLoss = zc.YEAR
+         JOIN ZCTACategory zc ON mc.zcta = zc.ZCTA20 AND mc.yearOfLoss = zc.YEAR
 GROUP BY zc.land_archetype
-ORDER BY avg_payout_per_claim DESC;
-
+ORDER BY true_avg_2020_building_payout DESC;
 
 
 --  Queries for Visualizations
 
--- 1st chart: The development % buckets
+--  look in next q file 1st chart: The development % buckets -- deprecated for better ver in data q 2
 -- percentage of "impervious surface" (Low + Med + High Intensity Development) for every ZCTA in a recent year (2020)
 --  pairs it with the average claim payout, and groups them into 10% "buckets"
 -- scatter plot buckets x, avg payout per claim y
