@@ -1,0 +1,758 @@
+storm_id,floodEventName,yearOfLoss,environment_type,total_incidents,avg_building_payout_2020_dollars,total_building_payout_2020_dollars
+AL0520,Hurricane Sally,2020,1. Wetland Buffer (High Absorption),1079,30361.7820838794233,23166039.730000000
+AL0520,Hurricane Sally,2020,2. Dense Urban (Concrete Shield),7,232.0000000000000,1392.000000000
+AL0520,Hurricane Sally,2020,3. Suburban Sprawl,5,25281.3100000000000,25281.310000000
+AL0520,Hurricane Sally,2020,4. Forest/Wildland (Natural Sponge),41,79099.8757142857143,1107398.260000000
+AL0520,Hurricane Sally,2020,5. Agricultural/Rural (Moderate Runoff),47,22394.6966666666667,940577.260000000
+AL0520,Hurricane Sally,2020,6. Mixed/Transition Zone,2141,45713.6464294258373,76433216.830000000
+April 2007 Nor'easter,April 2007 Nor'easter,2007,1. Wetland Buffer (High Absorption),862,24947.6013782437802,18610910.628169860
+April 2007 Nor'easter,April 2007 Nor'easter,2007,2. Dense Urban (Concrete Shield),1652,22678.8762375789612,31568995.722709914
+April 2007 Nor'easter,April 2007 Nor'easter,2007,3. Suburban Sprawl,3697,29538.4052502725639,98067505.430904912
+April 2007 Nor'easter,April 2007 Nor'easter,2007,4. Forest/Wildland (Natural Sponge),705,20567.1727064302963,11661586.924545978
+April 2007 Nor'easter,April 2007 Nor'easter,2007,5. Agricultural/Rural (Moderate Runoff),4,24272.8939619880000,72818.681885964
+April 2007 Nor'easter,April 2007 Nor'easter,2007,6. Mixed/Transition Zone,2857,27341.3461638677096,65154427.908496752
+April Florida Flooding,April Florida Flooding,2023,1. Wetland Buffer (High Absorption),6,5976.8015306673333,17930.404592002
+April Florida Flooding,April Florida Flooding,2023,2. Dense Urban (Concrete Shield),3122,62526.9493974444743,171636476.095985082
+April Florida Flooding,April Florida Flooding,2023,3. Suburban Sprawl,76,22398.1370798151373,1142304.991070572
+April Florida Flooding,April Florida Flooding,2023,6. Mixed/Transition Zone,239,51633.1700513695862,10481533.520428026
+Blizzard of 1993,Blizzard of 1993,1993,1. Wetland Buffer (High Absorption),3427,39711.5581885094479,116513711.725086720
+Blizzard of 1993,Blizzard of 1993,1993,2. Dense Urban (Concrete Shield),656,10466.6028384646207,4552972.234732110
+Blizzard of 1993,Blizzard of 1993,1993,3. Suburban Sprawl,2195,26538.6520589176158,42408765.990150350
+Blizzard of 1993,Blizzard of 1993,1993,4. Forest/Wildland (Natural Sponge),10,11157.7928936860000,55788.964468430
+Blizzard of 1993,Blizzard of 1993,1993,5. Agricultural/Rural (Moderate Runoff),6,19963.4281726650000,39926.856345330
+Blizzard of 1993,Blizzard of 1993,1993,6. Mixed/Transition Zone,4889,27174.8794168724597,106280953.399388190
+California Atmospheric River,California Atmospheric River,2023,1. Wetland Buffer (High Absorption),3,3879.4628715780000,3879.462871578
+California Atmospheric River,California Atmospheric River,2022,2. Dense Urban (Concrete Shield),102,35863.6691588202625,2869093.532705621
+California Atmospheric River,California Atmospheric River,2023,2. Dense Urban (Concrete Shield),201,35995.8875356872897,3851559.966318540
+California Atmospheric River,California Atmospheric River,2022,3. Suburban Sprawl,64,75842.8712258561132,4019672.174970374
+California Atmospheric River,California Atmospheric River,2023,3. Suburban Sprawl,178,22216.0264930545053,2110522.516840178
+California Atmospheric River,California Atmospheric River,2022,4. Forest/Wildland (Natural Sponge),70,44549.0532356426038,2361099.821489058
+California Atmospheric River,California Atmospheric River,2023,4. Forest/Wildland (Natural Sponge),411,41388.3559867721839,10802360.912547540
+California Atmospheric River,California Atmospheric River,2023,5. Agricultural/Rural (Moderate Runoff),290,50134.9720719304749,10979558.883752774
+California Atmospheric River,California Atmospheric River,2022,5. Agricultural/Rural (Moderate Runoff),12,69112.8218784796000,691128.218784796
+California Atmospheric River,California Atmospheric River,2023,6. Mixed/Transition Zone,500,48823.0603810923905,16502194.408809228
+California Atmospheric River,California Atmospheric River,2022,6. Mixed/Transition Zone,133,49109.3223565207282,5058260.202721635
+CT0421,Hurricane Ida,2021,1. Wetland Buffer (High Absorption),1,46908.7328209680000,46908.732820968
+CT0421,Hurricane Ida,2021,2. Dense Urban (Concrete Shield),24,16825.5238875891429,353336.001639372
+CT0421,Hurricane Ida,2021,3. Suburban Sprawl,185,41390.1333480775200,6208520.002211628
+CT0421,Hurricane Ida,2021,4. Forest/Wildland (Natural Sponge),62,19550.1428833629130,899306.572634694
+CT0421,Hurricane Ida,2021,6. Mixed/Transition Zone,435,37441.7645210139405,13853452.872775158
+December Nor'easter,December Nor'easter,2023,1. Wetland Buffer (High Absorption),406,26759.3821660349747,8455964.764467052
+December Nor'easter,December Nor'easter,2023,2. Dense Urban (Concrete Shield),122,25331.1036078498333,2127812.703059386
+December Nor'easter,December Nor'easter,2023,3. Suburban Sprawl,436,31485.0619516616185,10232645.134290026
+December Nor'easter,December Nor'easter,2023,4. Forest/Wildland (Natural Sponge),295,26524.0987922594250,6365783.710142262
+December Nor'easter,December Nor'easter,2023,5. Agricultural/Rural (Moderate Runoff),1,12265.7450215720000,12265.745021572
+December Nor'easter,December Nor'easter,2023,6. Mixed/Transition Zone,693,27779.0922800119066,16056315.337846882
+December Storm - Nor'easter,December Storm - Nor'easter,1992,1. Wetland Buffer (High Absorption),4851,19363.2148181530536,79834534.695245040
+December Storm - Nor'easter,December Storm - Nor'easter,1992,2. Dense Urban (Concrete Shield),5070,17376.2932171476672,71416565.122476912
+December Storm - Nor'easter,December Storm - Nor'easter,1992,3. Suburban Sprawl,4469,26565.5330560366081,94281076.815873922
+December Storm - Nor'easter,December Storm - Nor'easter,1992,4. Forest/Wildland (Natural Sponge),318,20587.1133014370648,4446816.473110406
+December Storm - Nor'easter,December Storm - Nor'easter,1992,5. Agricultural/Rural (Moderate Runoff),35,26300.5228579607500,631212.548591058
+December Storm - Nor'easter,December Storm - Nor'easter,1992,6. Mixed/Transition Zone,15360,22467.0496117629069,275670698.736330868
+Early summer severe storms,Early summer severe storms,2016,1. Wetland Buffer (High Absorption),507,50190.6166785316852,20728724.688233586
+Early summer severe storms,Early summer severe storms,2016,2. Dense Urban (Concrete Shield),93,22033.4825613445313,1410142.883926050
+Early summer severe storms,Early summer severe storms,2016,3. Suburban Sprawl,641,40621.0202879124981,21691624.833745274
+Early summer severe storms,Early summer severe storms,2016,4. Forest/Wildland (Natural Sponge),197,30123.2508425124615,4699227.131431944
+Early summer severe storms,Early summer severe storms,2016,5. Agricultural/Rural (Moderate Runoff),835,65943.7459565377414,45896847.185750268
+Early summer severe storms,Early summer severe storms,2016,6. Mixed/Transition Zone,1314,55299.6493956843466,61272011.530418256
+Early summer storms,Early summer storms,2015,1. Wetland Buffer (High Absorption),135,18305.9163916866939,1793979.806385296
+Early summer storms,Early summer storms,2015,2. Dense Urban (Concrete Shield),3931,78189.4233407567756,261699999.921512928
+Early summer storms,Early summer storms,2015,3. Suburban Sprawl,2419,39829.1480631312646,80693853.975903942
+Early summer storms,Early summer storms,2015,4. Forest/Wildland (Natural Sponge),583,88816.6945158127776,45918231.064675206
+Early summer storms,Early summer storms,2015,5. Agricultural/Rural (Moderate Runoff),412,36373.5952604645266,11603176.888088184
+Early summer storms,Early summer storms,2015,6. Mixed/Transition Zone,874,42630.9158117184391,28349559.014792762
+Early winter storms,Early winter storms,2015,1. Wetland Buffer (High Absorption),27,23351.3940044390000,513730.668097658
+Early winter storms,Early winter storms,2016,1. Wetland Buffer (High Absorption),13,23790.8211315234545,261699.032446758
+Early winter storms,Early winter storms,2015,2. Dense Urban (Concrete Shield),54,50115.8511837397895,1904402.344982112
+Early winter storms,Early winter storms,2016,2. Dense Urban (Concrete Shield),3,19447.8722039990000,38895.744407998
+Early winter storms,Early winter storms,2016,3. Suburban Sprawl,4,30062.0791340860000,120248.316536344
+Early winter storms,Early winter storms,2015,3. Suburban Sprawl,281,45318.7645339363204,9335665.493990882
+Early winter storms,Early winter storms,2016,4. Forest/Wildland (Natural Sponge),24,17749.8045521786316,337246.286491394
+Early winter storms,Early winter storms,2015,4. Forest/Wildland (Natural Sponge),1017,43743.2010454732875,38187814.512698180
+Early winter storms,Early winter storms,2016,5. Agricultural/Rural (Moderate Runoff),47,18402.0081770864211,699276.310729284
+Early winter storms,Early winter storms,2015,5. Agricultural/Rural (Moderate Runoff),488,23537.5533211648683,9650396.861677596
+Early winter storms,Early winter storms,2016,6. Mixed/Transition Zone,67,40429.2465937072000,2223608.562653896
+Early winter storms,Early winter storms,2015,6. Mixed/Transition Zone,921,41930.3970779548411,31405867.411388176
+Fall 2018 Texas Flooding,Fall 2018 Texas Flooding,2018,1. Wetland Buffer (High Absorption),6,26112.9866155106667,156677.919693064
+Fall 2018 Texas Flooding,Fall 2018 Texas Flooding,2018,2. Dense Urban (Concrete Shield),16,16306.9797032780000,211990.736142614
+Fall 2018 Texas Flooding,Fall 2018 Texas Flooding,2018,3. Suburban Sprawl,16,35458.6719235237500,283669.375388190
+Fall 2018 Texas Flooding,Fall 2018 Texas Flooding,2018,4. Forest/Wildland (Natural Sponge),712,59581.1239841824406,31101346.719743234
+Fall 2018 Texas Flooding,Fall 2018 Texas Flooding,2018,5. Agricultural/Rural (Moderate Runoff),9,48931.1169207755714,342517.818445429
+Fall 2018 Texas Flooding,Fall 2018 Texas Flooding,2018,6. Mixed/Transition Zone,130,48304.7462616908889,4782169.879907398
+Fall severe storms,Fall severe storms,2015,1. Wetland Buffer (High Absorption),195,34932.8725177025625,5589259.602832410
+Fall severe storms,Fall severe storms,2015,2. Dense Urban (Concrete Shield),216,25286.1836117002874,4399795.948435850
+Fall severe storms,Fall severe storms,2015,3. Suburban Sprawl,435,23944.6070699006559,8907393.830003044
+Fall severe storms,Fall severe storms,2015,4. Forest/Wildland (Natural Sponge),426,37472.8049782723750,13789992.232004234
+Fall severe storms,Fall severe storms,2015,5. Agricultural/Rural (Moderate Runoff),85,27784.2810257873115,1694841.142573026
+Fall severe storms,Fall severe storms,2015,6. Mixed/Transition Zone,546,46510.5795282348000,21394866.582988008
+FL0123,Hurricane Idalia,2023,1. Wetland Buffer (High Absorption),2060,70867.6315473191705,124727031.523281740
+FL0123,Hurricane Idalia,2023,2. Dense Urban (Concrete Shield),49,48310.2645839516111,1739169.525022258
+FL0123,Hurricane Idalia,2023,3. Suburban Sprawl,1481,61741.6074544435767,81684146.662228852
+FL0123,Hurricane Idalia,2023,5. Agricultural/Rural (Moderate Runoff),1,24636.5266000000000,24636.526600000
+FL0123,Hurricane Idalia,2023,6. Mixed/Transition Zone,1635,53921.2506850863626,76729939.724877894
+FL0222,Hurricane Ian,2022,1. Wetland Buffer (High Absorption),28367,109100.8325877732242,2404255047.736758541
+FL0222,Hurricane Ian,2022,2. Dense Urban (Concrete Shield),117,38033.7706660854583,912810.495986051
+FL0222,Hurricane Ian,2022,3. Suburban Sprawl,13858,109021.6303920647785,1115945408.693175073
+FL0222,Hurricane Ian,2022,5. Agricultural/Rural (Moderate Runoff),6,44308.1262309335000,177232.504923734
+FL0222,Hurricane Ian,2022,6. Mixed/Transition Zone,5153,82832.1506395319621,305650635.859872940
+FL0322,Hurricane Nicole,2022,1. Wetland Buffer (High Absorption),794,44803.4458579628447,26254819.272766227
+FL0322,Hurricane Nicole,2022,2. Dense Urban (Concrete Shield),19,28098.4047695195000,224787.238156156
+FL0322,Hurricane Nicole,2022,3. Suburban Sprawl,310,61152.3609731300661,14798871.355497476
+FL0322,Hurricane Nicole,2022,6. Mixed/Transition Zone,430,33153.8521794486190,9051001.644989473
+FL0520,Hurricane Sally,2020,1. Wetland Buffer (High Absorption),1400,37855.5219111111111,42587462.150000000
+FL0520,Hurricane Sally,2020,2. Dense Urban (Concrete Shield),89,57342.2256140350877,3268506.860000000
+FL0520,Hurricane Sally,2020,3. Suburban Sprawl,488,35565.4743019943020,12483481.480000000
+FL0520,Hurricane Sally,2020,4. Forest/Wildland (Natural Sponge),45,48219.0492307692308,1880542.920000000
+FL0520,Hurricane Sally,2020,6. Mixed/Transition Zone,2776,35672.2112975609756,73128033.160000000
+Greater New Orleans Flooding,Greater New Orleans Flooding,2017,1. Wetland Buffer (High Absorption),12,32159.3067381120000,225115.147166784
+Greater New Orleans Flooding,Greater New Orleans Flooding,2017,2. Dense Urban (Concrete Shield),737,39564.5244533205667,24015666.343165584
+Greater New Orleans Flooding,Greater New Orleans Flooding,2017,3. Suburban Sprawl,106,21220.2785800229647,1803723.679301952
+Greater New Orleans Flooding,Greater New Orleans Flooding,2017,6. Mixed/Transition Zone,3,,0.000000000
+Heavy rains,Heavy rains,2001,1. Wetland Buffer (High Absorption),1,,0.000000000
+Heavy rains,Heavy rains,2002,1. Wetland Buffer (High Absorption),537,20032.4749605661046,9194906.006899842
+Heavy rains,Heavy rains,2002,2. Dense Urban (Concrete Shield),214,31753.9803915961676,5683962.490095714
+Heavy rains,Heavy rains,2003,2. Dense Urban (Concrete Shield),23,36842.9562770661364,810545.038095455
+Heavy rains,Heavy rains,2001,3. Suburban Sprawl,3,17426.1892580610000,17426.189258061
+Heavy rains,Heavy rains,2004,3. Suburban Sprawl,12,8521.8820748943750,68175.056599155
+Heavy rains,Heavy rains,2002,3. Suburban Sprawl,2161,36918.1036725029112,65714224.537055182
+Heavy rains,Heavy rains,2003,3. Suburban Sprawl,186,34895.7736640066272,5897385.749217120
+Heavy rains,Heavy rains,2001,4. Forest/Wildland (Natural Sponge),128,12445.4130285819900,1244541.302858199
+Heavy rains,Heavy rains,2004,4. Forest/Wildland (Natural Sponge),271,25023.2835791580921,5705308.656048045
+Heavy rains,Heavy rains,2003,4. Forest/Wildland (Natural Sponge),164,18356.3779472415662,2496467.400824853
+Heavy rains,Heavy rains,2002,4. Forest/Wildland (Natural Sponge),6,13417.1341416427500,53668.536566571
+Heavy rains,Heavy rains,2004,5. Agricultural/Rural (Moderate Runoff),37,17125.2788556193548,530883.644524200
+Heavy rains,Heavy rains,2003,5. Agricultural/Rural (Moderate Runoff),22,18196.1448197502000,272942.172296253
+Heavy rains,Heavy rains,2002,5. Agricultural/Rural (Moderate Runoff),53,12390.7291793338571,433675.521276685
+Heavy rains,Heavy rains,2001,6. Mixed/Transition Zone,7,12167.1908655690000,60835.954327845
+Heavy rains,Heavy rains,2004,6. Mixed/Transition Zone,5,3469.8732834975000,13879.493133990
+Heavy rains,Heavy rains,2003,6. Mixed/Transition Zone,259,22494.7510394271009,4903855.726595108
+Heavy rains,Heavy rains,2002,6. Mixed/Transition Zone,686,25792.4942382785383,15140194.117869502
+Hurricane Alex,Hurricane Alex,2004,1. Wetland Buffer (High Absorption),252,11726.7857559050000,1547935.719779460
+Hurricane Alex,Hurricane Alex,2004,3. Suburban Sprawl,9,470.9088783300000,470.908878330
+Hurricane Alex,Hurricane Alex,2004,4. Forest/Wildland (Natural Sponge),1,2769.2993799900000,2769.299379990
+Hurricane Alex,Hurricane Alex,2004,6. Mixed/Transition Zone,241,16422.9938260567568,1822952.314692300
+Hurricane Andrew,Hurricane Andrew,1992,1. Wetland Buffer (High Absorption),3672,24321.0007012114998,57859660.668182158
+Hurricane Andrew,Hurricane Andrew,1992,2. Dense Urban (Concrete Shield),838,24047.4254923073103,3486876.696384560
+Hurricane Andrew,Hurricane Andrew,1992,3. Suburban Sprawl,3895,75796.9942526495108,97929716.574423168
+Hurricane Andrew,Hurricane Andrew,1992,4. Forest/Wildland (Natural Sponge),20,12474.3658638270526,237012.951412714
+Hurricane Andrew,Hurricane Andrew,1992,5. Agricultural/Rural (Moderate Runoff),174,8152.2529644832308,105979.288538282
+Hurricane Andrew,Hurricane Andrew,1992,6. Mixed/Transition Zone,2958,58536.4166743642421,76390023.760045336
+Hurricane Bertha,Hurricane Bertha,1996,1. Wetland Buffer (High Absorption),1268,13146.1081342009643,8466093.638425421
+Hurricane Bertha,Hurricane Bertha,1996,2. Dense Urban (Concrete Shield),3,3310.8279056250000,3310.827905625
+Hurricane Bertha,Hurricane Bertha,1996,3. Suburban Sprawl,20,14443.4656680447143,101104.259676313
+Hurricane Bertha,Hurricane Bertha,1996,4. Forest/Wildland (Natural Sponge),12,8018.1774615905000,48109.064769543
+Hurricane Bertha,Hurricane Bertha,1996,5. Agricultural/Rural (Moderate Runoff),17,18907.4017418827500,226888.820902593
+Hurricane Bertha,Hurricane Bertha,1996,6. Mixed/Transition Zone,984,12759.9232360548798,5627126.147100202
+Hurricane Bob,Hurricane Bob,1985,1. Wetland Buffer (High Absorption),209,11068.8754886525490,1693537.949763840
+Hurricane Bob,Hurricane Bob,1991,1. Wetland Buffer (High Absorption),113,22439.9322322951750,1795194.578583614
+Hurricane Bob,Hurricane Bob,1985,2. Dense Urban (Concrete Shield),9,2696.5830547222500,10786.332218889
+Hurricane Bob,Hurricane Bob,1991,2. Dense Urban (Concrete Shield),44,34050.7124849450000,1089622.799518240
+Hurricane Bob,Hurricane Bob,1991,3. Suburban Sprawl,129,23072.4776851844819,1915015.647870312
+Hurricane Bob,Hurricane Bob,1985,3. Suburban Sprawl,7,26864.8422254620000,161189.053352772
+Hurricane Bob,Hurricane Bob,1985,4. Forest/Wildland (Natural Sponge),2,15702.5513382840000,15702.551338284
+Hurricane Bob,Hurricane Bob,1991,4. Forest/Wildland (Natural Sponge),10,40372.8787154628000,201864.393577314
+Hurricane Bob,Hurricane Bob,1985,5. Agricultural/Rural (Moderate Runoff),17,18475.7066118025000,221708.479341630
+Hurricane Bob,Hurricane Bob,1991,6. Mixed/Transition Zone,3081,29849.0605283495829,73846575.747136868
+Hurricane Bob,Hurricane Bob,1985,6. Mixed/Transition Zone,11,17959.9312218670000,161639.380996803
+Hurricane Bonnie,Hurricane Bonnie,1998,1. Wetland Buffer (High Absorption),2439,10418.3932343825570,14085667.652885217
+Hurricane Bonnie,Hurricane Bonnie,1986,1. Wetland Buffer (High Absorption),18,12652.2706219963750,101218.164975971
+Hurricane Bonnie,Hurricane Bonnie,1998,2. Dense Urban (Concrete Shield),6,1125.3966726330000,1125.396672633
+Hurricane Bonnie,Hurricane Bonnie,1986,2. Dense Urban (Concrete Shield),1,,0.000000000
+Hurricane Bonnie,Hurricane Bonnie,1998,3. Suburban Sprawl,68,11126.9829239718621,322682.504795184
+Hurricane Bonnie,Hurricane Bonnie,1986,3. Suburban Sprawl,3,21548.7847814355000,43097.569562871
+Hurricane Bonnie,Hurricane Bonnie,1998,4. Forest/Wildland (Natural Sponge),21,9994.2785506670000,179897.013912006
+Hurricane Bonnie,Hurricane Bonnie,1998,5. Agricultural/Rural (Moderate Runoff),16,11647.3779153306429,163063.290814629
+Hurricane Bonnie,Hurricane Bonnie,1998,6. Mixed/Transition Zone,1880,13953.1570162504491,15753114.271346757
+Hurricane Bonnie,Hurricane Bonnie,1986,6. Mixed/Transition Zone,5,14802.3961778716667,44407.188533615
+Hurricane Chantel,Hurricane Chantel,1989,1. Wetland Buffer (High Absorption),157,8435.9903277227200,632699.274579204
+Hurricane Chantel,Hurricane Chantel,1989,2. Dense Urban (Concrete Shield),108,5454.9714270464667,245473.714217091
+Hurricane Chantel,Hurricane Chantel,1989,3. Suburban Sprawl,238,15638.8110420058462,1829740.891914684
+Hurricane Chantel,Hurricane Chantel,1989,5. Agricultural/Rural (Moderate Runoff),592,22520.5131341712495,11192695.027683111
+Hurricane Chantel,Hurricane Chantel,1989,6. Mixed/Transition Zone,2903,22230.8003160811331,45084063.041012538
+Hurricane Charley,Hurricane Charley,2004,1. Wetland Buffer (High Absorption),4080,22875.7588508334795,47993342.069048640
+Hurricane Charley,Hurricane Charley,2004,2. Dense Urban (Concrete Shield),28,8230.0699172587500,32920.279669035
+Hurricane Charley,Hurricane Charley,2004,3. Suburban Sprawl,883,24051.3327595829063,3848213.241533265
+Hurricane Charley,Hurricane Charley,2004,4. Forest/Wildland (Natural Sponge),5,1160.8974036000000,1160.897403600
+Hurricane Charley,Hurricane Charley,2004,5. Agricultural/Rural (Moderate Runoff),1,,0.000000000
+Hurricane Charley,Hurricane Charley,2004,6. Mixed/Transition Zone,1065,17987.0395660431356,4244941.337586180
+Hurricane Claudette,Hurricane Claudette,2003,1. Wetland Buffer (High Absorption),706,11556.6962870877800,6356182.957898279
+Hurricane Claudette,Hurricane Claudette,2003,2. Dense Urban (Concrete Shield),126,11190.6185700512118,951202.578454353
+Hurricane Claudette,Hurricane Claudette,2003,3. Suburban Sprawl,56,14873.7648622113636,490834.240452975
+Hurricane Claudette,Hurricane Claudette,2003,4. Forest/Wildland (Natural Sponge),3,10777.0827827465000,21554.165565493
+Hurricane Claudette,Hurricane Claudette,2003,5. Agricultural/Rural (Moderate Runoff),108,12318.2138426552951,751411.044401973
+Hurricane Claudette,Hurricane Claudette,2003,6. Mixed/Transition Zone,430,12319.8808315885941,3338687.705360509
+Hurricane Danny,Hurricane Danny,1997,1. Wetland Buffer (High Absorption),639,11246.9859713015801,4071408.921611172
+Hurricane Danny,Hurricane Danny,1997,2. Dense Urban (Concrete Shield),42,14880.2910792588000,595211.643170352
+Hurricane Danny,Hurricane Danny,1997,3. Suburban Sprawl,85,21907.5099795788571,1380173.128713468
+Hurricane Danny,Hurricane Danny,1997,4. Forest/Wildland (Natural Sponge),42,14750.1607143600000,501505.464288240
+Hurricane Danny,Hurricane Danny,1997,5. Agricultural/Rural (Moderate Runoff),31,30205.6979874020690,875965.241634660
+Hurricane Danny,Hurricane Danny,1997,6. Mixed/Transition Zone,526,23284.1390516068881,6868821.020224032
+Hurricane Dennis,Hurricane Dennis,2005,1. Wetland Buffer (High Absorption),1897,41959.9049611980617,62562218.297146310
+Hurricane Dennis,Hurricane Dennis,1999,1. Wetland Buffer (High Absorption),1847,14915.9232919673455,19644270.975520994
+Hurricane Dennis,Hurricane Dennis,2005,2. Dense Urban (Concrete Shield),27,27337.4202630355556,246036.782367320
+Hurricane Dennis,Hurricane Dennis,2005,3. Suburban Sprawl,340,37996.1292467102092,9081074.889963740
+Hurricane Dennis,Hurricane Dennis,1999,3. Suburban Sprawl,12,35984.4508002567500,287875.606402054
+Hurricane Dennis,Hurricane Dennis,1999,4. Forest/Wildland (Natural Sponge),25,18008.6747674839500,360173.495349679
+Hurricane Dennis,Hurricane Dennis,2005,4. Forest/Wildland (Natural Sponge),30,26205.2348116102273,576515.165855425
+Hurricane Dennis,Hurricane Dennis,2005,5. Agricultural/Rural (Moderate Runoff),4,8983.0056311925000,35932.022524770
+Hurricane Dennis,Hurricane Dennis,1999,5. Agricultural/Rural (Moderate Runoff),7,12510.3713322866667,75062.227993720
+Hurricane Dennis,Hurricane Dennis,2005,6. Mixed/Transition Zone,2456,35718.4399879883316,67865035.977177830
+Hurricane Dennis,Hurricane Dennis,1999,6. Mixed/Transition Zone,1540,19379.0112758220665,19223979.185615490
+Hurricane Dolly,Hurricane Dolly,2008,1. Wetland Buffer (High Absorption),245,14101.4655759232598,1790886.128142254
+Hurricane Dolly,Hurricane Dolly,2008,2. Dense Urban (Concrete Shield),18,5206.2748999668000,26031.374499834
+Hurricane Dolly,Hurricane Dolly,2008,3. Suburban Sprawl,88,18538.6857725391667,1001089.031717115
+Hurricane Dolly,Hurricane Dolly,2008,4. Forest/Wildland (Natural Sponge),3,8690.6656667600000,17381.331333520
+Hurricane Dolly,Hurricane Dolly,2008,5. Agricultural/Rural (Moderate Runoff),1141,21941.8401670328345,18036192.617300990
+Hurricane Dolly,Hurricane Dolly,2008,6. Mixed/Transition Zone,385,27099.5296503177125,4335924.744050834
+Hurricane Elena,Hurricane Elena,1985,1. Wetland Buffer (High Absorption),1698,14496.0455834544798,15800689.685965383
+Hurricane Elena,Hurricane Elena,1985,2. Dense Urban (Concrete Shield),236,15376.2570576073087,2291062.301583489
+Hurricane Elena,Hurricane Elena,1985,3. Suburban Sprawl,2904,20612.6511793880234,44894354.268707115
+Hurricane Elena,Hurricane Elena,1985,4. Forest/Wildland (Natural Sponge),22,9881.3827118805000,79051.061695044
+Hurricane Elena,Hurricane Elena,1985,5. Agricultural/Rural (Moderate Runoff),2,47529.8226489285000,95059.645297857
+Hurricane Elena,Hurricane Elena,1985,6. Mixed/Transition Zone,5080,17022.8675633880779,57009583.469786673
+Hurricane Emily,Hurricane Emily,1993,1. Wetland Buffer (High Absorption),406,28144.7193907041639,8584139.414164770
+Hurricane Emily,Hurricane Emily,1993,5. Agricultural/Rural (Moderate Runoff),2,,0.000000000
+Hurricane Emily,Hurricane Emily,1993,6. Mixed/Transition Zone,606,18393.5215609522539,7099899.322527570
+Hurricane Eta,Hurricane Eta,2020,1. Wetland Buffer (High Absorption),382,28928.4677508650519,8360327.180000000
+Hurricane Eta,Hurricane Eta,2020,2. Dense Urban (Concrete Shield),1173,24132.7634154929577,20561114.430000000
+Hurricane Eta,Hurricane Eta,2020,3. Suburban Sprawl,1108,34383.9320673635308,29604565.510000000
+Hurricane Eta,Hurricane Eta,2020,4. Forest/Wildland (Natural Sponge),28,31275.4863157894737,594234.240000000
+Hurricane Eta,Hurricane Eta,2020,5. Agricultural/Rural (Moderate Runoff),3,6982.3333333333333,20947.000000000
+Hurricane Eta,Hurricane Eta,2020,6. Mixed/Transition Zone,983,44076.9328198757764,35481930.920000000
+Hurricane Florence,Hurricane Florence,1988,1. Wetland Buffer (High Absorption),35,6149.4187482171429,129137.793712560
+Hurricane Florence,Hurricane Florence,2018,1. Wetland Buffer (High Absorption),11910,51899.8867340268754,536385329.396167757
+Hurricane Florence,Hurricane Florence,1988,2. Dense Urban (Concrete Shield),19,6001.6018640820000,48012.814912656
+Hurricane Florence,Hurricane Florence,2018,2. Dense Urban (Concrete Shield),3,11415.6630819220000,11415.663081922
+Hurricane Florence,Hurricane Florence,1988,3. Suburban Sprawl,29,22851.9843572209524,479891.671501640
+Hurricane Florence,Hurricane Florence,2018,3. Suburban Sprawl,558,33698.7808460419663,14018692.831953458
+Hurricane Florence,Hurricane Florence,2018,4. Forest/Wildland (Natural Sponge),122,20480.8045887222381,2150484.481815835
+Hurricane Florence,Hurricane Florence,2018,5. Agricultural/Rural (Moderate Runoff),81,31990.0502532881781,2335273.668490037
+Hurricane Florence,Hurricane Florence,1988,6. Mixed/Transition Zone,30,12433.9768053909091,273547.489718600
+Hurricane Florence,Hurricane Florence,2018,6. Mixed/Transition Zone,4126,28448.5084512834183,95274054.803348168
+Hurricane Floyd,Hurricane Floyd,1999,1. Wetland Buffer (High Absorption),9743,21814.3288275330759,142316681.270825787
+Hurricane Floyd,Hurricane Floyd,1999,2. Dense Urban (Concrete Shield),2055,26573.0756257645473,43021809.438112802
+Hurricane Floyd,Hurricane Floyd,1999,3. Suburban Sprawl,5051,30167.4672444682770,118165969.196582241
+Hurricane Floyd,Hurricane Floyd,1999,4. Forest/Wildland (Natural Sponge),609,19339.4941488600867,8702772.366987039
+Hurricane Floyd,Hurricane Floyd,1999,5. Agricultural/Rural (Moderate Runoff),268,32316.9416889567824,6980459.404814665
+Hurricane Floyd,Hurricane Floyd,1999,6. Mixed/Transition Zone,9620,35187.4975996590501,246734733.168809259
+Hurricane Fran,Hurricane Fran,1996,1. Wetland Buffer (High Absorption),6900,29353.0429985402170,150434345.367518612
+Hurricane Fran,Hurricane Fran,1996,2. Dense Urban (Concrete Shield),41,25536.5367078178077,663949.954403263
+Hurricane Fran,Hurricane Fran,1996,3. Suburban Sprawl,491,29607.8642047995138,9622555.866559842
+Hurricane Fran,Hurricane Fran,1996,4. Forest/Wildland (Natural Sponge),1383,28427.7505339431741,32663485.363500707
+Hurricane Fran,Hurricane Fran,1996,5. Agricultural/Rural (Moderate Runoff),192,34062.9846839073373,5654455.457528618
+Hurricane Fran,Hurricane Fran,1996,6. Mixed/Transition Zone,4321,31318.7510095774338,97965053.157958213
+Hurricane Frances,Hurricane Frances,2004,1. Wetland Buffer (High Absorption),2062,26308.2227647943603,30228147.956748720
+Hurricane Frances,Hurricane Frances,2004,2. Dense Urban (Concrete Shield),908,15706.1265291430548,5450025.905612640
+Hurricane Frances,Hurricane Frances,2004,3. Suburban Sprawl,2536,25611.3113749259979,37085178.870892845
+Hurricane Frances,Hurricane Frances,2004,4. Forest/Wildland (Natural Sponge),8,27640.8308373037500,110563.323349215
+Hurricane Frances,Hurricane Frances,2004,5. Agricultural/Rural (Moderate Runoff),63,20671.7275858735714,578808.372404460
+Hurricane Frances,Hurricane Frances,2004,6. Mixed/Transition Zone,3417,54549.1600906523724,97261152.441633180
+Hurricane Georges,Hurricane Georges,1998,1. Wetland Buffer (High Absorption),4727,24160.7647546754395,80213738.985522459
+Hurricane Georges,Hurricane Georges,1998,2. Dense Urban (Concrete Shield),298,19616.9231835290182,3236792.325282288
+Hurricane Georges,Hurricane Georges,1998,3. Suburban Sprawl,1255,25585.4727115547125,24203857.185130758
+Hurricane Georges,Hurricane Georges,1998,4. Forest/Wildland (Natural Sponge),193,27312.5236861624655,3168252.747594846
+Hurricane Georges,Hurricane Georges,1998,5. Agricultural/Rural (Moderate Runoff),16,22129.8554964255000,309817.976949957
+Hurricane Georges,Hurricane Georges,1998,6. Mixed/Transition Zone,2382,27228.9663237322915,44274299.242388706
+Hurricane Georges (Keys),Hurricane Georges (Keys),1998,1. Wetland Buffer (High Absorption),137,27842.8079843019375,1781939.710995324
+Hurricane Georges (Keys),Hurricane Georges (Keys),1998,2. Dense Urban (Concrete Shield),246,33337.2676731465464,3233714.964295215
+Hurricane Georges (Keys),Hurricane Georges (Keys),1998,3. Suburban Sprawl,75,6635.3834601031875,106166.135361651
+Hurricane Georges (Keys),Hurricane Georges (Keys),1998,4. Forest/Wildland (Natural Sponge),4,4183.2253125960000,16732.901250384
+Hurricane Georges (Keys),Hurricane Georges (Keys),1998,5. Agricultural/Rural (Moderate Runoff),4,5007.8238397350000,5007.823839735
+Hurricane Georges (Keys),Hurricane Georges (Keys),1998,6. Mixed/Transition Zone,6701,15595.4342623188668,47191784.077776891
+Hurricane Georges (Panhandle),Hurricane Georges (Panhandle),1998,1. Wetland Buffer (High Absorption),637,22008.8430304235170,8429386.880652207
+Hurricane Georges (Panhandle),Hurricane Georges (Panhandle),1998,2. Dense Urban (Concrete Shield),98,21013.8847125546429,588388.771951530
+Hurricane Georges (Panhandle),Hurricane Georges (Panhandle),1998,3. Suburban Sprawl,73,41172.5621425256341,1688075.047843551
+Hurricane Georges (Panhandle),Hurricane Georges (Panhandle),1998,4. Forest/Wildland (Natural Sponge),60,24134.6940332918400,1206734.701664592
+Hurricane Georges (Panhandle),Hurricane Georges (Panhandle),1998,6. Mixed/Transition Zone,2334,15829.3787396355165,17254022.826202713
+Hurricane Gloria,Hurricane Gloria,1985,1. Wetland Buffer (High Absorption),2082,12483.9078901539235,19100379.071935503
+Hurricane Gloria,Hurricane Gloria,1985,2. Dense Urban (Concrete Shield),1388,9638.0548548109620,9136876.002360792
+Hurricane Gloria,Hurricane Gloria,1985,3. Suburban Sprawl,912,12946.7261581042610,7043019.030008718
+Hurricane Gloria,Hurricane Gloria,1985,4. Forest/Wildland (Natural Sponge),220,16935.1928439350476,2133834.298335816
+Hurricane Gloria,Hurricane Gloria,1985,5. Agricultural/Rural (Moderate Runoff),11,12726.8620949760000,63634.310474880
+Hurricane Gloria,Hurricane Gloria,1985,6. Mixed/Transition Zone,3152,12731.7515939389165,25170672.901217238
+Hurricane Gustav,Hurricane Gustav,2008,1. Wetland Buffer (High Absorption),4293,23271.4002854417916,58853371.321882291
+Hurricane Gustav,Hurricane Gustav,2008,2. Dense Urban (Concrete Shield),1022,18743.8402046171500,4123644.845015773
+Hurricane Gustav,Hurricane Gustav,2008,3. Suburban Sprawl,781,32624.3353356995796,16605786.685871086
+Hurricane Gustav,Hurricane Gustav,2008,4. Forest/Wildland (Natural Sponge),42,40942.6822323750000,1351108.513668375
+Hurricane Gustav,Hurricane Gustav,2008,5. Agricultural/Rural (Moderate Runoff),576,32974.1711070206905,15234067.051443559
+Hurricane Gustav,Hurricane Gustav,2008,6. Mixed/Transition Zone,938,16735.6619114578898,10627145.313775760
+Hurricane Harvey,Hurricane Harvey,2017,1. Wetland Buffer (High Absorption),11620,93873.6239564087256,921087998.260282416
+Hurricane Harvey,Hurricane Harvey,2017,2. Dense Urban (Concrete Shield),22163,99774.5939991170463,1780876728.290240160
+Hurricane Harvey,Hurricane Harvey,2017,3. Suburban Sprawl,34308,107335.3468106934268,3168110096.464427184
+Hurricane Harvey,Hurricane Harvey,2017,4. Forest/Wildland (Natural Sponge),337,49957.9242528562623,12189733.517696928
+Hurricane Harvey,Hurricane Harvey,2017,5. Agricultural/Rural (Moderate Runoff),5347,76043.3385326327087,321891452.008634256
+Hurricane Harvey,Hurricane Harvey,2017,6. Mixed/Transition Zone,18623,81799.7321513026409,1109367967.435966416
+Hurricane Hermine,Hurricane Hermine,2016,1. Wetland Buffer (High Absorption),1792,47039.8618240834199,65197248.488179620
+Hurricane Hermine,Hurricane Hermine,2016,2. Dense Urban (Concrete Shield),52,19864.2508540055294,675384.529036188
+Hurricane Hermine,Hurricane Hermine,2016,3. Suburban Sprawl,261,25512.7711445147586,4439222.179145568
+Hurricane Hermine,Hurricane Hermine,2016,6. Mixed/Transition Zone,353,28304.6619336064830,7500735.412405718
+Hurricane Hugo,Hurricane Hugo,1989,1. Wetland Buffer (High Absorption),11596,52856.8316344437565,440244550.683282048
+Hurricane Hugo,Hurricane Hugo,1989,2. Dense Urban (Concrete Shield),5,158583.2757147726000,792916.378573863
+Hurricane Hugo,Hurricane Hugo,1989,3. Suburban Sprawl,562,28625.4353334344277,9503644.530700230
+Hurricane Hugo,Hurricane Hugo,1989,4. Forest/Wildland (Natural Sponge),57,21548.4936625769231,840391.252840500
+Hurricane Hugo,Hurricane Hugo,1989,5. Agricultural/Rural (Moderate Runoff),1,19260.7980216600000,19260.798021660
+Hurricane Hugo,Hurricane Hugo,1989,6. Mixed/Transition Zone,3980,67681.4459354350957,210692341.197009453
+Hurricane Ike,Hurricane Ike,2008,1. Wetland Buffer (High Absorption),17887,65167.6595843431207,996348347.385021972
+Hurricane Ike,Hurricane Ike,2008,2. Dense Urban (Concrete Shield),14167,62464.9784997229150,697359019.970906623
+Hurricane Ike,Hurricane Ike,2008,3. Suburban Sprawl,12051,40823.2239121373233,342221086.055447181
+Hurricane Ike,Hurricane Ike,2008,4. Forest/Wildland (Natural Sponge),112,20478.8908983703971,1392564.581089187
+Hurricane Ike,Hurricane Ike,2008,5. Agricultural/Rural (Moderate Runoff),1484,29460.1732268757748,31139403.100807694
+Hurricane Ike,Hurricane Ike,2008,6. Mixed/Transition Zone,12370,45087.8332870191434,421661416.900203029
+Hurricane Iniki,Hurricane Iniki,1992,3. Suburban Sprawl,2,215854.7742000000000,215854.774200000
+Hurricane Iniki,Hurricane Iniki,1992,4. Forest/Wildland (Natural Sponge),1,,0.000000000
+Hurricane Irene,Hurricane Irene,1999,1. Wetland Buffer (High Absorption),2847,7844.1746375461428,13405694.455566358
+Hurricane Irene,Hurricane Irene,2011,1. Wetland Buffer (High Absorption),8509,29090.6258629973318,210965218.758456650
+Hurricane Irene,Hurricane Irene,2011,2. Dense Urban (Concrete Shield),10858,25652.2958229942794,236539819.783830250
+Hurricane Irene,Hurricane Irene,1999,2. Dense Urban (Concrete Shield),5448,13017.7129646862357,44846021.163344082
+Hurricane Irene,Hurricane Irene,1999,3. Suburban Sprawl,10400,8982.2515869419634,59211002.461121423
+Hurricane Irene,Hurricane Irene,2011,3. Suburban Sprawl,12434,31251.5543256456403,332610292.687846550
+Hurricane Irene,Hurricane Irene,2011,4. Forest/Wildland (Natural Sponge),4000,42287.8561324380782,141706605.899800000
+Hurricane Irene,Hurricane Irene,1999,5. Agricultural/Rural (Moderate Runoff),240,13779.9964757728092,2383939.390308696
+Hurricane Irene,Hurricane Irene,2011,5. Agricultural/Rural (Moderate Runoff),103,29250.9654175435294,2486332.060491200
+Hurricane Irene,Hurricane Irene,2011,6. Mixed/Transition Zone,15937,30341.5988567290269,384458399.113613500
+Hurricane Irene,Hurricane Irene,1999,6. Mixed/Transition Zone,2243,13183.4639997771578,14198590.727759999
+Hurricane Irma,Hurricane Irma,2017,1. Wetland Buffer (High Absorption),10792,37184.2409698444433,279848597.539049280
+Hurricane Irma,Hurricane Irma,2017,2. Dense Urban (Concrete Shield),2761,51101.6502979520000,72053326.920112320
+Hurricane Irma,Hurricane Irma,2017,3. Suburban Sprawl,6192,52882.8099435393878,191065592.326007808
+Hurricane Irma,Hurricane Irma,2017,4. Forest/Wildland (Natural Sponge),43,32268.1777677942857,903508.977498240
+Hurricane Irma,Hurricane Irma,2017,5. Agricultural/Rural (Moderate Runoff),168,47692.4153149930667,4292317.378349376
+Hurricane Irma,Hurricane Irma,2017,6. Mixed/Transition Zone,13251,49380.5348422253204,446400034.973716896
+Hurricane Isaac,Hurricane Isaac,2012,1. Wetland Buffer (High Absorption),10247,47542.2919743858935,383856465.401191704
+Hurricane Isaac,Hurricane Isaac,2012,2. Dense Urban (Concrete Shield),2673,11580.7558383606596,11939759.269349840
+Hurricane Isaac,Hurricane Isaac,2012,3. Suburban Sprawl,1126,19181.9011572420000,11662595.903603136
+Hurricane Isaac,Hurricane Isaac,2012,4. Forest/Wildland (Natural Sponge),33,18544.5470156971852,500702.769423824
+Hurricane Isaac,Hurricane Isaac,2012,5. Agricultural/Rural (Moderate Runoff),22,14961.5680099549091,164577.248109504
+Hurricane Isaac,Hurricane Isaac,2012,6. Mixed/Transition Zone,2820,30255.1313425100890,61175875.574555400
+Hurricane Isabel,Hurricane Isabel,2003,1. Wetland Buffer (High Absorption),9256,26292.2831754298704,209023651.244667470
+Hurricane Isabel,Hurricane Isabel,2003,2. Dense Urban (Concrete Shield),875,33153.3728685764993,24699262.787089492
+Hurricane Isabel,Hurricane Isabel,2003,3. Suburban Sprawl,2920,19455.0279752277661,45836045.909636617
+Hurricane Isabel,Hurricane Isabel,2003,4. Forest/Wildland (Natural Sponge),572,32460.7673048666377,14964413.727543520
+Hurricane Isabel,Hurricane Isabel,2003,5. Agricultural/Rural (Moderate Runoff),279,32866.7100523201462,6967742.531091871
+Hurricane Isabel,Hurricane Isabel,1985,6. Mixed/Transition Zone,1,,0.000000000
+Hurricane Isabel,Hurricane Isabel,2003,6. Mixed/Transition Zone,9981,34509.8424758938936,271350891.387953685
+Hurricane Ivan,Hurricane Ivan,2004,1. Wetland Buffer (High Absorption),5043,64443.2442413042126,273754901.537060295
+Hurricane Ivan,Hurricane Ivan,2004,2. Dense Urban (Concrete Shield),278,144748.0066731525000,22291193.027665485
+Hurricane Ivan,Hurricane Ivan,2004,3. Suburban Sprawl,413,55769.4390899605488,13719282.016130295
+Hurricane Ivan,Hurricane Ivan,2004,4. Forest/Wildland (Natural Sponge),213,58462.9506106192105,9997164.554415885
+Hurricane Ivan,Hurricane Ivan,2004,5. Agricultural/Rural (Moderate Runoff),21,24998.2237043550000,274980.460747905
+Hurricane Ivan,Hurricane Ivan,2004,6. Mixed/Transition Zone,14113,107792.9568746382544,1163409383.547970680
+Hurricane Jeanne,Hurricane Jeanne,2004,1. Wetland Buffer (High Absorption),1567,22238.4163437920120,20392627.787257275
+Hurricane Jeanne,Hurricane Jeanne,2004,2. Dense Urban (Concrete Shield),248,11040.1480109910000,1104014.801099100
+Hurricane Jeanne,Hurricane Jeanne,2004,3. Suburban Sprawl,1199,21461.6845301057212,13241859.355075230
+Hurricane Jeanne,Hurricane Jeanne,2004,4. Forest/Wildland (Natural Sponge),10,11100.2866621350000,33300.859986405
+Hurricane Jeanne,Hurricane Jeanne,2004,5. Agricultural/Rural (Moderate Runoff),46,12467.5161538881250,299220.387693315
+Hurricane Jeanne,Hurricane Jeanne,2004,6. Mixed/Transition Zone,3368,35670.5573357466221,73445677.554302295
+Hurricane Jerry,Hurricane Jerry,1989,1. Wetland Buffer (High Absorption),33,7359.9828821611667,132479.691878901
+Hurricane Jerry,Hurricane Jerry,1989,2. Dense Urban (Concrete Shield),100,7052.3307290249444,380825.859367347
+Hurricane Jerry,Hurricane Jerry,1989,3. Suburban Sprawl,6,16142.5392459970000,48427.617737991
+Hurricane Jerry,Hurricane Jerry,1989,5. Agricultural/Rural (Moderate Runoff),1,57862.1757314400000,57862.175731440
+Hurricane Jerry,Hurricane Jerry,1989,6. Mixed/Transition Zone,358,17968.1689189304019,3845188.148651106
+Hurricane Josephine,Hurricane Josephine,1996,1. Wetland Buffer (High Absorption),2190,18718.5010598680291,34086390.430019681
+Hurricane Josephine,Hurricane Josephine,1996,2. Dense Urban (Concrete Shield),117,20198.6013334759494,1595689.505344600
+Hurricane Josephine,Hurricane Josephine,1996,3. Suburban Sprawl,2104,21752.1414085298042,39001589.545493939
+Hurricane Josephine,Hurricane Josephine,1996,4. Forest/Wildland (Natural Sponge),7,11074.9153123225000,66449.491873935
+Hurricane Josephine,Hurricane Josephine,1996,5. Agricultural/Rural (Moderate Runoff),1,16502.5690000000000,16502.569000000
+Hurricane Josephine,Hurricane Josephine,1996,6. Mixed/Transition Zone,3037,18894.5483504322381,45630334.266293855
+Hurricane Juan,Hurricane Juan,1985,1. Wetland Buffer (High Absorption),5315,28247.3039049674548,129316157.276941008
+Hurricane Juan,Hurricane Juan,1985,2. Dense Urban (Concrete Shield),165,15558.3592044756250,1493602.483629660
+Hurricane Juan,Hurricane Juan,1985,3. Suburban Sprawl,152,23791.4579711645000,2712226.208712753
+Hurricane Juan,Hurricane Juan,1985,4. Forest/Wildland (Natural Sponge),17,12135.3135878652000,182029.703817978
+Hurricane Juan,Hurricane Juan,1985,5. Agricultural/Rural (Moderate Runoff),38,10093.1365576792258,312887.233288056
+Hurricane Juan,Hurricane Juan,1985,6. Mixed/Transition Zone,193,22863.4965846916889,3086572.038933378
+Hurricane Kate,Hurricane Kate,1985,1. Wetland Buffer (High Absorption),629,21287.1839373947143,7301504.090526387
+Hurricane Kate,Hurricane Kate,1985,2. Dense Urban (Concrete Shield),5,7629.7565203500000,15259.513040700
+Hurricane Kate,Hurricane Kate,1985,3. Suburban Sprawl,7,158953.7439903757500,635814.975961503
+Hurricane Kate,Hurricane Kate,1985,4. Forest/Wildland (Natural Sponge),6,17884.7026004274000,89423.513002137
+Hurricane Kate,Hurricane Kate,1985,6. Mixed/Transition Zone,96,12737.0556325222800,636852.781626114
+Hurricane Katrina,Hurricane Katrina,2005,1. Wetland Buffer (High Absorption),53054,115542.7349864091855,4397094322.642787965
+Hurricane Katrina,Hurricane Katrina,2005,2. Dense Urban (Concrete Shield),94210,97378.4683493624848,6480439690.181724000
+Hurricane Katrina,Hurricane Katrina,2005,3. Suburban Sprawl,46143,137475.9289228223362,5207038283.880818805
+Hurricane Katrina,Hurricane Katrina,2005,4. Forest/Wildland (Natural Sponge),352,99878.2550641633019,21174190.073602620
+Hurricane Katrina,Hurricane Katrina,2005,5. Agricultural/Rural (Moderate Runoff),586,24055.6230878305483,9213303.642639100
+Hurricane Katrina,Hurricane Katrina,2005,6. Mixed/Transition Zone,13822,77072.9258227746007,649570618.834344335
+Hurricane Lili,Hurricane Lili,2002,1. Wetland Buffer (High Absorption),2471,19071.4338128330855,32554937.518506077
+Hurricane Lili,Hurricane Lili,2002,2. Dense Urban (Concrete Shield),802,5635.1845556703831,2000490.517262986
+Hurricane Lili,Hurricane Lili,2002,3. Suburban Sprawl,357,8353.2111403943169,1528637.638692160
+Hurricane Lili,Hurricane Lili,2002,4. Forest/Wildland (Natural Sponge),9,12587.8827647745714,88115.179353422
+Hurricane Lili,Hurricane Lili,2002,5. Agricultural/Rural (Moderate Runoff),123,12466.2651279163538,810307.233314563
+Hurricane Lili,Hurricane Lili,2002,6. Mixed/Transition Zone,223,9129.1924725820450,1013340.364456607
+Hurricane Marilyn,Hurricane Marilyn,1995,2. Dense Urban (Concrete Shield),1,22833.1200139890000,22833.120013989
+Hurricane Matthew,Hurricane Matthew,2016,1. Wetland Buffer (High Absorption),10813,33411.5292574869833,268094110.762075554
+Hurricane Matthew,Hurricane Matthew,2016,2. Dense Urban (Concrete Shield),271,48586.9592871171294,8259783.078809912
+Hurricane Matthew,Hurricane Matthew,2016,3. Suburban Sprawl,2641,39437.5696237164467,84396398.994753196
+Hurricane Matthew,Hurricane Matthew,2016,4. Forest/Wildland (Natural Sponge),34,18083.5603281839259,488256.128860966
+Hurricane Matthew,Hurricane Matthew,2016,5. Agricultural/Rural (Moderate Runoff),104,37360.4163407446522,3437158.303348508
+Hurricane Matthew,Hurricane Matthew,2016,6. Mixed/Transition Zone,7953,41380.7027470638385,243401293.558229498
+Hurricane Michael,Hurricane Michael,2018,1. Wetland Buffer (High Absorption),3210,72330.5228764401886,182923892.354517237
+Hurricane Michael,Hurricane Michael,2018,2. Dense Urban (Concrete Shield),4,,0.000000000
+Hurricane Michael,Hurricane Michael,2018,3. Suburban Sprawl,659,33809.0382951268241,10954128.407621091
+Hurricane Michael,Hurricane Michael,2018,4. Forest/Wildland (Natural Sponge),147,38619.3012120956480,4827412.651511956
+Hurricane Michael,Hurricane Michael,2018,5. Agricultural/Rural (Moderate Runoff),9,44609.5434346925000,267657.260608155
+Hurricane Michael,Hurricane Michael,2018,6. Mixed/Transition Zone,1089,29814.6631239936796,20751005.534299601
+Hurricane Opal,Hurricane Opal,1995,1. Wetland Buffer (High Absorption),3987,54410.2928360176301,152403230.233685382
+Hurricane Opal,Hurricane Opal,1995,2. Dense Urban (Concrete Shield),43,23559.6772934763750,565432.255043433
+Hurricane Opal,Hurricane Opal,1995,3. Suburban Sprawl,144,59783.3151848797326,5141365.105899657
+Hurricane Opal,Hurricane Opal,1995,4. Forest/Wildland (Natural Sponge),104,29262.4926488073582,1960587.007470093
+Hurricane Opal,Hurricane Opal,1995,5. Agricultural/Rural (Moderate Runoff),8,19416.4850813790000,77665.940325516
+Hurricane Opal,Hurricane Opal,1995,6. Mixed/Transition Zone,9316,62308.5311424814015,400394621.121585486
+Hurricane Ophelia,Hurricane Ophelia,2005,1. Wetland Buffer (High Absorption),555,21110.2734796217121,6966390.248275165
+Hurricane Ophelia,Hurricane Ophelia,2005,2. Dense Urban (Concrete Shield),1,1576.9022287950000,1576.902228795
+Hurricane Ophelia,Hurricane Ophelia,2005,3. Suburban Sprawl,16,32233.8167426295000,322338.167426295
+Hurricane Ophelia,Hurricane Ophelia,2005,4. Forest/Wildland (Natural Sponge),4,72197.4464017900000,72197.446401790
+Hurricane Ophelia,Hurricane Ophelia,2005,6. Mixed/Transition Zone,644,18962.3495966785990,7376353.993107975
+Hurricane Rita,Hurricane Rita,2005,1. Wetland Buffer (High Absorption),9138,52729.2354767463582,341843633.595746640
+Hurricane Rita,Hurricane Rita,2005,2. Dense Urban (Concrete Shield),1189,69181.2442971322016,16811042.364203125
+Hurricane Rita,Hurricane Rita,2005,3. Suburban Sprawl,2113,48588.3764057989545,37413049.832465195
+Hurricane Rita,Hurricane Rita,2005,4. Forest/Wildland (Natural Sponge),35,33644.7676342191304,773829.655587040
+Hurricane Rita,Hurricane Rita,2005,5. Agricultural/Rural (Moderate Runoff),876,52244.1256662537316,39130850.124024045
+Hurricane Rita,Hurricane Rita,2005,6. Mixed/Transition Zone,1283,38391.2506798532412,22919576.655872385
+Hurricane Sandy,Hurricane Sandy,2012,1. Wetland Buffer (High Absorption),19183,50931.9216902753903,895128523.706589984
+Hurricane Sandy,Hurricane Sandy,2012,2. Dense Urban (Concrete Shield),39241,77997.9262348918326,2857298031.762792504
+Hurricane Sandy,Hurricane Sandy,2012,3. Suburban Sprawl,29673,68085.4760331119611,1874188898.763472952
+Hurricane Sandy,Hurricane Sandy,2012,4. Forest/Wildland (Natural Sponge),1845,39326.3720284449802,63551417.197967088
+Hurricane Sandy,Hurricane Sandy,2012,5. Agricultural/Rural (Moderate Runoff),57,18253.7385770325714,766657.020235368
+Hurricane Sandy,Hurricane Sandy,2012,6. Mixed/Transition Zone,54685,61690.3624520703605,2991242294.575987640
+Hurricane Wilma,Hurricane Wilma,2005,1. Wetland Buffer (High Absorption),1270,20372.7057245334255,9575171.690530710
+Hurricane Wilma,Hurricane Wilma,2005,2. Dense Urban (Concrete Shield),3221,15009.1455916350000,8044902.037116360
+Hurricane Wilma,Hurricane Wilma,2005,3. Suburban Sprawl,2935,26802.8611030704270,15063207.939925580
+Hurricane Wilma,Hurricane Wilma,2005,5. Agricultural/Rural (Moderate Runoff),64,18585.3291301550000,334535.924342790
+Hurricane Wilma,Hurricane Wilma,2005,6. Mixed/Transition Zone,9042,48080.6089902041296,367047369.031218325
+Hurricane Zeta,Hurricane Zeta,2020,1. Wetland Buffer (High Absorption),950,14283.9419047619048,10198734.520000000
+Hurricane Zeta,Hurricane Zeta,2020,2. Dense Urban (Concrete Shield),100,10879.0404347826087,250217.930000000
+Hurricane Zeta,Hurricane Zeta,2020,3. Suburban Sprawl,146,42268.2449462365591,3930946.780000000
+Hurricane Zeta,Hurricane Zeta,2020,4. Forest/Wildland (Natural Sponge),46,14406.2568965517241,417781.450000000
+Hurricane Zeta,Hurricane Zeta,2020,6. Mixed/Transition Zone,272,13488.8824861878453,2441487.730000000
+LA0121,2021 Mid-Spring Severe Storms,2021,1. Wetland Buffer (High Absorption),1465,65050.3619130440717,87037384.239652968
+LA0121,2021 Mid-Spring Severe Storms,2021,2. Dense Urban (Concrete Shield),7,61338.9518175857143,429372.662723100
+LA0121,2021 Mid-Spring Severe Storms,2021,3. Suburban Sprawl,1056,72908.8928205801772,68315632.572883626
+LA0121,2021 Mid-Spring Severe Storms,2021,4. Forest/Wildland (Natural Sponge),2,40320.0858941640000,40320.085894164
+LA0121,2021 Mid-Spring Severe Storms,2021,5. Agricultural/Rural (Moderate Runoff),39,18384.2926065894375,588297.363410862
+LA0121,2021 Mid-Spring Severe Storms,2021,6. Mixed/Transition Zone,835,44057.6979815195483,33748196.653843974
+LA0420,Hurricane Laura,2020,1. Wetland Buffer (High Absorption),810,58958.5451618398637,34608666.010000000
+LA0420,Hurricane Laura,2020,2. Dense Urban (Concrete Shield),3,,0.000000000
+LA0420,Hurricane Laura,2020,3. Suburban Sprawl,112,43400.4251111111111,1953019.130000000
+LA0420,Hurricane Laura,2020,4. Forest/Wildland (Natural Sponge),17,12782.4488888888889,115042.040000000
+LA0420,Hurricane Laura,2020,5. Agricultural/Rural (Moderate Runoff),107,26786.7279629629630,1446483.310000000
+LA0420,Hurricane Laura,2020,6. Mixed/Transition Zone,199,29264.2025000000000,2224079.390000000
+LA0421,Hurricane Ida,2021,1. Wetland Buffer (High Absorption),8659,62828.3595449201364,413661919.243754178
+LA0421,Hurricane Ida,2021,2. Dense Urban (Concrete Shield),2600,25878.7788076238511,21893446.871249778
+LA0421,Hurricane Ida,2021,3. Suburban Sprawl,794,39412.3924182328945,20179144.918135242
+LA0421,Hurricane Ida,2021,4. Forest/Wildland (Natural Sponge),19,10629.5912371440000,106295.912371440
+LA0421,Hurricane Ida,2021,5. Agricultural/Rural (Moderate Runoff),11,13427.7443237196000,67138.721618598
+LA0421,Hurricane Ida,2021,6. Mixed/Transition Zone,2590,38537.4336397897432,76843642.677740748
+LA0620,Hurricane Delta,2020,1. Wetland Buffer (High Absorption),756,47867.3157213930348,28863991.380000000
+LA0620,Hurricane Delta,2020,2. Dense Urban (Concrete Shield),4,,0.000000000
+LA0620,Hurricane Delta,2020,3. Suburban Sprawl,207,36842.2346527777778,5305281.790000000
+LA0620,Hurricane Delta,2020,4. Forest/Wildland (Natural Sponge),11,39648.8822222222222,356839.940000000
+LA0620,Hurricane Delta,2020,5. Agricultural/Rural (Moderate Runoff),258,33770.0645581395349,7260563.880000000
+LA0620,Hurricane Delta,2020,6. Mixed/Transition Zone,826,28609.5433197278912,21028014.340000000
+Late July Flooding,Late July Flooding,2022,2. Dense Urban (Concrete Shield),55,98674.6787626315814,4243011.186793158
+Late July Flooding,Late July Flooding,2022,3. Suburban Sprawl,529,60862.8425074536366,28301221.765965941
+Late July Flooding,Late July Flooding,2022,4. Forest/Wildland (Natural Sponge),464,46107.9442411014375,19180904.804298198
+Late July Flooding,Late July Flooding,2022,5. Agricultural/Rural (Moderate Runoff),86,28069.9622858713247,2161387.096012092
+Late July Flooding,Late July Flooding,2022,6. Mixed/Transition Zone,66,40623.8064457177931,2356180.773851632
+Late spring severe storms,Late spring severe storms,2017,1. Wetland Buffer (High Absorption),42,41511.0308892182857,1743463.297347168
+Late spring severe storms,Late spring severe storms,2017,2. Dense Urban (Concrete Shield),3,38019.7898420960000,114059.369526288
+Late spring severe storms,Late spring severe storms,2017,3. Suburban Sprawl,119,70405.0524571440000,6618074.930971536
+Late spring severe storms,Late spring severe storms,2017,4. Forest/Wildland (Natural Sponge),827,56873.6233713978547,43053332.892148176
+Late spring severe storms,Late spring severe storms,2017,5. Agricultural/Rural (Moderate Runoff),279,29936.5193025802314,7244637.671224416
+Late spring severe storms,Late spring severe storms,2017,6. Mixed/Transition Zone,639,46842.6984086936276,27168765.077042304
+Late spring storms,Late spring storms,2010,1. Wetland Buffer (High Absorption),1,5325.8745931600000,5325.874593160
+Late spring storms,Late spring storms,2011,1. Wetland Buffer (High Absorption),1,115443.9471603500000,115443.947160350
+Late spring storms,Late spring storms,2010,2. Dense Urban (Concrete Shield),106,180012.4437556395238,15121045.275473720
+Late spring storms,Late spring storms,2011,2. Dense Urban (Concrete Shield),36,22841.0063890678571,639548.178893900
+Late spring storms,Late spring storms,2012,2. Dense Urban (Concrete Shield),2,37652.3051350160000,37652.305135016
+Late spring storms,Late spring storms,2010,3. Suburban Sprawl,718,61297.9754327498179,40395365.810182130
+Late spring storms,Late spring storms,2011,3. Suburban Sprawl,197,35285.8864852608871,4375449.924172350
+Late spring storms,Late spring storms,2012,3. Suburban Sprawl,5,,0.000000000
+Late spring storms,Late spring storms,2011,4. Forest/Wildland (Natural Sponge),13,10066.6199912166667,30199.859973650
+Late spring storms,Late spring storms,2010,4. Forest/Wildland (Natural Sponge),989,61876.9772461234187,55565525.567018830
+Late spring storms,Late spring storms,2012,4. Forest/Wildland (Natural Sponge),1,12806.2501863760000,12806.250186376
+Late spring storms,Late spring storms,2012,5. Agricultural/Rural (Moderate Runoff),57,75540.0267421445000,1208640.427874312
+Late spring storms,Late spring storms,2013,5. Agricultural/Rural (Moderate Runoff),80,13149.8150752830000,644340.938688867
+Late spring storms,Late spring storms,2011,5. Agricultural/Rural (Moderate Runoff),1810,78142.8159027630252,102288946.016716800
+Late spring storms,Late spring storms,2010,5. Agricultural/Rural (Moderate Runoff),274,35923.0828975727160,8729309.144110170
+Late spring storms,Late spring storms,2011,6. Mixed/Transition Zone,1312,36088.0618880112544,30783116.790473600
+Late spring storms,Late spring storms,2013,6. Mixed/Transition Zone,28,10309.8367380680000,123718.040856816
+Late spring storms,Late spring storms,2010,6. Mixed/Transition Zone,2469,47556.3954583283786,103244934.540030910
+Late spring storms,Late spring storms,2012,6. Mixed/Transition Zone,20,31420.4430148620000,125681.772059448
+Late summer storms,Late summer storms,2009,1. Wetland Buffer (High Absorption),5,,0.000000000
+Late summer storms,Late summer storms,2011,1. Wetland Buffer (High Absorption),11,24757.2774486333333,222815.497037700
+Late summer storms,Late summer storms,2013,2. Dense Urban (Concrete Shield),13,15553.4139633366667,139980.725670030
+Late summer storms,Late summer storms,2011,2. Dense Urban (Concrete Shield),908,10640.2849145376039,7682285.708296150
+Late summer storms,Late summer storms,2009,2. Dense Urban (Concrete Shield),73,24533.3410076122632,1398400.437433899
+Late summer storms,Late summer storms,2013,3. Suburban Sprawl,395,33724.2692160654353,10690593.341492743
+Late summer storms,Late summer storms,2009,3. Suburban Sprawl,1517,47576.6319618769831,61897198.182401955
+Late summer storms,Late summer storms,2011,3. Suburban Sprawl,409,7524.8442995751634,2302602.355670000
+Late summer storms,Late summer storms,2013,4. Forest/Wildland (Natural Sponge),698,48957.1085150043314,25555610.644832261
+Late summer storms,Late summer storms,2009,4. Forest/Wildland (Natural Sponge),301,32439.5444760247899,8336962.930338371
+Late summer storms,Late summer storms,2011,4. Forest/Wildland (Natural Sponge),13,21465.6159227636364,236121.775150400
+Late summer storms,Late summer storms,2009,5. Agricultural/Rural (Moderate Runoff),7,12752.1652095366667,38256.495628610
+Late summer storms,Late summer storms,2011,5. Agricultural/Rural (Moderate Runoff),1,21819.6523377500000,21819.652337750
+Late summer storms,Late summer storms,2013,5. Agricultural/Rural (Moderate Runoff),76,56511.8895272613134,3786296.598326508
+Late summer storms,Late summer storms,2013,6. Mixed/Transition Zone,975,35948.7207887091885,28794925.351756060
+Late summer storms,Late summer storms,2011,6. Mixed/Transition Zone,138,11686.0316941509804,1191975.232803400
+Late summer storms,Late summer storms,2009,6. Mixed/Transition Zone,937,73719.3019432458436,59860073.177915625
+Late winter severe storms,Late winter severe storms,2016,1. Wetland Buffer (High Absorption),2802,47790.6284730251374,115127623.991517556
+Late winter severe storms,Late winter severe storms,2016,2. Dense Urban (Concrete Shield),26,9115.6386711775556,82040.748040598
+Late winter severe storms,Late winter severe storms,2016,3. Suburban Sprawl,691,53639.3090076389819,32666339.185652140
+Late winter severe storms,Late winter severe storms,2016,4. Forest/Wildland (Natural Sponge),489,44408.3699083351463,18518290.251775756
+Late winter severe storms,Late winter severe storms,2016,5. Agricultural/Rural (Moderate Runoff),600,40748.4471489285272,20251978.233017478
+Late winter severe storms,Late winter severe storms,2016,6. Mixed/Transition Zone,1546,52910.5118479533201,69259860.008970896
+Late winter storms,Late winter storms,2011,1. Wetland Buffer (High Absorption),417,17910.3196110126781,6286522.183465450
+Late winter storms,Late winter storms,2011,2. Dense Urban (Concrete Shield),201,21628.4169369166667,3309147.791348250
+Late winter storms,Late winter storms,2011,3. Suburban Sprawl,882,20496.5496787205726,15392908.808719150
+Late winter storms,Late winter storms,2011,4. Forest/Wildland (Natural Sponge),61,10650.2545526230000,532512.727631150
+Late winter storms,Late winter storms,2011,5. Agricultural/Rural (Moderate Runoff),535,21156.7094534567114,9457049.125695150
+Late winter storms,Late winter storms,2011,6. Mixed/Transition Zone,1040,20484.2973875609896,17800854.429790500
+Late-September New York Flooding,Late-September New York Flooding,2023,1. Wetland Buffer (High Absorption),14,30644.2285649500000,398374.971344350
+Late-September New York Flooding,Late-September New York Flooding,2023,2. Dense Urban (Concrete Shield),891,17526.1792459292910,12408534.906117938
+Late-September New York Flooding,Late-September New York Flooding,2023,3. Suburban Sprawl,442,26141.3439532748476,9437025.167132220
+Late-September New York Flooding,Late-September New York Flooding,2023,4. Forest/Wildland (Natural Sponge),4,74166.0771915373333,222498.231574612
+Late-September New York Flooding,Late-September New York Flooding,2023,6. Mixed/Transition Zone,259,24310.9676052204292,5324101.905543274
+Low pressure system,Low pressure system,2009,1. Wetland Buffer (High Absorption),260,23200.0246173485833,4732805.021939111
+Low pressure system,Low pressure system,2009,2. Dense Urban (Concrete Shield),29,11770.0513992126000,176550.770988189
+Low pressure system,Low pressure system,2009,3. Suburban Sprawl,375,24076.3624383052435,7415519.630998015
+Low pressure system,Low pressure system,2009,6. Mixed/Transition Zone,176,19499.2552997944773,2573901.699572871
+March 2010 Nor'easter,March 2010 Nor'easter,2010,1. Wetland Buffer (High Absorption),1043,20583.2397710328860,17331087.887209690
+March 2010 Nor'easter,March 2010 Nor'easter,2010,2. Dense Urban (Concrete Shield),1874,21822.0761096621491,29852600.118017820
+March 2010 Nor'easter,March 2010 Nor'easter,2010,3. Suburban Sprawl,3915,21207.3933702320893,68415051.012368720
+March 2010 Nor'easter,March 2010 Nor'easter,2010,4. Forest/Wildland (Natural Sponge),482,15709.7751505840691,5906875.456619610
+March 2010 Nor'easter,March 2010 Nor'easter,2010,5. Agricultural/Rural (Moderate Runoff),9,9334.3203622020000,46671.601811010
+March 2010 Nor'easter,March 2010 Nor'easter,2010,6. Mixed/Transition Zone,5155,16581.9355696238878,67687460.995204710
+March 2019 Midwest Flooding,March 2019 Midwest Flooding,2019,1. Wetland Buffer (High Absorption),12,18886.9037219356667,226642.844663228
+March 2019 Midwest Flooding,March 2019 Midwest Flooding,2019,2. Dense Urban (Concrete Shield),18,21029.6367252931429,294414.914154104
+March 2019 Midwest Flooding,March 2019 Midwest Flooding,2019,3. Suburban Sprawl,155,25463.1653534000979,3641232.645536214
+March 2019 Midwest Flooding,March 2019 Midwest Flooding,2019,4. Forest/Wildland (Natural Sponge),1,18325.6354378560000,18325.635437856
+March 2019 Midwest Flooding,March 2019 Midwest Flooding,2019,5. Agricultural/Rural (Moderate Runoff),1152,39450.4283390639961,40397238.619201532
+March 2019 Midwest Flooding,March 2019 Midwest Flooding,2019,6. Mixed/Transition Zone,310,56059.7245342003869,15360364.522370906
+March storm,March storm,2008,1. Wetland Buffer (High Absorption),10,28884.9027251143333,259964.124526029
+March storm,March storm,2008,2. Dense Urban (Concrete Shield),21,7635.3370501767857,106894.718702475
+March storm,March storm,2008,3. Suburban Sprawl,118,18932.7609778369157,1571419.161160464
+March storm,March storm,2008,4. Forest/Wildland (Natural Sponge),811,35726.9093751387861,25223198.018847983
+March storm,March storm,2008,5. Agricultural/Rural (Moderate Runoff),283,15704.5805362947563,3737690.167638152
+March storm,March storm,2008,6. Mixed/Transition Zone,537,23745.9226882374418,11018108.127342173
+Mid-spring storms,Mid-spring storms,2014,1. Wetland Buffer (High Absorption),1125,43688.1964184571526,40935840.044094352
+Mid-spring storms,Mid-spring storms,2013,1. Wetland Buffer (High Absorption),25,18118.8420386206667,380495.682811034
+Mid-spring storms,Mid-spring storms,2011,1. Wetland Buffer (High Absorption),1130,41510.7637247489667,36155875.204256350
+Mid-spring storms,Mid-spring storms,2011,2. Dense Urban (Concrete Shield),176,14713.7735574331818,1618515.091317650
+Mid-spring storms,Mid-spring storms,2013,2. Dense Urban (Concrete Shield),1334,19032.4639132176313,21677976.397154882
+Mid-spring storms,Mid-spring storms,2014,2. Dense Urban (Concrete Shield),491,49418.8330562701521,17543685.734975904
+Mid-spring storms,Mid-spring storms,2013,3. Suburban Sprawl,1284,35795.8214809219392,39446995.271975977
+Mid-spring storms,Mid-spring storms,2011,3. Suburban Sprawl,256,22499.2187372605263,3847366.404071550
+Mid-spring storms,Mid-spring storms,2014,3. Suburban Sprawl,897,38184.6602117496047,26271046.225683728
+Mid-spring storms,Mid-spring storms,2014,4. Forest/Wildland (Natural Sponge),66,20485.6208948330435,942338.561162320
+Mid-spring storms,Mid-spring storms,2011,4. Forest/Wildland (Natural Sponge),653,35885.4330784402015,19593446.460828350
+Mid-spring storms,Mid-spring storms,2013,4. Forest/Wildland (Natural Sponge),40,26276.0775428560294,893386.636457105
+Mid-spring storms,Mid-spring storms,2014,5. Agricultural/Rural (Moderate Runoff),145,44352.3121661665882,5277925.147773824
+Mid-spring storms,Mid-spring storms,2013,5. Agricultural/Rural (Moderate Runoff),489,26841.2376221312500,11273319.801295125
+Mid-spring storms,Mid-spring storms,2011,5. Agricultural/Rural (Moderate Runoff),1569,33578.9692376114118,42813185.777954550
+Mid-spring storms,Mid-spring storms,2013,6. Mixed/Transition Zone,746,24874.8455560706759,16118899.920333798
+Mid-spring storms,Mid-spring storms,2011,6. Mixed/Transition Zone,1597,29247.2257616096000,36559032.202012000
+Mid-spring storms,Mid-spring storms,2014,6. Mixed/Transition Zone,2347,38536.1476519581089,70752367.088995088
+Mid-summer severe storms,Mid-summer severe storms,2016,1. Wetland Buffer (High Absorption),18170,86837.7178520240812,1446369028.543313096
+Mid-summer severe storms,Mid-summer severe storms,2016,2. Dense Urban (Concrete Shield),116,59791.8821359265091,3288553.517475958
+Mid-summer severe storms,Mid-summer severe storms,2016,3. Suburban Sprawl,6452,102905.6871838721714,607760988.507949044
+Mid-summer severe storms,Mid-summer severe storms,2016,4. Forest/Wildland (Natural Sponge),27,71069.0368349257143,1492449.773533440
+Mid-summer severe storms,Mid-summer severe storms,2016,5. Agricultural/Rural (Moderate Runoff),2255,48435.8256044383869,94885782.359094800
+Mid-summer severe storms,Mid-summer severe storms,2016,6. Mixed/Transition Zone,2997,72898.3383072598802,192232918.116244304
+Midwest Flooding,Midwest Flooding,1993,1. Wetland Buffer (High Absorption),4,,0.000000000
+Midwest Flooding,Midwest Flooding,1993,2. Dense Urban (Concrete Shield),341,46199.6066419933945,10071514.247954560
+Midwest Flooding,Midwest Flooding,1993,3. Suburban Sprawl,802,33921.1492846665364,19097607.047267260
+Midwest Flooding,Midwest Flooding,1993,4. Forest/Wildland (Natural Sponge),819,28624.8365142326727,19064141.118478960
+Midwest Flooding,Midwest Flooding,1993,5. Agricultural/Rural (Moderate Runoff),5997,38110.3516779570059,187617261.310582340
+Midwest Flooding,Midwest Flooding,1993,6. Mixed/Transition Zone,3498,43246.5294714048050,113132921.097194970
+NC0220,Hurricane Isaias,2020,1. Wetland Buffer (High Absorption),636,16913.8237250554324,7628134.500000000
+NC0220,Hurricane Isaias,2020,3. Suburban Sprawl,27,12419.7010000000000,248394.020000000
+NC0220,Hurricane Isaias,2020,6. Mixed/Transition Zone,305,7714.8436206896552,1789843.720000000
+NJ0421,Hurricane Ida,2021,1. Wetland Buffer (High Absorption),207,44454.3336646528442,6845967.384356538
+NJ0421,Hurricane Ida,2021,2. Dense Urban (Concrete Shield),2363,38798.6073119720960,77636013.231256164
+NJ0421,Hurricane Ida,2021,3. Suburban Sprawl,2955,48359.3964094246056,129844979.359305066
+NJ0421,Hurricane Ida,2021,4. Forest/Wildland (Natural Sponge),48,30390.4770132574884,1306790.511570072
+NJ0421,Hurricane Ida,2021,5. Agricultural/Rural (Moderate Runoff),2,4423.2391741860000,8846.478348372
+NJ0421,Hurricane Ida,2021,6. Mixed/Transition Zone,1457,52310.4372619635594,66015771.824598012
+November 2009 Nor'easter,November 2009 Nor'easter,2009,1. Wetland Buffer (High Absorption),2531,18686.2714359638770,42828934.131229206
+November 2009 Nor'easter,November 2009 Nor'easter,2009,2. Dense Urban (Concrete Shield),463,27992.1558973170205,10916940.799953638
+November 2009 Nor'easter,November 2009 Nor'easter,2009,3. Suburban Sprawl,2419,19861.2096488924274,42562572.277576472
+November 2009 Nor'easter,November 2009 Nor'easter,2009,4. Forest/Wildland (Natural Sponge),30,15089.2570452917917,362142.169087003
+November 2009 Nor'easter,November 2009 Nor'easter,2009,5. Agricultural/Rural (Moderate Runoff),2,52259.1859160270000,104518.371832054
+November 2009 Nor'easter,November 2009 Nor'easter,2009,6. Mixed/Transition Zone,839,16763.1425693422030,12220330.933050466
+NY0421,Hurricane Ida,2021,1. Wetland Buffer (High Absorption),3,56602.1367732780000,113204.273546556
+NY0421,Hurricane Ida,2021,2. Dense Urban (Concrete Shield),1105,32913.5923106239335,28700652.494864070
+NY0421,Hurricane Ida,2021,3. Suburban Sprawl,887,55598.2603357146000,41698695.251785950
+NY0421,Hurricane Ida,2021,4. Forest/Wildland (Natural Sponge),87,33777.5582009763871,2094208.608460536
+NY0421,Hurricane Ida,2021,6. Mixed/Transition Zone,1273,46050.7305909639500,51622868.992470588
+October severe storms,October severe storms,2015,1. Wetland Buffer (High Absorption),3653,25314.5908154901007,67868417.976328960
+October severe storms,October severe storms,2015,2. Dense Urban (Concrete Shield),13,10645.3116639822222,95807.804975840
+October severe storms,October severe storms,2015,3. Suburban Sprawl,1268,58957.7563375347810,57071108.134733668
+October severe storms,October severe storms,2015,4. Forest/Wildland (Natural Sponge),83,21837.6224222392593,1179231.610800920
+October severe storms,October severe storms,2015,5. Agricultural/Rural (Moderate Runoff),3,1701.2266075200000,1701.226607520
+October severe storms,October severe storms,2015,6. Mixed/Transition Zone,1051,24567.2407270357898,18695670.193274236
+PA0220,Hurricane Isaias,2020,1. Wetland Buffer (High Absorption),1,2152.9200000000000,2152.920000000
+PA0220,Hurricane Isaias,2020,2. Dense Urban (Concrete Shield),360,34914.9956047197640,11836183.510000000
+PA0220,Hurricane Isaias,2020,3. Suburban Sprawl,223,43602.3416111111111,7848421.490000000
+PA0220,Hurricane Isaias,2020,4. Forest/Wildland (Natural Sponge),68,35049.8152173913043,1612291.500000000
+PA0220,Hurricane Isaias,2020,5. Agricultural/Rural (Moderate Runoff),28,21647.2495652173913,497886.740000000
+PA0220,Hurricane Isaias,2020,6. Mixed/Transition Zone,405,34431.8400000000000,11982280.320000000
+PA0421,Hurricane Ida,2021,2. Dense Urban (Concrete Shield),162,122359.2862847054667,16518503.648435238
+PA0421,Hurricane Ida,2021,3. Suburban Sprawl,320,63265.4503489076000,17081671.594205052
+PA0421,Hurricane Ida,2021,4. Forest/Wildland (Natural Sponge),261,23603.2116355124182,5192706.559812732
+PA0421,Hurricane Ida,2021,5. Agricultural/Rural (Moderate Runoff),56,19657.0665581439600,982853.327907198
+PA0421,Hurricane Ida,2021,6. Mixed/Transition Zone,1008,55153.5766283866438,48314533.126466700
+Pineapple Express - Southern,Pineapple Express - Southern,1998,1. Wetland Buffer (High Absorption),35,23852.6807275224286,500906.295277971
+Pineapple Express - Southern,Pineapple Express - Southern,1998,2. Dense Urban (Concrete Shield),832,10185.6241767503932,4481674.637770173
+Pineapple Express - Southern,Pineapple Express - Southern,1998,3. Suburban Sprawl,1267,24613.9151961524437,20971055.747121882
+Pineapple Express - Southern,Pineapple Express - Southern,1998,4. Forest/Wildland (Natural Sponge),2174,20195.6291714717238,28960532.231890452
+Pineapple Express - Southern,Pineapple Express - Southern,1998,5. Agricultural/Rural (Moderate Runoff),430,14041.9531749883975,4521508.922346264
+Pineapple Express - Southern,Pineapple Express - Southern,1998,6. Mixed/Transition Zone,1349,20250.9581364767354,19359915.978471759
+SC0222,Hurricane Ian,2022,1. Wetland Buffer (High Absorption),724,37016.4361094112082,23468420.493366706
+SC0222,Hurricane Ian,2022,3. Suburban Sprawl,127,60217.8690051884206,6443311.983555161
+SC0222,Hurricane Ian,2022,6. Mixed/Transition Zone,220,28198.5439805861192,5442318.988253121
+Spring severe storms,Spring severe storms,2016,1. Wetland Buffer (High Absorption),196,25374.6878258013827,4110699.427779824
+Spring severe storms,Spring severe storms,2016,2. Dense Urban (Concrete Shield),3678,63323.8197810629963,202636223.299401588
+Spring severe storms,Spring severe storms,2016,3. Suburban Sprawl,3297,55433.5196843674215,160590906.525612420
+Spring severe storms,Spring severe storms,2016,4. Forest/Wildland (Natural Sponge),32,26570.1956670014167,637684.696008034
+Spring severe storms,Spring severe storms,2016,5. Agricultural/Rural (Moderate Runoff),564,54565.4366731058382,26300540.476437014
+Spring severe storms,Spring severe storms,2016,6. Mixed/Transition Zone,666,45830.3112154972343,25619143.969462954
+Spring Storm,Spring Storm,2009,1. Wetland Buffer (High Absorption),458,30290.1763181130597,12691583.877289372
+Spring storm,Spring storm,2015,1. Wetland Buffer (High Absorption),34,36149.4919846354118,614541.363738802
+Spring Storm,Spring Storm,2009,2. Dense Urban (Concrete Shield),1012,36257.5380234855197,33139389.753465765
+Spring storm,Spring storm,2015,2. Dense Urban (Concrete Shield),25,21888.2895044227143,306436.053061918
+Spring Storm,Spring Storm,2009,3. Suburban Sprawl,1875,43653.6854855672363,75564529.575516886
+Spring storm,Spring storm,2015,3. Suburban Sprawl,36,33538.9584695566207,972629.795617142
+Spring storm,Spring storm,2015,4. Forest/Wildland (Natural Sponge),21,15556.5703064767273,171122.273371244
+Spring Storm,Spring Storm,2009,5. Agricultural/Rural (Moderate Runoff),64,31623.3144840190175,1802528.925589084
+Spring storm,Spring storm,2015,5. Agricultural/Rural (Moderate Runoff),31,35770.4815799969167,858491.557919926
+Spring Storm,Spring Storm,2009,6. Mixed/Transition Zone,152,33009.1742412304610,4654293.568013495
+Spring storm,Spring storm,2015,6. Mixed/Transition Zone,91,75097.7577959947368,5707429.592495600
+Summer severe storms,Summer severe storms,2016,4. Forest/Wildland (Natural Sponge),984,48044.2497604628052,40693479.547111996
+Summer severe storms,Summer severe storms,2016,5. Agricultural/Rural (Moderate Runoff),8,31292.8490624740000,250342.792499792
+Summer severe storms,Summer severe storms,2016,6. Mixed/Transition Zone,3,13562.6178169060000,40687.853450718
+"The ""Halloween"" Storm","The ""Halloween"" Storm",1991,1. Wetland Buffer (High Absorption),1501,16940.4283410150044,19261267.023734060
+"The ""Halloween"" Storm","The ""Halloween"" Storm",1991,2. Dense Urban (Concrete Shield),1815,17466.8168812382149,26008090.336163702
+"The ""Halloween"" Storm","The ""Halloween"" Storm",1991,3. Suburban Sprawl,1385,20209.4197206715880,22957900.802682924
+"The ""Halloween"" Storm","The ""Halloween"" Storm",1991,4. Forest/Wildland (Natural Sponge),240,32448.4025126926971,5678470.439721222
+"The ""Halloween"" Storm","The ""Halloween"" Storm",1991,5. Agricultural/Rural (Moderate Runoff),6,2974.9116112144000,14874.558056072
+"The ""Halloween"" Storm","The ""Halloween"" Storm",1991,6. Mixed/Transition Zone,6309,29411.0804354460857,153114084.746932322
+Tropical Storm Alberto,Tropical Storm Alberto,2006,1. Wetland Buffer (High Absorption),123,23515.3144187420500,2351531.441874205
+Tropical Storm Alberto,Tropical Storm Alberto,1994,1. Wetland Buffer (High Absorption),218,28274.9200880768073,5428784.656910747
+Tropical Storm Alberto,Tropical Storm Alberto,2006,2. Dense Urban (Concrete Shield),5,,0.000000000
+Tropical Storm Alberto,Tropical Storm Alberto,2006,3. Suburban Sprawl,5,23064.5477168450000,46129.095433690
+Tropical Storm Alberto,Tropical Storm Alberto,1994,3. Suburban Sprawl,29,39181.7184093581053,744452.649777804
+Tropical Storm Alberto,Tropical Storm Alberto,1994,4. Forest/Wildland (Natural Sponge),144,55147.9577058319800,5514795.770583198
+Tropical Storm Alberto,Tropical Storm Alberto,1994,5. Agricultural/Rural (Moderate Runoff),19,82987.2281773085833,995846.738127703
+Tropical Storm Alberto,Tropical Storm Alberto,2006,5. Agricultural/Rural (Moderate Runoff),1,1707.5341765350000,1707.534176535
+Tropical Storm Alberto,Tropical Storm Alberto,2006,6. Mixed/Transition Zone,4,7286.2856782300000,7286.285678230
+Tropical Storm Alberto,Tropical Storm Alberto,1994,6. Mixed/Transition Zone,1039,59096.2564828419259,54250363.451248888
+Tropical Storm Allison,Tropical Storm Allison,1989,1. Wetland Buffer (High Absorption),558,12419.9491932382605,5340578.153092452
+Tropical Storm Allison,Tropical Storm Allison,2001,1. Wetland Buffer (High Absorption),5313,21841.8214068079711,92849582.800340685
+Tropical Storm Allison,Tropical Storm Allison,2001,2. Dense Urban (Concrete Shield),5003,47318.8299392722115,176972423.972878071
+Tropical Storm Allison,Tropical Storm Allison,1989,2. Dense Urban (Concrete Shield),264,20703.2924483400909,3416043.253976115
+Tropical Storm Allison,Tropical Storm Allison,1989,3. Suburban Sprawl,1576,20453.7390588684300,24974015.390878353
+Tropical Storm Allison,Tropical Storm Allison,2001,3. Suburban Sprawl,17323,45817.7781537681694,699316747.960963569
+Tropical Storm Allison,Tropical Storm Allison,2001,4. Forest/Wildland (Natural Sponge),164,27234.6262571354531,3486032.160913338
+Tropical Storm Allison,Tropical Storm Allison,1989,4. Forest/Wildland (Natural Sponge),18,19398.4452651640714,271578.233712297
+Tropical Storm Allison,Tropical Storm Allison,2001,5. Agricultural/Rural (Moderate Runoff),523,28473.1498274686089,12158034.976329096
+Tropical Storm Allison,Tropical Storm Allison,1989,5. Agricultural/Rural (Moderate Runoff),50,13317.0435818585143,466096.525365048
+Tropical Storm Allison,Tropical Storm Allison,2001,6. Mixed/Transition Zone,7214,36218.1744274674180,213578574.598775364
+Tropical Storm Allison,Tropical Storm Allison,1989,6. Mixed/Transition Zone,1407,22443.9856111621373,23543740.906109082
+Tropical Storm Barry,Tropical Storm Barry,2019,1. Wetland Buffer (High Absorption),301,32991.5191189129727,7258134.206160854
+Tropical Storm Barry,Tropical Storm Barry,2001,1. Wetland Buffer (High Absorption),47,15180.7079455514286,318794.866856580
+Tropical Storm Barry,Tropical Storm Barry,2019,2. Dense Urban (Concrete Shield),867,45338.2995216216504,30739367.075659479
+Tropical Storm Barry,Tropical Storm Barry,2001,2. Dense Urban (Concrete Shield),16,4278.6006761320000,25671.604056792
+Tropical Storm Barry,Tropical Storm Barry,2019,3. Suburban Sprawl,25,20530.8076306873889,369554.537352373
+Tropical Storm Barry,Tropical Storm Barry,2001,3. Suburban Sprawl,32,5281.2529272828462,68656.288054677
+Tropical Storm Barry,Tropical Storm Barry,2019,4. Forest/Wildland (Natural Sponge),2,33435.9505503575000,66871.901100715
+Tropical Storm Barry,Tropical Storm Barry,2001,4. Forest/Wildland (Natural Sponge),4,6194.5042647210000,6194.504264721
+Tropical Storm Barry,Tropical Storm Barry,2019,5. Agricultural/Rural (Moderate Runoff),24,30789.3594955634000,461840.392433451
+Tropical Storm Barry,Tropical Storm Barry,2019,6. Mixed/Transition Zone,70,35435.7407466617556,1594608.333599779
+Tropical Storm Barry,Tropical Storm Barry,2001,6. Mixed/Transition Zone,30,4617.4790262737500,55409.748315285
+Tropical Storm Debby,Tropical Storm Debby,2012,1. Wetland Buffer (High Absorption),624,23613.4740887577117,10484382.495408424
+Tropical Storm Debby,Tropical Storm Debby,2012,2. Dense Urban (Concrete Shield),131,17927.1690361754286,1505882.199038736
+Tropical Storm Debby,Tropical Storm Debby,2012,3. Suburban Sprawl,751,17219.0028424490845,8764472.446806584
+Tropical Storm Debby,Tropical Storm Debby,2012,4. Forest/Wildland (Natural Sponge),31,47874.0693548433846,1244725.803225928
+Tropical Storm Debby,Tropical Storm Debby,2012,5. Agricultural/Rural (Moderate Runoff),4,57529.5606279240000,115059.121255848
+Tropical Storm Debby,Tropical Storm Debby,2012,6. Mixed/Transition Zone,979,27096.5891817832453,18669549.946248656
+Tropical Storm Erin,Tropical Storm Erin,2007,1. Wetland Buffer (High Absorption),3,9138.9737523420000,18277.947504684
+Tropical Storm Erin,Tropical Storm Erin,2007,2. Dense Urban (Concrete Shield),310,32301.6347824264706,8236916.869518750
+Tropical Storm Erin,Tropical Storm Erin,2007,3. Suburban Sprawl,506,34564.6756972677067,15554104.063770468
+Tropical Storm Erin,Tropical Storm Erin,2007,4. Forest/Wildland (Natural Sponge),84,28343.0108160084179,1898981.724672564
+Tropical Storm Erin,Tropical Storm Erin,2007,5. Agricultural/Rural (Moderate Runoff),111,42587.0559793962128,4003183.262063244
+Tropical Storm Erin,Tropical Storm Erin,2007,6. Mixed/Transition Zone,66,16104.8849068716000,885768.669877938
+Tropical Storm Ernesto,Tropical Storm Ernesto,2006,1. Wetland Buffer (High Absorption),530,14547.3088162877708,5775281.600066245
+Tropical Storm Ernesto,Tropical Storm Ernesto,2006,2. Dense Urban (Concrete Shield),73,62098.4771983948958,2980726.905522955
+Tropical Storm Ernesto,Tropical Storm Ernesto,2006,3. Suburban Sprawl,326,20761.9033526568081,5626475.808569995
+Tropical Storm Ernesto,Tropical Storm Ernesto,2006,4. Forest/Wildland (Natural Sponge),69,17003.2612396337719,969185.890659125
+Tropical Storm Ernesto,Tropical Storm Ernesto,2006,5. Agricultural/Rural (Moderate Runoff),1,,0.000000000
+Tropical Storm Ernesto,Tropical Storm Ernesto,2006,6. Mixed/Transition Zone,1071,20592.8556667266289,19089577.203055585
+Tropical Storm Fay,Tropical Storm Fay,2008,1. Wetland Buffer (High Absorption),1661,21643.4916315602657,25820685.516451397
+Tropical Storm Fay,Tropical Storm Fay,2008,2. Dense Urban (Concrete Shield),118,19029.6861704128438,608949.957453211
+Tropical Storm Fay,Tropical Storm Fay,2008,3. Suburban Sprawl,703,22228.6813224704928,10736453.078753248
+Tropical Storm Fay,Tropical Storm Fay,2008,4. Forest/Wildland (Natural Sponge),27,22020.8298596616957,506479.086772219
+Tropical Storm Fay,Tropical Storm Fay,2008,5. Agricultural/Rural (Moderate Runoff),32,23183.5631752390000,510038.389855258
+Tropical Storm Fay,Tropical Storm Fay,2008,6. Mixed/Transition Zone,911,24305.0727026641548,14291382.749166523
+Tropical Storm Imelda,Tropical Storm Imelda,2019,1. Wetland Buffer (High Absorption),4093,69598.6639537165499,261760575.129927944
+Tropical Storm Imelda,Tropical Storm Imelda,2019,2. Dense Urban (Concrete Shield),1061,43173.3753149734318,37992570.277176620
+Tropical Storm Imelda,Tropical Storm Imelda,2019,3. Suburban Sprawl,3203,49078.3981619763181,141787492.289949583
+Tropical Storm Imelda,Tropical Storm Imelda,2019,4. Forest/Wildland (Natural Sponge),145,49265.6639039260522,6601598.963126091
+Tropical Storm Imelda,Tropical Storm Imelda,2019,5. Agricultural/Rural (Moderate Runoff),603,74634.2401915517916,42616151.149376073
+Tropical Storm Imelda,Tropical Storm Imelda,2019,6. Mixed/Transition Zone,1835,63717.3622189072418,106981451.165545259
+Tropical Storm Isidore,Tropical Storm Isidore,2002,1. Wetland Buffer (High Absorption),4871,16793.3415425292325,62907857.418314505
+Tropical Storm Isidore,Tropical Storm Isidore,2002,2. Dense Urban (Concrete Shield),3215,11414.2552734962521,23091038.418282918
+Tropical Storm Isidore,Tropical Storm Isidore,2002,3. Suburban Sprawl,1705,14273.0856363104711,16785148.708301114
+Tropical Storm Isidore,Tropical Storm Isidore,2002,4. Forest/Wildland (Natural Sponge),24,15605.8743139188750,249693.989022702
+Tropical Storm Isidore,Tropical Storm Isidore,2002,5. Agricultural/Rural (Moderate Runoff),17,10613.9727202588000,106139.727202588
+Tropical Storm Isidore,Tropical Storm Isidore,2002,6. Mixed/Transition Zone,1257,18835.7770418422860,17253571.770327534
+Tropical Storm Ivan,Tropical Storm Ivan,2004,1. Wetland Buffer (High Absorption),17,4698.0698107435714,32886.488675205
+Tropical Storm Ivan,Tropical Storm Ivan,2004,2. Dense Urban (Concrete Shield),331,29474.2347539736000,8105414.557342740
+Tropical Storm Ivan,Tropical Storm Ivan,2004,3. Suburban Sprawl,978,33330.8939944995930,27431325.757473165
+Tropical Storm Ivan,Tropical Storm Ivan,2004,4. Forest/Wildland (Natural Sponge),7284,25059.8244383918012,161109611.314420890
+Tropical Storm Ivan,Tropical Storm Ivan,2004,5. Agricultural/Rural (Moderate Runoff),455,21223.4383208224756,8701609.711537215
+Tropical Storm Ivan,Tropical Storm Ivan,2004,6. Mixed/Transition Zone,3639,33386.9873064685555,107706421.050667560
+Tropical Storm Lee,Tropical Storm Lee,2011,1. Wetland Buffer (High Absorption),4,12352.2800796000000,37056.840238800
+Tropical Storm Lee,Tropical Storm Lee,2011,2. Dense Urban (Concrete Shield),260,19651.6478266692893,3871374.621853850
+Tropical Storm Lee,Tropical Storm Lee,2011,3. Suburban Sprawl,498,30045.4928572041551,10846422.921450700
+Tropical Storm Lee,Tropical Storm Lee,2011,4. Forest/Wildland (Natural Sponge),4158,50554.5976613975718,188416985.484028750
+Tropical Storm Lee,Tropical Storm Lee,2011,5. Agricultural/Rural (Moderate Runoff),815,33584.0546847453975,24079767.208962450
+Tropical Storm Lee,Tropical Storm Lee,2011,6. Mixed/Transition Zone,5276,43964.7088813735476,206590167.033574300
+Tropical Storm Paul,Tropical Storm Paul,2006,1. Wetland Buffer (High Absorption),536,27706.6102649834076,13049813.434807185
+Tropical Storm Paul,Tropical Storm Paul,2006,2. Dense Urban (Concrete Shield),134,10464.3503050678431,1067363.731116920
+Tropical Storm Paul,Tropical Storm Paul,2006,3. Suburban Sprawl,494,26137.6188451222476,10873249.439570855
+Tropical Storm Paul,Tropical Storm Paul,2006,4. Forest/Wildland (Natural Sponge),58,29590.2523491832692,1538693.122157530
+Tropical Storm Paul,Tropical Storm Paul,2006,5. Agricultural/Rural (Moderate Runoff),133,31874.5279662402655,3601821.660185150
+Tropical Storm Paul,Tropical Storm Paul,2006,6. Mixed/Transition Zone,356,25749.3468074896780,7596057.308209455
+TX0120,Hurricane Hanna,2020,1. Wetland Buffer (High Absorption),11,2014.6033333333333,6043.810000000
+TX0120,Hurricane Hanna,2020,2. Dense Urban (Concrete Shield),32,12800.0594117647059,217601.010000000
+TX0120,Hurricane Hanna,2020,3. Suburban Sprawl,195,36324.5743918918919,5376037.010000000
+TX0120,Hurricane Hanna,2020,4. Forest/Wildland (Natural Sponge),13,48634.8175000000000,389078.540000000
+TX0120,Hurricane Hanna,2020,5. Agricultural/Rural (Moderate Runoff),412,22724.1203249097473,6294581.330000000
+TX0120,Hurricane Hanna,2020,6. Mixed/Transition Zone,418,27776.5453870967742,8610729.070000000
+Vermont/New York Flooding,Vermont/New York Flooding,2023,2. Dense Urban (Concrete Shield),1,2814.9695293160000,2814.969529316
+Vermont/New York Flooding,Vermont/New York Flooding,2023,3. Suburban Sprawl,4,10002.0022001153333,30006.006600346
+Vermont/New York Flooding,Vermont/New York Flooding,2023,4. Forest/Wildland (Natural Sponge),682,58060.9191846813646,33443089.450376466
+Vermont/New York Flooding,Vermont/New York Flooding,2023,6. Mixed/Transition Zone,76,26369.0409851327941,1793094.786989030
+Winter storm,Winter storm,2007,1. Wetland Buffer (High Absorption),1,,0.000000000
+Winter storm,Winter storm,2009,1. Wetland Buffer (High Absorption),6,10141.2984532146667,60847.790719288
+Winter storm,Winter storm,2010,2. Dense Urban (Concrete Shield),89,17886.9200878820000,983780.604833510
+Winter storm,Winter storm,2008,2. Dense Urban (Concrete Shield),1,12341.0747484310000,12341.074748431
+Winter storm,Winter storm,2007,2. Dense Urban (Concrete Shield),28,11808.2583517760000,247973.425387296
+Winter storm,Winter storm,2009,2. Dense Urban (Concrete Shield),25,43057.4033409736957,990320.276842395
+Winter storm,Winter storm,2010,3. Suburban Sprawl,66,16764.7213688202439,687353.576121630
+Winter storm,Winter storm,2007,3. Suburban Sprawl,84,39685.9158223864737,3016129.602501372
+Winter storm,Winter storm,2009,3. Suburban Sprawl,18,17522.1914250838889,315399.445651510
+Winter storm,Winter storm,2010,4. Forest/Wildland (Natural Sponge),52,22597.5992749822857,790915.974624380
+Winter storm,Winter storm,2008,4. Forest/Wildland (Natural Sponge),12,13477.1956876998571,94340.369813899
+Winter storm,Winter storm,2009,4. Forest/Wildland (Natural Sponge),15,10602.2526163453846,137829.284012490
+Winter storm,Winter storm,2007,4. Forest/Wildland (Natural Sponge),1222,57487.8209239060432,63811481.225535708
+Winter storm,Winter storm,2008,5. Agricultural/Rural (Moderate Runoff),2,3541.3849286090000,3541.384928609
+Winter storm,Winter storm,2007,5. Agricultural/Rural (Moderate Runoff),18,28315.3043006904000,424729.564510356
+Winter storm,Winter storm,2009,5. Agricultural/Rural (Moderate Runoff),260,14157.6014673799348,3256248.337497385
+Winter storm,Winter storm,2010,5. Agricultural/Rural (Moderate Runoff),1,,0.000000000
+Winter storm,Winter storm,2010,6. Mixed/Transition Zone,42,20216.3904993552174,464976.981485170
+Winter storm,Winter storm,2008,6. Mixed/Transition Zone,3,12324.5836326983333,36973.750898095
+Winter storm,Winter storm,2007,6. Mixed/Transition Zone,107,25366.3176538042895,1927840.141689126
+Winter storm,Winter storm,2009,6. Mixed/Transition Zone,160,24646.3940407446522,3401202.377622762
+Winter Storm Jonas,Winter Storm Jonas,2016,1. Wetland Buffer (High Absorption),943,20295.0488900589039,14998041.129753530
+Winter Storm Jonas,Winter Storm Jonas,2016,2. Dense Urban (Concrete Shield),15,6518.1991294072000,65181.991294072
+Winter Storm Jonas,Winter Storm Jonas,2016,3. Suburban Sprawl,4,,0.000000000
+Winter Storm Jonas,Winter Storm Jonas,2016,6. Mixed/Transition Zone,504,23289.9467067485368,8850179.748564444
