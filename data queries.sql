@@ -27,7 +27,7 @@ ORDER BY yearOfLoss ASC;
 -- zip from fima data cleaned to remove postal specific after -  9 rows exist, ughhh
 -- + removes the rows without a zip code to reference, ie a lot
 -- also the 60 rows of <5 digit zips
-WITH CleanedClaims AS (SELECT LEFT(TRIM(reportedZipCode), 5)                    AS clean_zip,
+WITH CleanedClaims AS (SELECT clean_zip,
                               yearOfLoss,
                               id,
                               GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0) AS building_paid,
@@ -74,7 +74,7 @@ ORDER BY lc.YEAR, lc.ZCTA20;
 WITH ClaimStatsByZipYear AS (
 -- STEP 1: Pre-aggregate claims down to just Zip + Year summaries.
 -- stops MySQL from trying to evaluate string functions on every single row during the JOIN.
-    SELECT LEFT(TRIM(reportedZipCode), 5)                         AS clean_zip,
+    SELECT clean_zip,
            yearOfLoss,
            COUNT(id)                                              AS claim_count,
            SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_building_paid
@@ -207,10 +207,10 @@ ORDER BY i.impervious_pct_bucket;
 -- group by envirotype
 -- value - total incidenct or % total
 -- flood type
-WITH ZipCauseAgg AS (SELECT LEFT(TRIM(reportedZipCode), 5) AS clean_zip,
+WITH ZipCauseAgg AS (SELECT clean_zip,
                             yearOfLoss,
                             causeOfDamage,
-                            COUNT(id)                      as claim_count
+                            COUNT(id) as claim_count
                      FROM fima_nfip_claims
                      WHERE causeOfDamage IN ('2', '4') -- 2 = River overflow, 4 = Rainfall Accumulation (Flash Flooding)
                      GROUP BY clean_zip, yearOfLoss, causeOfDamage),
@@ -257,7 +257,7 @@ WITH EventZipAgg AS (
            )                                                      AS storm_id,
            MAX(floodEvent)                                        AS friendly_name,
            yearOfLoss,
-           LEFT(TRIM(reportedZipCode), 5)                         AS clean_zip,
+           clean_zip,
            COUNT(id)                                              AS claim_count,
            SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_paid
     FROM fima_nfip_claims
