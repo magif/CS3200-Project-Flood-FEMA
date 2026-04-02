@@ -121,10 +121,13 @@ ORDER BY avg_payout_per_claim DESC;
 --  pairs it with the average claim payout, and groups them into 10% "buckets"
 -- scatter plot buckets x, avg payout per claim y
 --
+/*
+ look in data queireis 2 for inflation adjusted and with claim policy population density control
+ */
 
 WITH ZipAgg AS (
     -- Aggregate early to prevent timeouts
-    SELECT LEFT(TRIM(reportedZipCode), 5)                         AS clean_zip,
+    SELECT clean_zip,
            COUNT(id)                                              AS claim_count,
            SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_paid
     FROM fima_nfip_claims

@@ -290,6 +290,13 @@ ORDER BY id;
 SET SESSION net_read_timeout = 30;
 SET SESSION net_write_timeout = 30;
 
+-- Creates a permanent, clean version of the ZIP code to avoid all the weird joins before
+ALTER TABLE fima_nfip_claims
+ADD COLUMN clean_zip CHAR(5) GENERATED ALWAYS AS (LEFT(TRIM(reportedZipCode), 5)) STORED;
+
+-- Build an index on our new clean column so JOINs are faster
+CREATE INDEX idx_fima_clean_zip ON fima_nfip_claims(clean_zip);
+
 -- DROP TABLE fima_nfip_claims_staging;
 -- drop staging after verifying youve imported correctly,
 -- there will be a warning symbol, if there ISNT a message, its fine, its date being 0000-00-000 
