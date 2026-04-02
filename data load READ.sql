@@ -6,7 +6,32 @@ USE g13_project;
 -- show variables where variable_name like '%local%';
 set global local_infile = ON;
 
-Drop table if EXISTS zip_to_zcta;
+
+create table if not exists fips_code_refs
+(
+    `State Name`           text null,
+    `County Name`          text null,
+    `City Name`            text null,
+    `State Code`           text null,
+    `State FIPS Code`      text null,
+    `County Code`          text null,
+    `StCnty FIPS Code`     text null,
+    `City Code`            text null,
+    `StCntyCity FIPS Code` text null
+);
+
+
+CREATE TABLE if not exists inflation_cpi
+(
+    observation_date DATE           NOT NULL,
+    cpi_value        DECIMAL(10, 3) NULL,
+
+    cpi_year         INT GENERATED ALWAYS AS (YEAR(observation_date)) STORED,
+    -- woah a stored function
+
+    PRIMARY KEY (observation_date)
+);
+
 CREATE TABLE zip_to_zcta
 (
     zip_code      CHAR(5),
@@ -17,15 +42,6 @@ CREATE TABLE zip_to_zcta
     zip_join_type VARCHAR(50),
     PRIMARY KEY (zip_code)
 );
-
-LOAD DATA LOCAL INFILE 'C:\path to\ZIP Code to ZCTA Crosswalk.csv'
-    INTO TABLE zip_to_zcta
-    FIELDS TERMINATED BY ','
-    ENCLOSED BY '"'
-    LINES TERMINATED BY '\r\n'
-    IGNORE 1 ROWS
-    (zip_code, po_name, state, zip_type, @zcta, zip_join_type)
-    SET zcta = NULLIF(@zcta, '');
 
 -- truncate zip_to_zcta;
 
@@ -225,12 +241,23 @@ CREATE TABLE fima_nfip_claims_staging
     -- DO NOT set a Primary Key here
 ) ENGINE = MyISAM;
 
+
+
+LOAD DATA LOCAL INFILE 'C:\\path\\DATA\\ZIP Code to ZCTA Crosswalk.csv'
+    INTO TABLE zip_to_zcta
+    FIELDS TERMINATED BY ','
+    ENCLOSED BY '"'
+    LINES TERMINATED BY '\r\n'
+    IGNORE 1 ROWS
+    (zip_code, po_name, state, zip_type, @zcta, zip_join_type)
+    SET zcta = NULLIF(@zcta, '');
+
 -- Truncate fima_nfip_claims_staging;
 -- ------------------------------------
 ALTER TABLE fima_nfip_claims_staging
     DISABLE KEYS;
 
-LOAD DATA LOCAL INFILE 'C:\path to\FimaNfipClaimsV2.csv'
+LOAD DATA LOCAL INFILE ' C:\\path\\DATA\\FimaNfipClaimsV2.csv'
     INTO TABLE fima_nfip_claims_staging
     FIELDS TERMINATED BY ','
     ENCLOSED BY '"'
@@ -305,7 +332,7 @@ CREATE INDEX idx_fima_clean_zip ON fima_nfip_claims(clean_zip);
 -- 2. Run Data Loads
 -- TRUNCATE nanda_land_cover;
 
-LOAD DATA LOCAL INFILE 'c:\ path to \\ICPSR_38598 2020\\DS0004\\38598-0004-Data.tsv'
+LOAD DATA LOCAL INFILE 'C:\\path\\DATA\\38598-0004-Data.tsv'
     INTO TABLE nanda_land_cover
     FIELDS TERMINATED BY '\t'
     ENCLOSED BY '"'
@@ -315,14 +342,52 @@ LOAD DATA LOCAL INFILE 'c:\ path to \\ICPSR_38598 2020\\DS0004\\38598-0004-Data.
 
 -- TRUNCATE fima_nfip_claims;
 
-/*
-LOAD DATA LOCAL INFILE 'C:\\Users\\magif\\Downloads\\FimaNfipClaimsV2.csv'
-INTO TABLE fima_nfip_claims
-FIELDS TERMINATED BY ','
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
 
-Actually impossibly slow, use staging db then move into nfip
-*/
+/*
+ The formula to adjust historical money to current money is:
+ Original Amount * (Current Year CPI / Historical Year CPI)
+ */
+
+-- insert load file stuff here
+LOAD DATA LOCAL INFILE 'C:\\path\\DATA\\CPIAUCSL.csv'
+    INTO TABLE inflation_cpi
+    FIELDS TERMINATED BY ','
+    ENCLOSED BY '"'
+    LINES TERMINATED BY '\n' -- Note: If you are on Windows, you might need '\r\n'
+    IGNORE 1 ROWS
+    (observation_date, cpi_value);
+-- 2026 data will be 0 as year is not over yet
+
+--
+
+LOAD DATA LOCAL INFILE '\\path\\DATA\\State,_County_and_City_FIPS_Reference_Table_20260401.csv'
+    INTO TABLE fips_code_refs
+    FIELDS TERMINATED BY ','
+    ENCLOSED BY '"'
+    LINES TERMINATED BY '\n'
+    IGNORE 1 ROWS
+    (
+     `State Name`, `County Name`, `City Name`, `State Code`, `State FIPS Code`, `County Code`, `StCnty FIPS Code`,
+     `City Code`, `StCntyCity FIPS Code`
+        );
+
+
+
+-- Indexing the Claims table
+CREATE INDEX idx_zip_year ON fima_nfip_claims (reportedZipCode, yearOfLoss);
+
+-- Adding dedicated index on yearOfLoss to optimize queries grouping and filtering by yearOfLoss
+CREATE INDEX idx_year_of_loss ON fima_nfip_claims (yearOfLoss);
+
+
+-- index just the zcta
+CREATE INDEX idx_zcta ON zip_to_zcta (zcta);
+
+
+-- Indexing the Mapping table
+CREATE INDEX idx_ztz_lookup ON zip_to_zcta (zip_code, zcta);
+
+-- A reverse index zc->zip
+CREATE INDEX idx_ztz_reverse ON zip_to_zcta (zcta, zip_code);
+
 
