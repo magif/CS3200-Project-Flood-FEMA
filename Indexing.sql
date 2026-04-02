@@ -13,7 +13,7 @@ CREATE INDEX idx_year_of_loss ON fima_nfip_claims (yearOfLoss);
 
 
 -- index just the zcta
-CREATE INDEX idx_zcta ON zip_to_zcta (zcta); 
+CREATE INDEX idx_zcta ON zip_to_zcta (zcta);
 
 
 -- Indexing the Mapping table
