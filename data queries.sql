@@ -114,7 +114,6 @@ ORDER BY avg_payout_per_claim DESC;
 
 
 
-
 --  Queries for Visualizations
 
 -- 1st chart: The development % buckets
@@ -125,35 +124,33 @@ ORDER BY avg_payout_per_claim DESC;
 
 WITH ZipAgg AS (
     -- Aggregate early to prevent timeouts
-    SELECT LEFT(TRIM(reportedZipCode), 5) AS clean_zip,
-           COUNT(id) AS claim_count,
+    SELECT LEFT(TRIM(reportedZipCode), 5)                         AS clean_zip,
+           COUNT(id)                                              AS claim_count,
            SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_paid
     FROM fima_nfip_claims
     WHERE yearOfLoss = 2020 -- Filter to a specific recent year, else we do chronological errors
-    GROUP BY clean_zip
-),
-ZctaAgg AS ( -- route the postal ZIP codes  crosswalk table to  ZCTA boundaries.
-    SELECT x.zcta, SUM(z.claim_count) as claims, SUM(z.total_paid) as payouts -- Bc many ZIP codes can map to a single ZCTA
-    FROM ZipAgg z
-    JOIN zip_to_zcta x ON z.clean_zip = x.zip_code
-    GROUP BY x.zcta
-),
-ImperviousBuckets AS (
-    SELECT
-        ZCTA20,
-        -- Calculate total concrete/asphalt and round to nearest 10% for easy charting
-        ROUND((PROP_DEV_LOWINTENSITY + PROP_DEV_MEDINTENSITY + PROP_DEV_HIINTENSITY) * 10) * 10 AS impervious_pct_bucket
-        -- If a ZCTA is 42% concrete, X by 10 makes it 4.2. Rounding it makes it 4. X by 10 makes it 40
-    FROM nanda_land_cover
-    WHERE YEAR = 2020 -- change this number and the one above to get year by year stats, this query is static
-)
-SELECT
-    i.impervious_pct_bucket AS `Percent Impervious Surface`,
-    SUM(z.claims) AS `Total Claims`,
-    SUM(z.payouts) / SUM(z.claims) AS `Average Payout Per Claim ($)`,
-    SUM(z.payouts) AS 'Total Payouts'
+    GROUP BY clean_zip),
+     ZctaAgg AS ( -- route the postal ZIP codes  crosswalk table to  ZCTA boundaries.
+         SELECT x.zcta,
+                SUM(z.claim_count) as claims,
+                SUM(z.total_paid)  as payouts -- Bc many ZIP codes can map to a single ZCTA
+         FROM ZipAgg z
+                  JOIN zip_to_zcta x ON z.clean_zip = x.zip_code
+         GROUP BY x.zcta),
+     ImperviousBuckets AS (SELECT ZCTA20,
+                                  -- Calculate total concrete/asphalt and round to nearest 10% for easy charting
+                                  ROUND((PROP_DEV_LOWINTENSITY + PROP_DEV_MEDINTENSITY + PROP_DEV_HIINTENSITY) * 10) *
+                                  10 AS impervious_pct_bucket
+                           -- If a ZCTA is 42% concrete, X by 10 makes it 4.2. Rounding it makes it 4. X by 10 makes it 40
+                           FROM nanda_land_cover
+                           WHERE YEAR = 2020 -- change this number and the one above to get year by year stats, this query is static
+     )
+SELECT i.impervious_pct_bucket        AS `Percent Impervious Surface`,
+       SUM(z.claims)                  AS `Total Claims`,
+       SUM(z.payouts) / SUM(z.claims) AS `Average Payout Per Claim ($)`,
+       SUM(z.payouts)                 AS 'Total Payouts'
 FROM ImperviousBuckets i
-JOIN ZctaAgg z ON i.ZCTA20 = z.zcta
+         JOIN ZctaAgg z ON i.ZCTA20 = z.zcta
 GROUP BY i.impervious_pct_bucket
 ORDER BY i.impervious_pct_bucket;
 /*
@@ -190,7 +187,6 @@ ORDER BY i.impervious_pct_bucket;
  */
 
 
-
 -- 2nd chart: Flash Flooding vs. River Flooding
 /*
  Urban sprawl doesn't just cause more flooding; it causes different types of flooding.
@@ -208,35 +204,31 @@ ORDER BY i.impervious_pct_bucket;
 -- group by envirotype
 -- value - total incidenct or % total
 -- flood type
-WITH ZipCauseAgg AS (
-    SELECT
-        LEFT(TRIM(reportedZipCode), 5) AS clean_zip,
-        yearOfLoss,
-        causeOfDamage,
-        COUNT(id) as claim_count
-    FROM fima_nfip_claims
-    WHERE causeOfDamage IN ('2', '4') -- 2 = River overflow, 4 = Rainfall Accumulation (Flash Flooding)
-    GROUP BY clean_zip, yearOfLoss, causeOfDamage
-),
-ZctaCauseAgg AS (
-    SELECT x.zcta, z.yearOfLoss, z.causeOfDamage, SUM(z.claim_count) as claims
-    FROM ZipCauseAgg z
-    JOIN zip_to_zcta x ON z.clean_zip = x.zip_code
-    GROUP BY x.zcta, z.yearOfLoss, z.causeOfDamage
-),
-LandArchetypes AS (
-    SELECT ZCTA20, YEAR,
-           CASE WHEN PROP_DEV_HIINTENSITY + PROP_DEV_MEDINTENSITY > 0.4 THEN 'High Concrete'
-                WHEN PROP_WOODYWET + PROP_HERBWET + PROP_DECIDUOUSFOREST > 0.4 THEN 'High Natural'
-                ELSE 'Mixed' END AS environment_type
-    FROM nanda_land_cover
-)
-SELECT
-    l.environment_type,
-    CASE WHEN c.causeOfDamage = '2' THEN 'River/Stream Overflow' ELSE 'Flash Flood (Rain Accumulation)' END AS flood_type,
-    SUM(c.claims) as total_incidents
+WITH ZipCauseAgg AS (SELECT LEFT(TRIM(reportedZipCode), 5) AS clean_zip,
+                            yearOfLoss,
+                            causeOfDamage,
+                            COUNT(id)                      as claim_count
+                     FROM fima_nfip_claims
+                     WHERE causeOfDamage IN ('2', '4') -- 2 = River overflow, 4 = Rainfall Accumulation (Flash Flooding)
+                     GROUP BY clean_zip, yearOfLoss, causeOfDamage),
+     ZctaCauseAgg AS (SELECT x.zcta, z.yearOfLoss, z.causeOfDamage, SUM(z.claim_count) as claims
+                      FROM ZipCauseAgg z
+                               JOIN zip_to_zcta x ON z.clean_zip = x.zip_code
+                      GROUP BY x.zcta, z.yearOfLoss, z.causeOfDamage),
+     LandArchetypes AS (SELECT ZCTA20,
+                               YEAR,
+                               CASE
+                                   WHEN PROP_DEV_HIINTENSITY + PROP_DEV_MEDINTENSITY > 0.4 THEN 'High Concrete'
+                                   WHEN PROP_WOODYWET + PROP_HERBWET + PROP_DECIDUOUSFOREST > 0.4 THEN 'High Natural'
+                                   ELSE 'Mixed' END AS environment_type
+                        FROM nanda_land_cover)
+SELECT l.environment_type,
+       CASE
+           WHEN c.causeOfDamage = '2' THEN 'River/Stream Overflow'
+           ELSE 'Flash Flood (Rain Accumulation)' END AS flood_type,
+       SUM(c.claims)                                  as total_incidents
 FROM ZctaCauseAgg c
-JOIN LandArchetypes l ON c.zcta = l.ZCTA20 AND c.yearOfLoss = l.YEAR
+         JOIN LandArchetypes l ON c.zcta = l.ZCTA20 AND c.yearOfLoss = l.YEAR
 WHERE l.environment_type != 'Mixed'
 GROUP BY l.environment_type, flood_type
 ORDER BY l.environment_type, flood_type;
@@ -248,8 +240,6 @@ ORDER BY l.environment_type, flood_type;
  */
 
 
-
-
 -- 3rd chart: Controlling for the Storms (The Proxy for Rainfall Data)
 -- Since we don't have precipitation data cuz the noaa data is way harder to work with w/o dealig with GIS software
 -- use eventDesignationNumber to group claims by the exact same storm.
@@ -258,69 +248,64 @@ ORDER BY l.environment_type, flood_type;
 WITH EventZipAgg AS (
     -- Pre-aggregate to Zip and Event Level to save memory.
     -- COALESCE grabs the official Event Number. If missing, it grabs the Event Name.
-    SELECT
-        COALESCE(
-            NULLIF(TRIM(eventDesignationNumber), ''),
-            NULLIF(TRIM(floodEvent), '')
-        ) AS storm_id,
-        MAX(floodEvent) AS friendly_name,
-        yearOfLoss,
-        LEFT(TRIM(reportedZipCode), 5) AS clean_zip,
-        COUNT(id) AS claim_count,
-        SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_paid
+    SELECT COALESCE(
+                   NULLIF(TRIM(eventDesignationNumber), ''),
+                   NULLIF(TRIM(floodEvent), '')
+           )                                                      AS storm_id,
+           MAX(floodEvent)                                        AS friendly_name,
+           yearOfLoss,
+           LEFT(TRIM(reportedZipCode), 5)                         AS clean_zip,
+           COUNT(id)                                              AS claim_count,
+           SUM(GREATEST(IFNULL(amountPaidOnBuildingClaim, 0), 0)) AS total_paid
     FROM fima_nfip_claims
     WHERE
-        -- Rule 1: Must have at least one identifier
+      -- Rule 1: Must have at least one identifier
         COALESCE(NULLIF(TRIM(eventDesignationNumber), ''), NULLIF(TRIM(floodEvent), '')) IS NOT NULL
-        -- Rule 2: Explicitly reject generic "bucket" terms that group unrelated storms together
-        AND (floodEvent IS NULL OR floodEvent NOT IN (
-            'Flooding', 'Storm', 'Not a named storm', 'Thunderstorms',
-            'Severe flooding', 'Torrential rain', 'Severe Storms and Flooding'
+      -- Rule 2: Explicitly reject generic "bucket" terms that group unrelated storms together
+      AND (floodEvent IS NULL OR floodEvent NOT IN (
+                                                    'Flooding', 'Storm', 'Not a named storm', 'Thunderstorms',
+                                                    'Severe flooding', 'Torrential rain', 'Severe Storms and Flooding'
         ))
-    GROUP BY
-        COALESCE(NULLIF(TRIM(eventDesignationNumber), ''), NULLIF(TRIM(floodEvent), '')),
-        yearOfLoss,
-        clean_zip
-),
-EventZctaAgg AS (
-    SELECT
-        e.storm_id,
-        MAX(e.friendly_name) AS floodEventName,
-        e.yearOfLoss,
-        x.zcta,
-        SUM(e.claim_count) as claims,
-        SUM(e.total_paid) as payouts
-    FROM EventZipAgg e
-    JOIN zip_to_zcta x ON e.clean_zip = x.zip_code
-    GROUP BY e.storm_id, e.yearOfLoss, x.zcta
-),
-LandArchetypes AS (
-    -- Think of these categories as a spectrum of "Hydrological Sponges" vs "Concrete Shields".
-    SELECT ZCTA20, YEAR,
-           CASE
-               -- WETLANDS: The Ultimate Sponge for Water.
-               WHEN PROP_WOODYWET + PROP_HERBWET >= 0.25 THEN '1. Wetland Buffer (High Absorption)'
-               -- THE CONCRETE ZONE: Over 50% solid pavement or heavy dense housing.
-               WHEN PROP_DEV_HIINTENSITY + PROP_DEV_MEDINTENSITY >= 0.5 THEN '2. Dense Urban (Concrete Shield)'
-               -- SUBURBAN SPRAWL: The asphalt spiderweb.
-               WHEN PROP_DEV_LOWINTENSITY + PROP_DEV_MEDINTENSITY + PROP_DEV_HIINTENSITY >= 0.5 THEN '3. Suburban Sprawl'
-               -- NATURAL SPONGE: Deep roots and un-compacted soil.
-               WHEN PROP_DECIDUOUSFOREST + PROP_EVERGREENFOREST + PROP_MIXEDFOREST + PROP_SHRUBSCRUB >= 0.5 THEN '4. Forest/Wildland (Natural Sponge)'
-               -- AGRICULTURAL: Farm fields.
-               WHEN PROP_PASTUREHAY + PROP_CULTCROPS >= 0.5 THEN '5. Agricultural/Rural (Moderate Runoff)'
-               -- THE SEMI-DEVELOPED: Everything else.
-               ELSE '6. Mixed/Transition Zone'
-           END AS environment_type
-    FROM nanda_land_cover
-)
-SELECT
-    e.storm_id,
-    e.floodEventName,
-    l.environment_type,
-    SUM(e.claims) as total_claims,
-    SUM(e.payouts) / SUM(e.claims) as avg_payout
+    GROUP BY COALESCE(NULLIF(TRIM(eventDesignationNumber), ''), NULLIF(TRIM(floodEvent), '')),
+             yearOfLoss,
+             clean_zip),
+     EventZctaAgg AS (SELECT e.storm_id,
+                             MAX(e.friendly_name) AS floodEventName,
+                             e.yearOfLoss,
+                             x.zcta,
+                             SUM(e.claim_count)   as claims,
+                             SUM(e.total_paid)    as payouts
+                      FROM EventZipAgg e
+                               JOIN zip_to_zcta x ON e.clean_zip = x.zip_code
+                      GROUP BY e.storm_id, e.yearOfLoss, x.zcta),
+     LandArchetypes AS (
+         -- Think of these categories as a spectrum of "Hydrological Sponges" vs "Concrete Shields".
+         SELECT ZCTA20,
+                YEAR,
+                CASE
+                    -- WETLANDS: The Ultimate Sponge for Water.
+                    WHEN PROP_WOODYWET + PROP_HERBWET >= 0.25 THEN '1. Wetland Buffer (High Absorption)'
+                    -- THE CONCRETE ZONE: Over 50% solid pavement or heavy dense housing.
+                    WHEN PROP_DEV_HIINTENSITY + PROP_DEV_MEDINTENSITY >= 0.5 THEN '2. Dense Urban (Concrete Shield)'
+                    -- SUBURBAN SPRAWL: The asphalt spiderweb.
+                    WHEN PROP_DEV_LOWINTENSITY + PROP_DEV_MEDINTENSITY + PROP_DEV_HIINTENSITY >= 0.5
+                        THEN '3. Suburban Sprawl'
+                    -- NATURAL SPONGE: Deep roots and un-compacted soil.
+                    WHEN PROP_DECIDUOUSFOREST + PROP_EVERGREENFOREST + PROP_MIXEDFOREST + PROP_SHRUBSCRUB >= 0.5
+                        THEN '4. Forest/Wildland (Natural Sponge)'
+                    -- AGRICULTURAL: Farm fields.
+                    WHEN PROP_PASTUREHAY + PROP_CULTCROPS >= 0.5 THEN '5. Agricultural/Rural (Moderate Runoff)'
+                    -- THE SEMI-DEVELOPED: Everything else.
+                    ELSE '6. Mixed/Transition Zone'
+                    END AS environment_type
+         FROM nanda_land_cover)
+SELECT e.storm_id,
+       e.floodEventName,
+       l.environment_type,
+       SUM(e.claims)                  as total_claims,
+       SUM(e.payouts) / SUM(e.claims) as avg_payout
 FROM EventZctaAgg e
-JOIN LandArchetypes l ON e.zcta = l.ZCTA20 AND e.yearOfLoss = l.YEAR
+         JOIN LandArchetypes l ON e.zcta = l.ZCTA20 AND e.yearOfLoss = l.YEAR
 GROUP BY e.storm_id, e.floodEventName, l.environment_type
 -- Filter for major events with significant sample sizes to avoid statistical noise
 HAVING SUM(e.claims) > 100
