@@ -20,15 +20,16 @@ Read "Data Sources Sites.txt" in DATA folder to pull big data used.
 
 To Do:
 
-Clean data load into one file
+Clean data load into one file - backup for submit
 
 
 
-clarify which queries will need and which to closeout, document more
+clarify which queries will need and which to closeout, document more for submit
 
 
 
 python code and charts after more queries are ran for analysis
 
 make tables 3rd form normative, ie alter table for the clean zips as part of load file
+poster
 
