@@ -9,15 +9,15 @@ set global local_infile = ON;
 
 create table if not exists fips_code_refs
 (
-    `State Name`           text null,
-    `County Name`          text null,
-    `City Name`            text null,
-    `State Code`           text null,
-    `State FIPS Code`      text null,
-    `County Code`          text null,
-    `StCnty FIPS Code`     text null,
-    `City Code`            text null,
-    `StCntyCity FIPS Code` text null
+    `State Name`          VARCHAR(100),
+    `County Name`          VARCHAR(100),
+    `City Name`            VARCHAR(100),
+    `State Code`           VARCHAR(10),
+    `State FIPS Code`      VARCHAR(10),
+    `County Code`          VARCHAR(10),
+    `StCnty FIPS Code`     VARCHAR(20),
+    `City Code`            VARCHAR(10),
+    `StCntyCity FIPS Code` VARCHAR(30)
 );
 
 

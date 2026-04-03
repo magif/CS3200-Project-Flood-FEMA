@@ -140,3 +140,5 @@ FROM YearlyAgg y
          JOIN inflation_cpi i ON y.yearOfLoss = i.cpi_year
          CROSS JOIN BaselineCPI b
 ORDER BY y.yearOfLoss ASC;
+
+

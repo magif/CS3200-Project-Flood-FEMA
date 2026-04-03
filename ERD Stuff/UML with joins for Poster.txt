@@ -1,0 +1,152 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class fima_nfip_claims {
+   asOfDate datetime
+   amountPaidOnBuildingClaim decimal(12,2)
+   amountPaidOnContentsClaim decimal(12,2)
+   amountPaidOnIncreasedCostOfComplianceClaim decimal(12,2)
+   netBuildingPaymentAmount decimal(12,2)
+   netContentsPaymentAmount decimal(12,2)
+   agricultureStructureIndicator tinyint(1)
+   basementEnclosureCrawlspaceType smallint
+   policyCount smallint
+   crsClassificationCode smallint
+   dateOfLoss datetime
+   elevatedBuildingIndicator tinyint(1)
+   elevationCertificateIndicator varchar(255)
+   elevationDifference int
+   baseFloodElevation decimal(6,1)
+   ratedFloodZone varchar(255)
+   houseWorship tinyint(1)
+   locationOfContents smallint
+   lowestAdjacentGrade decimal(6,1)
+   lowestFloorElevation decimal(6,1)
+   numberOfFloorsInTheInsuredBuilding smallint
+   nonProfitIndicator tinyint(1)
+   obstructionType smallint
+   occupancyType smallint
+   originalConstructionDate date
+   originalNBDate date
+   postFIRMConstructionIndicator tinyint(1)
+   rateMethod varchar(255)
+   smallBusinessIndicatorBuilding tinyint(1)
+   totalBuildingInsuranceCoverage int
+   totalContentsInsuranceCoverage int
+   yearOfLoss smallint
+   primaryResidenceIndicator tinyint(1)
+   buildingDamageAmount int
+   buildingDeductibleCode varchar(255)
+   buildingPropertyValue int
+   causeOfDamage varchar(255)
+   condominiumCoverageTypeCode varchar(255)
+   contentsDamageAmount int
+   contentsDeductibleCode varchar(255)
+   contentsPropertyValue int
+   disasterAssistanceCoverageRequired smallint
+   eventDesignationNumber varchar(255)
+   ficoNumber smallint
+   floodCharacteristicsIndicator smallint
+   floodWaterDuration smallint
+   floodproofedIndicator tinyint(1)
+   floodEvent varchar(255)
+   iccCoverage int
+   netIccPaymentAmount decimal(8,2)
+   nfipRatedCommunityNumber varchar(255)
+   nfipCommunityNumberCurrent varchar(255)
+   nfipCommunityName varchar(255)
+   nonPaymentReasonContents varchar(255)
+   nonPaymentReasonBuilding varchar(255)
+   numberOfUnits smallint
+   buildingReplacementCost bigint
+   contentsReplacementCost int
+   replacementCostBasis varchar(255)
+   stateOwnedIndicator tinyint(1)
+   waterDepth smallint
+   floodZoneCurrent varchar(255)
+   buildingDescriptionCode smallint
+   rentalPropertyIndicator tinyint(1)
+   state varchar(255)
+   reportedCity varchar(255)
+   reportedZipCode varchar(255)
+   countyCode varchar(255)
+   censusTract varchar(255)
+   censusBlockGroupFips varchar(255)
+   latitude decimal(9,1)
+   longitude decimal(9,1)
+   clean_zip char(5)
+   id varchar(255)
+}
+
+class fips_code_refs {
+   State Name varchar(100)
+   County Name varchar(100)
+   City Name varchar(100)
+   State Code varchar(10)
+   State FIPS Code varchar(10)
+   County Code varchar(10)
+   StCnty FIPS Code varchar(20)
+   City Code varchar(10)
+   StCntyCity FIPS Code varchar(30)
+}
+
+class inflation_cpi {
+   cpi_value decimal(10,3)
+   cpi_year int
+   observation_date date
+}
+
+class nanda_land_cover {
+   OPENWATER bigint
+   PROP_OPENWATER decimal(15,13)
+   PER_ICESNOW bigint
+   PROP_PER_ICESNOW decimal(15,13)
+   DEV_OPENSPACE bigint
+   PROP_DEV_OPENSPACE decimal(15,13)
+   DEV_LOWINTENSITY bigint
+   PROP_DEV_LOWINTENSITY decimal(15,13)
+   DEV_MEDINTENSITY bigint
+   PROP_DEV_MEDINTENSITY decimal(15,13)
+   DEV_HIINTENSITY bigint
+   PROP_DEV_HIINTENSITY decimal(15,13)
+   BARREN bigint
+   PROP_BARREN decimal(15,13)
+   DECIDUOUSFOREST bigint
+   PROP_DECIDUOUSFOREST decimal(15,13)
+   EVERGREENFOREST bigint
+   PROP_EVERGREENFOREST decimal(15,13)
+   MIXEDFOREST bigint
+   PROP_MIXEDFOREST decimal(15,13)
+   SHRUBSCRUB bigint
+   PROP_SHRUBSCRUB decimal(15,13)
+   GRASSHERB bigint
+   PROP_GRASSHERB decimal(15,13)
+   PASTUREHAY bigint
+   PROP_PASTUREHAY decimal(15,13)
+   CULTCROPS bigint
+   PROP_CULTCROPS decimal(15,13)
+   WOODYWET bigint
+   PROP_WOODYWET decimal(15,13)
+   HERBWET bigint
+   PROP_HERBWET decimal(15,13)
+   ZCTA20 varchar(5)
+   YEAR int
+}
+
+class zip_to_zcta {
+   po_name varchar(50)
+   state char(2)
+   zip_type varchar(50)
+   zcta char(5)
+   zip_join_type varchar(50)
+   zip_code char(5)
+}
+
+' Relationships  Joins
+fima_nfip_claims }o-- zip_to_zcta  clean_zip = zip_code
+zip_to_zcta --o{ nanda_land_cover  zcta = ZCTA20
+fima_nfip_claims }o-- inflation_cpi  yearOfLoss = cpi_year
+fima_nfip_claims }o-- fips_code_refs  state = State Code n AND countyCode = County Code
+@enduml
