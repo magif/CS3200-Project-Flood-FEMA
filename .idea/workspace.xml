@@ -56,7 +56,7 @@
     <option name="spentUsd" value="0.00332925" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="7" />
+    <option name="suspendCountdown" value="5" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

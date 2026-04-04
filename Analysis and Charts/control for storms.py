@@ -48,30 +48,51 @@ overall_stats = df.groupby('env_label').agg(
     avg_payout_mean=('avg_building_payout_2020_dollars', 'mean')
 ).reset_index()
 
+# Sort both charts by total incidents (descending) to establish a consistent narrative order
+sorted_stats = overall_stats.sort_values(by='total_incidents_sum', ascending=False)
+common_order = sorted_stats['env_label'].tolist()
+
 sns.set_theme(style="whitegrid")
 
 # Figure 1: Total Incidents by Environment Type 
 plt.figure(figsize=(12, 7))
-sns.barplot(data=overall_stats.sort_values(by='total_incidents_sum', ascending=False), 
-            x='env_label', y='total_incidents_sum', palette='Blues_d')
-plt.title('Total Flooding Incidents by Environment Type', fontsize=16)
-plt.ylabel('Total Incident Count', fontsize=12)
+ax1 = sns.barplot(data=overall_stats, x='env_label', y='total_incidents_sum', order=common_order, palette='Blues_d')
+
+# Add title inside the chart
+ax1.text(0.5, 0.95, 'Total Flooding Incidents by Environment Type', 
+         transform=ax1.transAxes, ha='center', va='top', 
+         fontsize=16, weight='bold', 
+         bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.5'))
+
+plt.ylabel('Total Incident Count', fontsize=14)
 plt.xlabel('Environment Type', fontsize=12)
-# No rotation, let the text wrap with the newlines
-plt.xticks(fontsize=10) 
+plt.xticks(fontsize=14) 
+
+ymin, ymax = ax1.get_ylim()
+ax1.set_ylim(ymin, ymax * 1.1)
+
 plt.tight_layout()
 plt.savefig('total_incidents_env.png', dpi = 600)
 plt.close()
 
 # Figure 2: Avg Payout by Environment Type
 plt.figure(figsize=(12, 7))
-sns.barplot(data=overall_stats.sort_values(by='avg_payout_mean', ascending=False), 
-            x='env_label', y='avg_payout_mean', palette='Reds_d')
-plt.title('Average Payout (2020 USD) by Environment Type', fontsize=16)
-plt.ylabel('Avg Building Payout ($)', fontsize=12)
+ax2 = sns.barplot(data=overall_stats, x='env_label', y='avg_payout_mean', order=common_order, palette='Reds_d')
+
+# Add title inside the chart
+ax2.text(0.5, 0.95, 'Average Payout (2020 USD) by Environment Type', 
+         transform=ax2.transAxes, ha='center', va='top', 
+         fontsize=16, weight='bold', 
+         bbox=dict(facecolor='white', alpha=0.9, edgecolor='none', boxstyle='round,pad=0.5'))
+
+plt.ylabel('Avg Building Payout ($)', fontsize=14)
 plt.xlabel('Environment Type', fontsize=12)
-# No rotation, let the text wrap with the newlines
-plt.xticks(fontsize=10)
+plt.xticks(fontsize=14)
+
+# Adjust y-limit here too
+ymin, ymax = ax2.get_ylim()
+ax2.set_ylim(ymin, ymax * 1.1)
+
 plt.tight_layout()
 plt.savefig('avg_payout_env.png', dpi = 600)
 plt.close()
