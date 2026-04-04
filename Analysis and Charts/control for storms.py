@@ -33,28 +33,45 @@ print("\nTop 5 Storms by Incidents:", top_storms_incidents.tolist())
 # Filter data for top storms
 df_top = df[df['floodEventName'].isin(top_storms_incidents)]
 
+
+# Fix environment types for better label reading: remove the number prefix and insert a newline before the parentheses
+def format_label(x):
+    if '. ' in x:
+        x = x.split('. ')[1]
+    return x.replace(' (', '\n(')
+
+df['env_label'] = df['environment_type'].apply(format_label)
+
+# Aggregate overall stats
+overall_stats = df.groupby('env_label').agg(
+    total_incidents_sum=('total_incidents', 'sum'),
+    avg_payout_mean=('avg_building_payout_2020_dollars', 'mean')
+).reset_index()
+
 sns.set_theme(style="whitegrid")
 
-# Figure 1: Total Incidents by Environment Type
-plt.figure(figsize=(10, 6))
+# Figure 1: Total Incidents by Environment Type 
+plt.figure(figsize=(12, 7))
 sns.barplot(data=overall_stats.sort_values(by='total_incidents_sum', ascending=False), 
-            x='env_short', y='total_incidents_sum', palette='Blues_d')
-plt.title('Total Flooding Incidents by Environment Type', fontsize=14)
-plt.ylabel('Total Incident Count')
-plt.xlabel('Environment Type')
-plt.xticks(rotation=45, ha='right')
+            x='env_label', y='total_incidents_sum', palette='Blues_d')
+plt.title('Total Flooding Incidents by Environment Type', fontsize=16)
+plt.ylabel('Total Incident Count', fontsize=12)
+plt.xlabel('Environment Type', fontsize=12)
+# No rotation, let the text wrap with the newlines
+plt.xticks(fontsize=10) 
 plt.tight_layout()
 plt.savefig('total_incidents_env.png')
 plt.close()
 
-# Figure 2: Avg Payout by Environment Type (Overall)
-plt.figure(figsize=(10, 6))
+# Figure 2: Avg Payout by Environment Type
+plt.figure(figsize=(12, 7))
 sns.barplot(data=overall_stats.sort_values(by='avg_payout_mean', ascending=False), 
-            x='env_short', y='avg_payout_mean', palette='Reds_d')
-plt.title('Average Payout (2020 USD) by Environment Type', fontsize=14)
-plt.ylabel('Avg Building Payout ($)')
-plt.xlabel('Environment Type')
-plt.xticks(rotation=45, ha='right')
+            x='env_label', y='avg_payout_mean', palette='Reds_d')
+plt.title('Average Payout (2020 USD) by Environment Type', fontsize=16)
+plt.ylabel('Avg Building Payout ($)', fontsize=12)
+plt.xlabel('Environment Type', fontsize=12)
+# No rotation, let the text wrap with the newlines
+plt.xticks(fontsize=10)
 plt.tight_layout()
 plt.savefig('avg_payout_env.png')
 plt.close()
