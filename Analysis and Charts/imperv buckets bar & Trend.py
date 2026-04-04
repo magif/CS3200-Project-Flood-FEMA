@@ -28,7 +28,7 @@ plt.title('Total Flood Claims by Impervious Surface Percentage (1985-2023)')
 plt.xlabel('Percent Impervious Surface (%)')
 plt.ylabel('Total Number of Claims')
 plt.tight_layout()
-plt.savefig('total_claims_by_impervious.png')
+plt.savefig('total_claims_by_impervious.png', dpi = 600)
 plt.close()
 
 # 2. Avg Payout per Claim vs. Percent Impervious Surface
@@ -43,7 +43,7 @@ plt.title('Average Payout per Claim by Impervious Surface Percentage')
 plt.xlabel('Percent Impervious Surface (%)')
 plt.ylabel('Average Payout (2020 USD)')
 plt.tight_layout()
-plt.savefig('avg_payout_by_impervious.png')
+plt.savefig('avg_payout_by_impervious.png', dpi = 600)
 plt.close()
 
 # 3. Time Series of Total Claims for different Impervious Buckets (Simplified to broad groups to avoid clutter)
@@ -62,7 +62,7 @@ plt.title('Trend of Total Flood Claims Over Time by Impervious Density')
 plt.xlabel('Year')
 plt.ylabel('Total Claims')
 plt.tight_layout()
-plt.savefig('claims_trend_over_time.png')
+plt.savefig('claims_trend_over_time.png', dpi = 600)
 plt.close()
 
 

@@ -54,7 +54,5 @@ plt.ylim(0, 100)
 plt.legend(title='Flood Type', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
 
-plt.savefig('flood_stacked_analysis.png')
+plt.savefig('flood_stacked_analysis.png' , dpi = 600)
 print("Plot saved as flood_stacked_analysis.png")
-
-plt.show()

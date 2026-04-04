@@ -30,7 +30,7 @@ ax2.tick_params(axis='y', labelcolor=color2)
 
 plt.title('Macro-Level Trend: Flood Insurance Claims & Real Payouts (1985-Present)', fontweight='bold')
 fig.tight_layout()  
-plt.savefig('claims_and_payouts_trend.png', dpi=300)
+plt.savefig('claims_and_payouts_trend.png', dpi = 600)
 plt.close()
 
 # --- Plot 2: Flood Characteristics Trends ---
@@ -46,5 +46,5 @@ ax.legend(loc='upper left')
 ax.grid(True, linestyle='--', alpha=0.5)
 
 fig.tight_layout()
-plt.savefig('flood_characteristics_trend.png', dpi=300)
+plt.savefig('flood_characteristics_trend.png', dpi = 600)
 plt.close()

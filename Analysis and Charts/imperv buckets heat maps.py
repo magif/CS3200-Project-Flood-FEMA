@@ -33,7 +33,7 @@ plt.title("Heat Map 1: Total Claim Volume (The 'Volume Illusion')\nDarker blue =
 plt.ylabel("Percent Impervious Surface (%)")
 plt.xlabel("Year of Loss")
 plt.tight_layout()
-plt.savefig('heatmap_volume.png')
+plt.savefig('heatmap_volume.png', dpi = 600)
 plt.close()
 
 
@@ -50,7 +50,7 @@ plt.title("Heat Map 2: Average Claim Severity (The 'Financial Reality')\nDarker 
 plt.ylabel("Percent Impervious Surface (%)")
 plt.xlabel("Year of Loss")
 plt.tight_layout()
-plt.savefig('heatmap_severity.png')
+plt.savefig('heatmap_severity.png', dpi = 600)
 plt.close()
 
 

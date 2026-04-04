@@ -60,7 +60,7 @@ plt.xlabel('Environment Type', fontsize=12)
 # No rotation, let the text wrap with the newlines
 plt.xticks(fontsize=10) 
 plt.tight_layout()
-plt.savefig('total_incidents_env.png')
+plt.savefig('total_incidents_env.png', dpi = 600)
 plt.close()
 
 # Figure 2: Avg Payout by Environment Type
@@ -73,7 +73,7 @@ plt.xlabel('Environment Type', fontsize=12)
 # No rotation, let the text wrap with the newlines
 plt.xticks(fontsize=10)
 plt.tight_layout()
-plt.savefig('avg_payout_env.png')
+plt.savefig('avg_payout_env.png', dpi = 600)
 plt.close()
 
 # Figure 3: Grouped Bar Chart for Top 5 Storms - Avg Payout
@@ -84,7 +84,7 @@ plt.ylabel('Average Payout (2020 USD)')
 plt.xlabel('Major Storm Event')
 plt.legend(title='Environment Type', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
-plt.savefig('grouped_payout_top_storms.png')
+plt.savefig('grouped_payout_top_storms.png', dpi = 600)
 plt.close()
 
 # Figure 4: Grouped Bar Chart for Top 5 Storms - Incidents
@@ -95,5 +95,5 @@ plt.ylabel('Total Incidents')
 plt.xlabel('Major Storm Event')
 plt.legend(title='Environment Type', bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.tight_layout()
-plt.savefig('grouped_incidents_top_storms.png')
+plt.savefig('grouped_incidents_top_storms.png', dpi = 600)
 plt.close()
