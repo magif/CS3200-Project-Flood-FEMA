@@ -2,6 +2,9 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/Query.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/queries prime.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/group13_backup.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/group13_backup_SAMPLE_DATA.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/group13_queries.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/zzz_deal with  later/Data load orig no.sql" dialect="MySQL" />
   </component>
 </project>

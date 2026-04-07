@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-file_path = os.path.join('Exports', 'macro-level temporal trends floods.csv')
+file_path = os.path.join('Exports', 'Query 1 Macro trend.csv')
 
 try:
     df = pd.read_csv(file_path)

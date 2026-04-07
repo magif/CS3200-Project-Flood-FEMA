@@ -371,6 +371,7 @@ LOAD DATA LOCAL INFILE '\\path\\DATA\\State,_County_and_City_FIPS_Reference_Tabl
      `City Code`, `StCntyCity FIPS Code`
         );
 
+-- truncate fips_code_refs;
 
 
 -- Indexing the Claims table
@@ -391,3 +392,5 @@ CREATE INDEX idx_ztz_lookup ON zip_to_zcta (zip_code, zcta);
 CREATE INDEX idx_ztz_reverse ON zip_to_zcta (zcta, zip_code);
 
 
+-- cpi year index
+CREATE INDEX idx_cpi_year ON inflation_cpi (cpi_year);

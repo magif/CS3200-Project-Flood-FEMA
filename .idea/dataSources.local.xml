@@ -12,7 +12,11 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="g13_project" />
+          <node kind="schema">
+            <name qname="ade" />
+            <name qname="g13_project" />
+            <name qname="g13_project_test" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-file_path = os.path.join('Exports', 'Controlling for the Storms.csv')
+file_path = os.path.join('Exports', 'Query 5 Controlling for the Storms.csv')
 
 try:
     df = pd.read_csv(file_path)

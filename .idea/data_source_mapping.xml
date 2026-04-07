@@ -2,6 +2,8 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$PROJECT_DIR$/Query.sql" value="83357dde-f35a-4911-a321-e809132882e3" />
-    <file url="file://$PROJECT_DIR$/queries prime.sql" value="83357dde-f35a-4911-a321-e809132882e3" />
+    <file url="file://$PROJECT_DIR$/group13_backup_SAMPLE_DATA.sql" value="83357dde-f35a-4911-a321-e809132882e3" />
+    <file url="file://$PROJECT_DIR$/group13_queries.sql" value="83357dde-f35a-4911-a321-e809132882e3" />
+    <file url="file://$PROJECT_DIR$/zzz_deal with  later/Data load orig no.sql" value="83357dde-f35a-4911-a321-e809132882e3" />
   </component>
 </project>

@@ -1,8 +1,26 @@
+/*
+I have made exports of the 5 main queries used to make charts and for analysis in the poster in the [Exports] Folder
+ FROM THE FULL DATASET
+ Analysis and charts were made using python in the [Analysis and Charts] Folder
+ */
+
+
 use g13_project;
+-- use g13_project_test;
+-- if using convenience sample data file
 SET SESSION sql_mode = '';
 SET SESSION net_read_timeout = 360;
 SET SESSION net_write_timeout = 360;
 
+
+-- Query 1 Macro trend
+    /*
+     "Are floods fundamentally getting worse,
+     more expensive, and deeper over the last four decades,
+     or is the data just being skewed by inflation and minor nuisance claims?"
+
+     Query looks to physical, objective metrics. It attempts to measure the character of the flooding over time.
+     */
 -- Analyzing Claims Over Time
 -- macro-level temporal trends
 WITH CPI_2020 AS (
@@ -34,42 +52,24 @@ WHERE c.yearOfLoss IS NOT NULL
   AND c.yearOfLoss >= 1985
 GROUP BY c.yearOfLoss, i.cpi_value, c2020.baseline
 ORDER BY c.yearOfLoss ASC;
-/*
-The Changing Face of Floods (Stacked Area Chart)
-X-Axis: Year
-Y-Axis: Percentage (0% to 100%)
-The Areas: Plot pct_severe_above_ground_floods and pct_basement_floods (and maybe the remainder as "minor floods").
 
-some analysis
-bypasses the mathematical trap of averages.
-"Are modern storms pushing water higher into living spaces than storms in the 1980s?"
 
-OR
-The Cost vs. Volume (Dual-Axis Line & Bar)
 
-Needs to chart separately in
-X-Axis: Year
 
-Primary Y-Axis (Bars): total_claims. Use a muted color like light gray or pale blue. This shows you the sheer volume of claims (the spikes will immediately highlight big storm years like Katrina in '05 or Sandy in '12).
+-- Query 2 Data per archetype
+   /*
+     What is the true, inflation-adjusted average cost of flood damage to buildings across
+     different geographical environments (highly urbanized vs. natural/wetlands vs. mixed),
+     when we only look at claims where actual damage was paid out?
 
-Secondary Y-Axis (Line): real_total_paid_out_2020. Make this a thick, bold line (e.g., dark red).
-
-Why it works: It allows you to see if the financial severity is decoupling from the volume.
-If the bars stay the same height over a decade,
-but the red line goes up, it means fewer claims are doing vastly more expensive damage.
-
- */
-
+     SAMPLE BACKUP WILL NOT RETURN ANY RESULTS, THE SAMPLE LACKS THE DATA TO COMPLETE THIS QUERY
+     BUT IT DOES WORK WITH FULL DATA.
+     */
 -- Pre-Correlation Aggregation
 -- aggregates claims data up to the (ZCTA, Year)
 -- joins it  with the NaNDA land cover data via crosswalk table
-
--- zip from fima data cleaned to remove postal specific after -  9 rows exist, ughhh
--- + removes the rows without a zip code to reference, ie a lot
--- also the 60 rows of <5 digit zips
-
 WITH AnnualCPI AS (
-    -- Safely extract the annual average CPI (groups by year to guarantee one row per year) -- rework uneccassry
+    --  extract annual CPI
     SELECT cpi_year,
            AVG(cpi_value) AS avg_cpi
     FROM inflation_cpi
@@ -134,16 +134,29 @@ GROUP BY zc.land_archetype
 ORDER BY true_avg_2020_building_payout DESC;
 
 
---  Queries for Visualizations
 
---  1st chart: The development % buckets -
+
+-- Query 3 imperv dev buckets
+/*
+"Does living in a concrete jungle mean your flood damage is more expensive to fix?"
+
+Specifically, it attempts to determine if there is a correlation between the percentage of "impervious surfaces"
+in a zip code (concrete, asphalt, heavily developed land where water cannot soak into the ground)
+and the average inflation-adjusted payout for a flood claim.
+
+ SAMPLE BACKUP WILL NOT RETURN ANY RESULTS, THE SAMPLE LACKS THE DATA TO COMPLETE THIS QUERY
+     BUT IT DOES WORK WITH FULL DATA.
+Subqeury will return results however for sample
+ */
+
+--  chart: The development % buckets -
 -- percentage of "impervious surface" (Low + Med + High Intensity Development) for every ZCTA in a recent year (2020)
 --  pairs it with the average claim payout, and groups them into 10% "buckets"
 -- scatter plot buckets x, avg payout per claim y
 --
 -- ------------------------------------------------------------------------
 -- STEP 1: Early Aggregation
--- We squish millions of individual claims down into just a few thousand summary rows FIRST.
+--  squish millions of individual claims down into just a few thousand summary rows FIRST.
 
 WITH ZipYearAgg AS (SELECT clean_zip,
                            yearOfLoss,
@@ -167,7 +180,7 @@ WITH ZipYearAgg AS (SELECT clean_zip,
                                  10 AS impervious_pct_bucket
                           FROM nanda_land_cover
                           WHERE YEAR >= 1985),
--- NEW: Isolate the 2020 CPI value cleanly
+-- Isolate the 2020 CPI value cleanly
      CPI_2020 AS (SELECT cpi_value AS cpi_2020_baseline
                   FROM inflation_cpi
                   WHERE cpi_year = 2020
@@ -190,23 +203,13 @@ FROM ZctaYearAgg z
          CROSS JOIN CPI_2020 c2020
 GROUP BY z.yearOfLoss, l.impervious_pct_bucket, i.cpi_value, c2020.cpi_2020_baseline
 ORDER BY z.yearOfLoss DESC, l.impervious_pct_bucket;
--- scatter plot buckets x, total payout per claim y
-/*
- Stacked Area Chart (Best for showing Volume & Composition)
- X-Axis: Year
-
-Y-Axis: Total Payouts (2020 Dollars)
-
-The Stacks: Your Impervious Surface buckets layered on top of each other.
- */
-
 /*
  some analysis
 
- Key Takeaways
+some
 Extreme Events Drive Payout Spikes:
  The data shows massive spikes in specific years,
- likely corresponding to major national disasters. katrina 2005
+ corresponding to major national disasters. katrina 2005
     - 2005 was the most catastrophic year in the dataset, with $23.15 billion in total payouts (in 2020 dollars) and 276,326 claims.
     - Other high-impact years include 2017 ($11.18 billion), 2012 ($10.62 billion), and 2016 ($4.79 billion).
     - 2022 also stands out with a high average payout per claim of $77,284, nearly double the average of the previous year.
@@ -215,7 +218,8 @@ Extreme Events Drive Payout Spikes:
  While moderately developed areas (10-20% impervious surface) account for the highest total volume of claims,
  highly developed areas see more expensive individual claims.
     - The 10% impervious surface bucket has the highest total payouts overall at $15.56 billion across all years.
-    - The Average Payout per Claim generally increases with the percentage of impervious surface. For example, claims in areas with 70% impervious surface average $59,750, compared to $28,840 in areas with 0% impervious surface.
+    - The Average Payout per Claim generally increases with the percentage of impervious surface.
+        For example, claims in areas with 70% impervious surface average $59,750, compared to $28,840 in areas with 0% impervious surface.
 
  Claim Volume Concentration:
  A large portion of the total claims and payouts are concentrated
@@ -226,14 +230,27 @@ Extreme Events Drive Payout Spikes:
  */
 
 
+
+
+-- Query 4 flash v river flood
 -- 2nd chart: Flash Flooding vs. River Flooding
 /*
- Urban sprawl doesn't just cause more flooding; it causes different types of flooding.
+ "Does paving over nature change the way an area floods,
+ turning traditional river overflows into concrete-trapped flash floods?"
+
+ attempts to answer this by looking at the ratio of "Rain Accumulation" claims versus "River Overflow" claims,
+ comparing areas that are heavily paved against areas that are mostly natural,
+ and calculating the percentage makeup of each disaster type within those specific environments.
+
+ ie Urban sprawl doesn't just cause more flooding; it causes different types of flooding.
  Flash floods (FEMA Code 4: Accumulation of rainfall) happen when concrete prevents drainage
  River floods (FEMA Code 2) happen everywhere.
+
+
+ SAMPLE BACKUP WILL NOT RETURN ANY RESULTS, THE SAMPLE LACKS THE DATA TO COMPLETE THIS QUERY
+     BUT IT DOES WORK WITH FULL DATA.
+1st & 3rd Subqeury will return results however for sample
  */
--- Visual: Two bars for each environment archetype. One showing the % of floods caused by rainfall accumulation,
--- and one showing the % caused by river overflow.
 
 WITH ZipCauseAgg AS (SELECT clean_zip,
                             yearOfLoss,
@@ -274,41 +291,43 @@ SELECT environment_type,
 FROM RawIncidents
 ORDER BY environment_type, flood_type;
 
-
---
-/*
- How to Visualize This
-Do not use a standard bar chart or a pie chart. You need a 100% Stacked Bar Chart.
-
-X-Axis: Environment Type (High Concrete vs. High Natural). Just two thick bars side-by-side.
-
-Y-Axis: Percentage of evnirome (0% to 100%).
-
-The Stacks (Colors): Let "River/Stream Overflow" be Blue, and "Flash Flood" be Orange.
-
- */
 /*
  short analysis
  flash flood (rain accumulation) has more incidents in high concrete areas vs river/stream overflow
  Both bars will be exactly the same height (100%),  stripping away the distraction that "High Concrete has way more claims overall."
     "High Concrete" bar will have a larger relative chunk of (Flash Floods),
     while the "High Natural" bar has more (River Overflow). (although do consider majority of land is not directly next to rivers)
-
  */
 
+
+
+
+
+-- Query 5 Controlling for the Storms
+
+/*
+"If we force the weather to be a constant, which type of environment is naturally
+    the most expensive to repair after a flood?"
+
+The core problem this query solves is the "missing variable" of rainfall data.
+If an urban area has $50,000 average payouts and a forested area has $20,000 average payouts,
+you don't know if the urban area is inherently more vulnerable due to concrete,
+or if it just happened to get hit by much worse storms over the last 30 years.
+
+By grouping the claims by the exact same eventDesignationNumber (e.g., Hurricane Harvey, Superstorm Sandy),
+the query uses the storm itself as a control variable.
+
+
+ SAMPLE BACKUP WILL NOT RETURN ANY RESULTS, THE SAMPLE LACKS THE DATA TO COMPLETE THIS QUERY
+     BUT IT DOES WORK WITH FULL DATA.
+4th Subqeury will return results however for sample
+ */
 
 -- 3rd chart: Controlling for the Storms (The Proxy for Rainfall Data)
 -- Since we don't have precipitation data cuz the noaa data is way harder to work with w/o dealig with GIS software
 -- use eventDesignationNumber to group claims by the exact same storm.
 -- This acts as our control variable
 -- grouped bar chart comparing average payouts between different environments, grouped by major storm events.
-
-/*
- challenge the basic assumption that "concrete = highest payouts."
- Concrete causes the highest volume of individual flooding incidents (flash floods).
- But building in swamps and living at the bottom of the city's concrete runoff pipe
- causes the most expensive, catastrophic damage.
- */
 
 WITH MajorStorms AS (
     -- STEP 1: Identify storms that were actually "Major" across ALL areas
@@ -382,3 +401,13 @@ FROM EventZctaAgg e
          CROSS JOIN CPI_2020 c2020
 GROUP BY e.storm_id, e.floodEventName, e.yearOfLoss, l.environment_type, i.cpi_value, c2020.baseline
 ORDER BY e.storm_id, l.environment_type;
+
+/*
+ short analysis
+ yes this query is inherently flawed as the control variable: A named storm does not distribute water evenly.
+ our methodology cannot definitively prove that the urban payouts are higher because of the concrete.
+ They might just be higher because coastal urban centers take the direct, Category 4 hit from the ocean,
+ while the forests get the Category 1 leftovers a day later.
+
+ But noaa data is way more dificult to work with than expected, so we're this is closest control within our data.'
+ */

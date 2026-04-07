@@ -1050,6 +1050,9 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Charset>utf8mb4</Charset>
     </collation>
     <schema id="288" parent="1" name="ade">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2026-04-07.22:23:11</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="289" parent="1" name="ap">
@@ -1067,656 +1070,1638 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="293" parent="1" name="g13_project">
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2026-04-04.21:24:23</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-04-07.22:23:11</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="hw4">
+    <schema id="294" parent="1" name="g13_project_test">
+      <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
+      <LastIntrospectionLevel>3</LastIntrospectionLevel>
+      <LastIntrospectionLocalTimestamp>2026-04-07.22:23:23</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="295" parent="1" name="information_schema">
+    <schema id="295" parent="1" name="hw4">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="296" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="296" parent="1" name="mysql">
+    <schema id="297" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="297" parent="1" name="om">
+    <schema id="298" parent="1" name="om">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="298" parent="1" name="performance_schema">
+    <schema id="299" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="299" parent="1" name="sakila">
+    <schema id="300" parent="1" name="sakila">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="300" parent="1" name="sys">
+    <schema id="301" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="301" parent="1" name="whale_adoption">
+    <schema id="302" parent="1" name="whale_adoption">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="302" parent="1" name="world">
+    <schema id="303" parent="1" name="world">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="303" parent="1" name="murach">
+    <user id="304" parent="1" name="murach">
       <Plugin>mysql_native_password</Plugin>
     </user>
-    <user id="304" parent="1" name="mysql.infoschema">
+    <user id="305" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
     </user>
-    <user id="305" parent="1" name="mysql.session">
+    <user id="306" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
     </user>
-    <user id="306" parent="1" name="mysql.sys">
+    <user id="307" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
     </user>
-    <user id="307" parent="1" name="root">
+    <user id="308" parent="1" name="root">
       <Host>localhost</Host>
     </user>
-    <table id="308" parent="293" name="fima_nfip_claims">
+    <routine id="309" parent="288" name="prescribe">
+      <Definer>root@localhost</Definer>
+      <DetailsLevel>3</DetailsLevel>
+      <RoutineKind>procedure</RoutineKind>
+      <SourceTextLength>3204</SourceTextLength>
+    </routine>
+    <table id="310" parent="288" name="diagnosis">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="309" parent="293" name="fips_code_refs">
+    <table id="311" parent="288" name="disease">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="310" parent="293" name="inflation_cpi">
+    <table id="312" parent="288" name="doctor">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="311" parent="293" name="nanda_land_cover">
+    <table id="313" parent="288" name="interaction">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="312" parent="293" name="zip_to_zcta">
+    <table id="314" parent="288" name="medication">
       <DetailsLevel>3</DetailsLevel>
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="313" parent="308" name="asOfDate">
+    <table id="315" parent="288" name="patient">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="316" parent="288" name="prescription">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="317" parent="288" name="recommendation">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="318" parent="288" name="specialty">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="319" parent="293" name="fima_nfip_claims">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="320" parent="293" name="fips_code_refs">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="321" parent="293" name="inflation_cpi">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="322" parent="293" name="nanda_land_cover">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="323" parent="293" name="zip_to_zcta">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="324" parent="294" name="fima_nfip_claims">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="325" parent="294" name="fips_code_refs">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="326" parent="294" name="inflation_cpi">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="327" parent="294" name="nanda_land_cover">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="328" parent="294" name="zip_to_zcta">
+      <DetailsLevel>3</DetailsLevel>
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <argument id="329" parent="309" name="patient_name_param">
+      <Position>1</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </argument>
+    <argument id="330" parent="309" name="doctor_name_param">
+      <Position>2</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </argument>
+    <argument id="331" parent="309" name="medication_name_param">
+      <Position>3</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </argument>
+    <argument id="332" parent="309" name="ppd_param">
+      <Position>4</Position>
+      <StoredType>int|0s</StoredType>
+    </argument>
+    <column id="333" parent="310" name="doctor_id">
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="334" parent="310" name="patient_id">
+      <Position>2</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="335" parent="310" name="disease_id">
+      <Position>3</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="336" parent="310" name="diagnosis_date">
+      <Position>4</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <foreign-key id="337" parent="310" name="fk_diag_doc">
+      <ColNames>doctor_id</ColNames>
+      <RefColNames>doctor_id</RefColNames>
+      <RefTableName>doctor</RefTableName>
+    </foreign-key>
+    <foreign-key id="338" parent="310" name="fk_diag_pat">
+      <ColNames>patient_id</ColNames>
+      <RefColNames>patient_id</RefColNames>
+      <RefTableName>patient</RefTableName>
+    </foreign-key>
+    <foreign-key id="339" parent="310" name="fk_diag_dis">
+      <ColNames>disease_id</ColNames>
+      <RefColNames>disease_id</RefColNames>
+      <RefTableName>disease</RefTableName>
+    </foreign-key>
+    <index id="340" parent="310" name="fk_diag_doc">
+      <ColNames>doctor_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="341" parent="310" name="fk_diag_pat">
+      <ColNames>patient_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="342" parent="310" name="fk_diag_dis">
+      <ColNames>disease_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="343" parent="311" name="disease_id">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="344" parent="311" name="disease_name">
+      <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <index id="345" parent="311" name="PRIMARY">
+      <ColNames>disease_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="346" parent="311" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="347" parent="312" name="doctor_id">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="348" parent="312" name="doctor_name">
+      <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <column id="349" parent="312" name="specialty_id">
+      <Position>3</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <foreign-key id="350" parent="312" name="fk_doctor_spec">
+      <ColNames>specialty_id</ColNames>
+      <RefColNames>specialty_id</RefColNames>
+      <RefTableName>specialty</RefTableName>
+    </foreign-key>
+    <index id="351" parent="312" name="PRIMARY">
+      <ColNames>doctor_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="352" parent="312" name="fk_doctor_spec">
+      <ColNames>specialty_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="353" parent="312" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="354" parent="313" name="medication_1">
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="355" parent="313" name="medication_2">
+      <Position>2</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <foreign-key id="356" parent="313" name="fk_interaction_med1">
+      <ColNames>medication_1</ColNames>
+      <RefColNames>medication_id</RefColNames>
+      <RefTableName>medication</RefTableName>
+    </foreign-key>
+    <foreign-key id="357" parent="313" name="fk_interaction_med2">
+      <ColNames>medication_2</ColNames>
+      <RefColNames>medication_id</RefColNames>
+      <RefTableName>medication</RefTableName>
+    </foreign-key>
+    <index id="358" parent="313" name="fk_interaction_med1">
+      <ColNames>medication_1</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="359" parent="313" name="fk_interaction_med2">
+      <ColNames>medication_2</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="360" parent="314" name="medication_id">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="361" parent="314" name="medication_name">
+      <Position>2</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="362" parent="314" name="take_under_12">
+      <DefaultExpression>0</DefaultExpression>
+      <Position>3</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="363" parent="314" name="take_if_pregnant">
+      <DefaultExpression>0</DefaultExpression>
+      <Position>4</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="364" parent="314" name="mg_per_pill">
+      <Position>5</Position>
+      <StoredType>double|0s</StoredType>
+    </column>
+    <column id="365" parent="314" name="max_mg_per_10kg">
+      <Position>6</Position>
+      <StoredType>double|0s</StoredType>
+    </column>
+    <index id="366" parent="314" name="PRIMARY">
+      <ColNames>medication_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="367" parent="314" name="medication_name">
+      <ColNames>medication_name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="368" parent="314" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="369" parent="314" name="medication_name">
+      <UnderlyingIndexName>medication_name</UnderlyingIndexName>
+    </key>
+    <column id="370" parent="315" name="patient_id">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="371" parent="315" name="patient_name">
+      <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <column id="372" parent="315" name="sex">
+      <Position>3</Position>
+      <StoredType>char(1)|0s</StoredType>
+    </column>
+    <column id="373" parent="315" name="is_pregnant">
+      <DefaultExpression>0</DefaultExpression>
+      <Position>4</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="374" parent="315" name="flushot">
+      <Position>5</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="375" parent="315" name="state">
+      <Position>6</Position>
+      <StoredType>char(2)|0s</StoredType>
+    </column>
+    <column id="376" parent="315" name="dob">
+      <Position>7</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <column id="377" parent="315" name="height">
+      <Position>8</Position>
+      <StoredType>float|0s</StoredType>
+    </column>
+    <column id="378" parent="315" name="weight">
+      <Position>9</Position>
+      <StoredType>float|0s</StoredType>
+    </column>
+    <column id="379" parent="315" name="pcp_id">
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <foreign-key id="380" parent="315" name="fk_patient_pcp">
+      <ColNames>pcp_id</ColNames>
+      <RefColNames>doctor_id</RefColNames>
+      <RefTableName>doctor</RefTableName>
+    </foreign-key>
+    <index id="381" parent="315" name="PRIMARY">
+      <ColNames>patient_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="382" parent="315" name="fk_patient_pcp">
+      <ColNames>pcp_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="383" parent="315" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <trigger id="384" parent="315" name="patient_after_update_pregnant">
+      <Definer>root@localhost</Definer>
+      <Events>U</Events>
+      <SourceTextLength>810</SourceTextLength>
+    </trigger>
+    <column id="385" parent="316" name="medication_id">
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="386" parent="316" name="patient_id">
+      <Position>2</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="387" parent="316" name="doctor_id">
+      <Position>3</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="388" parent="316" name="prescription_dt">
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <Position>4</Position>
+      <StoredType>datetime|0s</StoredType>
+    </column>
+    <column id="389" parent="316" name="ppd">
+      <Position>5</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <foreign-key id="390" parent="316" name="fk_prescription_medication">
+      <ColNames>medication_id</ColNames>
+      <RefColNames>medication_id</RefColNames>
+      <RefTableName>medication</RefTableName>
+    </foreign-key>
+    <foreign-key id="391" parent="316" name="fk_prescription_patient">
+      <ColNames>patient_id</ColNames>
+      <RefColNames>patient_id</RefColNames>
+      <RefTableName>patient</RefTableName>
+    </foreign-key>
+    <foreign-key id="392" parent="316" name="fk_prescription_doctor">
+      <ColNames>doctor_id</ColNames>
+      <RefColNames>doctor_id</RefColNames>
+      <RefTableName>doctor</RefTableName>
+    </foreign-key>
+    <index id="393" parent="316" name="fk_prescription_medication">
+      <ColNames>medication_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="394" parent="316" name="fk_prescription_patient">
+      <ColNames>patient_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="395" parent="316" name="fk_prescription_doctor">
+      <ColNames>doctor_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="396" parent="317" name="patient_id">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="397" parent="317" name="message">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <foreign-key id="398" parent="317" name="fk_recommendations">
+      <ColNames>patient_id</ColNames>
+      <RefColNames>patient_id</RefColNames>
+      <RefTableName>patient</RefTableName>
+    </foreign-key>
+    <index id="399" parent="317" name="fk_recommendations">
+      <ColNames>patient_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <column id="400" parent="318" name="specialty_id">
+      <AutoIncrement>6</AutoIncrement>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="401" parent="318" name="specialty_name">
+      <Position>2</Position>
+      <StoredType>varchar(20)|0s</StoredType>
+    </column>
+    <index id="402" parent="318" name="PRIMARY">
+      <ColNames>specialty_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="403" parent="318" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="404" parent="319" name="asOfDate">
       <Position>1</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="314" parent="308" name="amountPaidOnBuildingClaim">
+    <column id="405" parent="319" name="amountPaidOnBuildingClaim">
       <Position>2</Position>
       <StoredType>decimal(12,2 digit)|0s</StoredType>
     </column>
-    <column id="315" parent="308" name="amountPaidOnContentsClaim">
+    <column id="406" parent="319" name="amountPaidOnContentsClaim">
       <Position>3</Position>
       <StoredType>decimal(12,2 digit)|0s</StoredType>
     </column>
-    <column id="316" parent="308" name="amountPaidOnIncreasedCostOfComplianceClaim">
+    <column id="407" parent="319" name="amountPaidOnIncreasedCostOfComplianceClaim">
       <Position>4</Position>
       <StoredType>decimal(12,2 digit)|0s</StoredType>
     </column>
-    <column id="317" parent="308" name="netBuildingPaymentAmount">
+    <column id="408" parent="319" name="netBuildingPaymentAmount">
       <Position>5</Position>
       <StoredType>decimal(12,2 digit)|0s</StoredType>
     </column>
-    <column id="318" parent="308" name="netContentsPaymentAmount">
+    <column id="409" parent="319" name="netContentsPaymentAmount">
       <Position>6</Position>
       <StoredType>decimal(12,2 digit)|0s</StoredType>
     </column>
-    <column id="319" parent="308" name="agricultureStructureIndicator">
+    <column id="410" parent="319" name="agricultureStructureIndicator">
       <Position>7</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="320" parent="308" name="basementEnclosureCrawlspaceType">
+    <column id="411" parent="319" name="basementEnclosureCrawlspaceType">
       <Position>8</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="321" parent="308" name="policyCount">
+    <column id="412" parent="319" name="policyCount">
       <Position>9</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="322" parent="308" name="crsClassificationCode">
+    <column id="413" parent="319" name="crsClassificationCode">
       <Position>10</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="323" parent="308" name="dateOfLoss">
+    <column id="414" parent="319" name="dateOfLoss">
       <Position>11</Position>
       <StoredType>datetime|0s</StoredType>
     </column>
-    <column id="324" parent="308" name="elevatedBuildingIndicator">
+    <column id="415" parent="319" name="elevatedBuildingIndicator">
       <Position>12</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="325" parent="308" name="elevationCertificateIndicator">
+    <column id="416" parent="319" name="elevationCertificateIndicator">
       <Position>13</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="326" parent="308" name="elevationDifference">
+    <column id="417" parent="319" name="elevationDifference">
       <Position>14</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="327" parent="308" name="baseFloodElevation">
+    <column id="418" parent="319" name="baseFloodElevation">
       <Position>15</Position>
       <StoredType>decimal(6,1 digit)|0s</StoredType>
     </column>
-    <column id="328" parent="308" name="ratedFloodZone">
+    <column id="419" parent="319" name="ratedFloodZone">
       <Position>16</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="329" parent="308" name="houseWorship">
+    <column id="420" parent="319" name="houseWorship">
       <Position>17</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="330" parent="308" name="locationOfContents">
+    <column id="421" parent="319" name="locationOfContents">
       <Position>18</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="331" parent="308" name="lowestAdjacentGrade">
+    <column id="422" parent="319" name="lowestAdjacentGrade">
       <Position>19</Position>
       <StoredType>decimal(6,1 digit)|0s</StoredType>
     </column>
-    <column id="332" parent="308" name="lowestFloorElevation">
+    <column id="423" parent="319" name="lowestFloorElevation">
       <Position>20</Position>
       <StoredType>decimal(6,1 digit)|0s</StoredType>
     </column>
-    <column id="333" parent="308" name="numberOfFloorsInTheInsuredBuilding">
+    <column id="424" parent="319" name="numberOfFloorsInTheInsuredBuilding">
       <Position>21</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="334" parent="308" name="nonProfitIndicator">
+    <column id="425" parent="319" name="nonProfitIndicator">
       <Position>22</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="335" parent="308" name="obstructionType">
+    <column id="426" parent="319" name="obstructionType">
       <Position>23</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="336" parent="308" name="occupancyType">
+    <column id="427" parent="319" name="occupancyType">
       <Position>24</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="337" parent="308" name="originalConstructionDate">
+    <column id="428" parent="319" name="originalConstructionDate">
       <Position>25</Position>
       <StoredType>date|0s</StoredType>
     </column>
-    <column id="338" parent="308" name="originalNBDate">
+    <column id="429" parent="319" name="originalNBDate">
       <Position>26</Position>
       <StoredType>date|0s</StoredType>
     </column>
-    <column id="339" parent="308" name="postFIRMConstructionIndicator">
+    <column id="430" parent="319" name="postFIRMConstructionIndicator">
       <Position>27</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="340" parent="308" name="rateMethod">
+    <column id="431" parent="319" name="rateMethod">
       <Position>28</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="341" parent="308" name="smallBusinessIndicatorBuilding">
+    <column id="432" parent="319" name="smallBusinessIndicatorBuilding">
       <Position>29</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="342" parent="308" name="totalBuildingInsuranceCoverage">
+    <column id="433" parent="319" name="totalBuildingInsuranceCoverage">
       <Position>30</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="343" parent="308" name="totalContentsInsuranceCoverage">
+    <column id="434" parent="319" name="totalContentsInsuranceCoverage">
       <Position>31</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="344" parent="308" name="yearOfLoss">
+    <column id="435" parent="319" name="yearOfLoss">
       <Position>32</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="345" parent="308" name="primaryResidenceIndicator">
+    <column id="436" parent="319" name="primaryResidenceIndicator">
       <Position>33</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="346" parent="308" name="buildingDamageAmount">
+    <column id="437" parent="319" name="buildingDamageAmount">
       <Position>34</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="347" parent="308" name="buildingDeductibleCode">
+    <column id="438" parent="319" name="buildingDeductibleCode">
       <Position>35</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="348" parent="308" name="buildingPropertyValue">
+    <column id="439" parent="319" name="buildingPropertyValue">
       <Position>36</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="349" parent="308" name="causeOfDamage">
+    <column id="440" parent="319" name="causeOfDamage">
       <Position>37</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="350" parent="308" name="condominiumCoverageTypeCode">
+    <column id="441" parent="319" name="condominiumCoverageTypeCode">
       <Position>38</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="351" parent="308" name="contentsDamageAmount">
+    <column id="442" parent="319" name="contentsDamageAmount">
       <Position>39</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="352" parent="308" name="contentsDeductibleCode">
+    <column id="443" parent="319" name="contentsDeductibleCode">
       <Position>40</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="353" parent="308" name="contentsPropertyValue">
+    <column id="444" parent="319" name="contentsPropertyValue">
       <Position>41</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="354" parent="308" name="disasterAssistanceCoverageRequired">
+    <column id="445" parent="319" name="disasterAssistanceCoverageRequired">
       <Position>42</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="355" parent="308" name="eventDesignationNumber">
+    <column id="446" parent="319" name="eventDesignationNumber">
       <Position>43</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="356" parent="308" name="ficoNumber">
+    <column id="447" parent="319" name="ficoNumber">
       <Position>44</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="357" parent="308" name="floodCharacteristicsIndicator">
+    <column id="448" parent="319" name="floodCharacteristicsIndicator">
       <Position>45</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="358" parent="308" name="floodWaterDuration">
+    <column id="449" parent="319" name="floodWaterDuration">
       <Position>46</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="359" parent="308" name="floodproofedIndicator">
+    <column id="450" parent="319" name="floodproofedIndicator">
       <Position>47</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="360" parent="308" name="floodEvent">
+    <column id="451" parent="319" name="floodEvent">
       <Position>48</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="361" parent="308" name="iccCoverage">
+    <column id="452" parent="319" name="iccCoverage">
       <Position>49</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="362" parent="308" name="netIccPaymentAmount">
+    <column id="453" parent="319" name="netIccPaymentAmount">
       <Position>50</Position>
       <StoredType>decimal(8,2 digit)|0s</StoredType>
     </column>
-    <column id="363" parent="308" name="nfipRatedCommunityNumber">
+    <column id="454" parent="319" name="nfipRatedCommunityNumber">
       <Position>51</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="364" parent="308" name="nfipCommunityNumberCurrent">
+    <column id="455" parent="319" name="nfipCommunityNumberCurrent">
       <Position>52</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="365" parent="308" name="nfipCommunityName">
+    <column id="456" parent="319" name="nfipCommunityName">
       <Position>53</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="366" parent="308" name="nonPaymentReasonContents">
+    <column id="457" parent="319" name="nonPaymentReasonContents">
       <Position>54</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="367" parent="308" name="nonPaymentReasonBuilding">
+    <column id="458" parent="319" name="nonPaymentReasonBuilding">
       <Position>55</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="368" parent="308" name="numberOfUnits">
+    <column id="459" parent="319" name="numberOfUnits">
       <Position>56</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="369" parent="308" name="buildingReplacementCost">
+    <column id="460" parent="319" name="buildingReplacementCost">
       <Position>57</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="370" parent="308" name="contentsReplacementCost">
+    <column id="461" parent="319" name="contentsReplacementCost">
       <Position>58</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="371" parent="308" name="replacementCostBasis">
+    <column id="462" parent="319" name="replacementCostBasis">
       <Position>59</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="372" parent="308" name="stateOwnedIndicator">
+    <column id="463" parent="319" name="stateOwnedIndicator">
       <Position>60</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="373" parent="308" name="waterDepth">
+    <column id="464" parent="319" name="waterDepth">
       <Position>61</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="374" parent="308" name="floodZoneCurrent">
+    <column id="465" parent="319" name="floodZoneCurrent">
       <Position>62</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="375" parent="308" name="buildingDescriptionCode">
+    <column id="466" parent="319" name="buildingDescriptionCode">
       <Position>63</Position>
       <StoredType>smallint|0s</StoredType>
     </column>
-    <column id="376" parent="308" name="rentalPropertyIndicator">
+    <column id="467" parent="319" name="rentalPropertyIndicator">
       <Position>64</Position>
       <StoredType>tinyint(1)|0s</StoredType>
     </column>
-    <column id="377" parent="308" name="state">
+    <column id="468" parent="319" name="state">
       <Position>65</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="378" parent="308" name="reportedCity">
+    <column id="469" parent="319" name="reportedCity">
       <Position>66</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="379" parent="308" name="reportedZipCode">
+    <column id="470" parent="319" name="reportedZipCode">
       <Position>67</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="380" parent="308" name="countyCode">
+    <column id="471" parent="319" name="countyCode">
       <Position>68</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="381" parent="308" name="censusTract">
+    <column id="472" parent="319" name="censusTract">
       <Position>69</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="382" parent="308" name="censusBlockGroupFips">
+    <column id="473" parent="319" name="censusBlockGroupFips">
       <Position>70</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="383" parent="308" name="latitude">
+    <column id="474" parent="319" name="latitude">
       <Position>71</Position>
       <StoredType>decimal(9,1 digit)|0s</StoredType>
     </column>
-    <column id="384" parent="308" name="longitude">
+    <column id="475" parent="319" name="longitude">
       <Position>72</Position>
       <StoredType>decimal(9,1 digit)|0s</StoredType>
     </column>
-    <column id="385" parent="308" name="id">
+    <column id="476" parent="319" name="id">
       <NotNull>1</NotNull>
       <Position>73</Position>
       <StoredType>varchar(255)|0s</StoredType>
     </column>
-    <column id="386" parent="308" name="clean_zip">
+    <column id="477" parent="319" name="clean_zip">
       <ColumnKind>generated-stored</ColumnKind>
       <DefaultExpression>left(trim(`reportedZipCode`),5)</DefaultExpression>
       <Position>74</Position>
       <StoredType>char(5)|0s</StoredType>
     </column>
-    <index id="387" parent="308" name="PRIMARY">
+    <index id="478" parent="319" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="388" parent="308" name="idx_year_of_loss">
+    <index id="479" parent="319" name="idx_year_of_loss">
       <ColNames>yearOfLoss</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="389" parent="308" name="idx_zip_year">
+    <index id="480" parent="319" name="idx_zip_year">
       <ColNames>reportedZipCode
 yearOfLoss</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="390" parent="308" name="idx_fima_clean_zip">
+    <index id="481" parent="319" name="idx_fima_clean_zip">
       <ColNames>clean_zip</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="391" parent="308" name="PRIMARY">
+    <key id="482" parent="319" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="392" parent="309" name="State Name">
+    <column id="483" parent="320" name="State Name">
       <Position>1</Position>
       <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <column id="393" parent="309" name="County Name">
+    <column id="484" parent="320" name="County Name">
       <Position>2</Position>
       <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <column id="394" parent="309" name="City Name">
+    <column id="485" parent="320" name="City Name">
       <Position>3</Position>
       <StoredType>varchar(100)|0s</StoredType>
     </column>
-    <column id="395" parent="309" name="State Code">
+    <column id="486" parent="320" name="State Code">
       <Position>4</Position>
       <StoredType>varchar(10)|0s</StoredType>
     </column>
-    <column id="396" parent="309" name="State FIPS Code">
+    <column id="487" parent="320" name="State FIPS Code">
       <Position>5</Position>
       <StoredType>varchar(10)|0s</StoredType>
     </column>
-    <column id="397" parent="309" name="County Code">
+    <column id="488" parent="320" name="County Code">
       <Position>6</Position>
       <StoredType>varchar(10)|0s</StoredType>
     </column>
-    <column id="398" parent="309" name="StCnty FIPS Code">
+    <column id="489" parent="320" name="StCnty FIPS Code">
       <Position>7</Position>
       <StoredType>varchar(20)|0s</StoredType>
     </column>
-    <column id="399" parent="309" name="City Code">
+    <column id="490" parent="320" name="City Code">
       <Position>8</Position>
       <StoredType>varchar(10)|0s</StoredType>
     </column>
-    <column id="400" parent="309" name="StCntyCity FIPS Code">
+    <column id="491" parent="320" name="StCntyCity FIPS Code">
       <Position>9</Position>
       <StoredType>varchar(30)|0s</StoredType>
     </column>
-    <column id="401" parent="310" name="observation_date">
+    <column id="492" parent="321" name="observation_date">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>date|0s</StoredType>
     </column>
-    <column id="402" parent="310" name="cpi_value">
+    <column id="493" parent="321" name="cpi_value">
       <Position>2</Position>
       <StoredType>decimal(10,3 digit)|0s</StoredType>
     </column>
-    <column id="403" parent="310" name="cpi_year">
+    <column id="494" parent="321" name="cpi_year">
       <ColumnKind>generated-stored</ColumnKind>
       <DefaultExpression>year(`observation_date`)</DefaultExpression>
       <Position>3</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <index id="404" parent="310" name="PRIMARY">
+    <index id="495" parent="321" name="PRIMARY">
       <ColNames>observation_date</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="405" parent="310" name="PRIMARY">
+    <key id="496" parent="321" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="406" parent="311" name="ZCTA20">
+    <column id="497" parent="322" name="ZCTA20">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>varchar(5)|0s</StoredType>
     </column>
-    <column id="407" parent="311" name="YEAR">
+    <column id="498" parent="322" name="YEAR">
       <NotNull>1</NotNull>
       <Position>2</Position>
       <StoredType>int|0s</StoredType>
     </column>
-    <column id="408" parent="311" name="OPENWATER">
+    <column id="499" parent="322" name="OPENWATER">
       <Position>3</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="409" parent="311" name="PROP_OPENWATER">
+    <column id="500" parent="322" name="PROP_OPENWATER">
       <Position>4</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="410" parent="311" name="PER_ICESNOW">
+    <column id="501" parent="322" name="PER_ICESNOW">
       <Position>5</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="411" parent="311" name="PROP_PER_ICESNOW">
+    <column id="502" parent="322" name="PROP_PER_ICESNOW">
       <Position>6</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="412" parent="311" name="DEV_OPENSPACE">
+    <column id="503" parent="322" name="DEV_OPENSPACE">
       <Position>7</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="413" parent="311" name="PROP_DEV_OPENSPACE">
+    <column id="504" parent="322" name="PROP_DEV_OPENSPACE">
       <Position>8</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="414" parent="311" name="DEV_LOWINTENSITY">
+    <column id="505" parent="322" name="DEV_LOWINTENSITY">
       <Position>9</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="415" parent="311" name="PROP_DEV_LOWINTENSITY">
+    <column id="506" parent="322" name="PROP_DEV_LOWINTENSITY">
       <Position>10</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="416" parent="311" name="DEV_MEDINTENSITY">
+    <column id="507" parent="322" name="DEV_MEDINTENSITY">
       <Position>11</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="417" parent="311" name="PROP_DEV_MEDINTENSITY">
+    <column id="508" parent="322" name="PROP_DEV_MEDINTENSITY">
       <Position>12</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="418" parent="311" name="DEV_HIINTENSITY">
+    <column id="509" parent="322" name="DEV_HIINTENSITY">
       <Position>13</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="419" parent="311" name="PROP_DEV_HIINTENSITY">
+    <column id="510" parent="322" name="PROP_DEV_HIINTENSITY">
       <Position>14</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="420" parent="311" name="BARREN">
+    <column id="511" parent="322" name="BARREN">
       <Position>15</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="421" parent="311" name="PROP_BARREN">
+    <column id="512" parent="322" name="PROP_BARREN">
       <Position>16</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="422" parent="311" name="DECIDUOUSFOREST">
+    <column id="513" parent="322" name="DECIDUOUSFOREST">
       <Position>17</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="423" parent="311" name="PROP_DECIDUOUSFOREST">
+    <column id="514" parent="322" name="PROP_DECIDUOUSFOREST">
       <Position>18</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="424" parent="311" name="EVERGREENFOREST">
+    <column id="515" parent="322" name="EVERGREENFOREST">
       <Position>19</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="425" parent="311" name="PROP_EVERGREENFOREST">
+    <column id="516" parent="322" name="PROP_EVERGREENFOREST">
       <Position>20</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="426" parent="311" name="MIXEDFOREST">
+    <column id="517" parent="322" name="MIXEDFOREST">
       <Position>21</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="427" parent="311" name="PROP_MIXEDFOREST">
+    <column id="518" parent="322" name="PROP_MIXEDFOREST">
       <Position>22</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="428" parent="311" name="SHRUBSCRUB">
+    <column id="519" parent="322" name="SHRUBSCRUB">
       <Position>23</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="429" parent="311" name="PROP_SHRUBSCRUB">
+    <column id="520" parent="322" name="PROP_SHRUBSCRUB">
       <Position>24</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="430" parent="311" name="GRASSHERB">
+    <column id="521" parent="322" name="GRASSHERB">
       <Position>25</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="431" parent="311" name="PROP_GRASSHERB">
+    <column id="522" parent="322" name="PROP_GRASSHERB">
       <Position>26</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="432" parent="311" name="PASTUREHAY">
+    <column id="523" parent="322" name="PASTUREHAY">
       <Position>27</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="433" parent="311" name="PROP_PASTUREHAY">
+    <column id="524" parent="322" name="PROP_PASTUREHAY">
       <Position>28</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="434" parent="311" name="CULTCROPS">
+    <column id="525" parent="322" name="CULTCROPS">
       <Position>29</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="435" parent="311" name="PROP_CULTCROPS">
+    <column id="526" parent="322" name="PROP_CULTCROPS">
       <Position>30</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="436" parent="311" name="WOODYWET">
+    <column id="527" parent="322" name="WOODYWET">
       <Position>31</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="437" parent="311" name="PROP_WOODYWET">
+    <column id="528" parent="322" name="PROP_WOODYWET">
       <Position>32</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <column id="438" parent="311" name="HERBWET">
+    <column id="529" parent="322" name="HERBWET">
       <Position>33</Position>
       <StoredType>bigint|0s</StoredType>
     </column>
-    <column id="439" parent="311" name="PROP_HERBWET">
+    <column id="530" parent="322" name="PROP_HERBWET">
       <Position>34</Position>
       <StoredType>decimal(15,13 digit)|0s</StoredType>
     </column>
-    <index id="440" parent="311" name="PRIMARY">
+    <index id="531" parent="322" name="PRIMARY">
       <ColNames>ZCTA20
 YEAR</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="441" parent="311" name="PRIMARY">
+    <key id="532" parent="322" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="442" parent="312" name="zip_code">
+    <column id="533" parent="323" name="zip_code">
       <NotNull>1</NotNull>
       <Position>1</Position>
       <StoredType>char(5)|0s</StoredType>
     </column>
-    <column id="443" parent="312" name="po_name">
+    <column id="534" parent="323" name="po_name">
       <Position>2</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="444" parent="312" name="state">
+    <column id="535" parent="323" name="state">
       <Position>3</Position>
       <StoredType>char(2)|0s</StoredType>
     </column>
-    <column id="445" parent="312" name="zip_type">
+    <column id="536" parent="323" name="zip_type">
       <Position>4</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <column id="446" parent="312" name="zcta">
+    <column id="537" parent="323" name="zcta">
       <Position>5</Position>
       <StoredType>char(5)|0s</StoredType>
     </column>
-    <column id="447" parent="312" name="zip_join_type">
+    <column id="538" parent="323" name="zip_join_type">
       <Position>6</Position>
       <StoredType>varchar(50)|0s</StoredType>
     </column>
-    <index id="448" parent="312" name="PRIMARY">
+    <index id="539" parent="323" name="PRIMARY">
       <ColNames>zip_code</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="449" parent="312" name="idx_ztz_lookup">
+    <index id="540" parent="323" name="idx_ztz_lookup">
       <ColNames>zip_code
 zcta</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="450" parent="312" name="idx_ztz_reverse">
+    <index id="541" parent="323" name="idx_ztz_reverse">
       <ColNames>zcta
 zip_code</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="451" parent="312" name="idx_zcta">
+    <index id="542" parent="323" name="idx_zcta">
       <ColNames>zcta</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="452" parent="312" name="PRIMARY">
+    <key id="543" parent="323" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="544" parent="324" name="asOfDate">
+      <Position>1</Position>
+      <StoredType>datetime|0s</StoredType>
+    </column>
+    <column id="545" parent="324" name="amountPaidOnBuildingClaim">
+      <Position>2</Position>
+      <StoredType>decimal(12,2 digit)|0s</StoredType>
+    </column>
+    <column id="546" parent="324" name="amountPaidOnContentsClaim">
+      <Position>3</Position>
+      <StoredType>decimal(12,2 digit)|0s</StoredType>
+    </column>
+    <column id="547" parent="324" name="amountPaidOnIncreasedCostOfComplianceClaim">
+      <Position>4</Position>
+      <StoredType>decimal(12,2 digit)|0s</StoredType>
+    </column>
+    <column id="548" parent="324" name="netBuildingPaymentAmount">
+      <Position>5</Position>
+      <StoredType>decimal(12,2 digit)|0s</StoredType>
+    </column>
+    <column id="549" parent="324" name="netContentsPaymentAmount">
+      <Position>6</Position>
+      <StoredType>decimal(12,2 digit)|0s</StoredType>
+    </column>
+    <column id="550" parent="324" name="agricultureStructureIndicator">
+      <Position>7</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="551" parent="324" name="basementEnclosureCrawlspaceType">
+      <Position>8</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="552" parent="324" name="policyCount">
+      <Position>9</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="553" parent="324" name="crsClassificationCode">
+      <Position>10</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="554" parent="324" name="dateOfLoss">
+      <Position>11</Position>
+      <StoredType>datetime|0s</StoredType>
+    </column>
+    <column id="555" parent="324" name="elevatedBuildingIndicator">
+      <Position>12</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="556" parent="324" name="elevationCertificateIndicator">
+      <Position>13</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="557" parent="324" name="elevationDifference">
+      <Position>14</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="558" parent="324" name="baseFloodElevation">
+      <Position>15</Position>
+      <StoredType>decimal(6,1 digit)|0s</StoredType>
+    </column>
+    <column id="559" parent="324" name="ratedFloodZone">
+      <Position>16</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="560" parent="324" name="houseWorship">
+      <Position>17</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="561" parent="324" name="locationOfContents">
+      <Position>18</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="562" parent="324" name="lowestAdjacentGrade">
+      <Position>19</Position>
+      <StoredType>decimal(6,1 digit)|0s</StoredType>
+    </column>
+    <column id="563" parent="324" name="lowestFloorElevation">
+      <Position>20</Position>
+      <StoredType>decimal(6,1 digit)|0s</StoredType>
+    </column>
+    <column id="564" parent="324" name="numberOfFloorsInTheInsuredBuilding">
+      <Position>21</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="565" parent="324" name="nonProfitIndicator">
+      <Position>22</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="566" parent="324" name="obstructionType">
+      <Position>23</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="567" parent="324" name="occupancyType">
+      <Position>24</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="568" parent="324" name="originalConstructionDate">
+      <Position>25</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <column id="569" parent="324" name="originalNBDate">
+      <Position>26</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <column id="570" parent="324" name="postFIRMConstructionIndicator">
+      <Position>27</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="571" parent="324" name="rateMethod">
+      <Position>28</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="572" parent="324" name="smallBusinessIndicatorBuilding">
+      <Position>29</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="573" parent="324" name="totalBuildingInsuranceCoverage">
+      <Position>30</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="574" parent="324" name="totalContentsInsuranceCoverage">
+      <Position>31</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="575" parent="324" name="yearOfLoss">
+      <Position>32</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="576" parent="324" name="primaryResidenceIndicator">
+      <Position>33</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="577" parent="324" name="buildingDamageAmount">
+      <Position>34</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="578" parent="324" name="buildingDeductibleCode">
+      <Position>35</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="579" parent="324" name="buildingPropertyValue">
+      <Position>36</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="580" parent="324" name="causeOfDamage">
+      <Position>37</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="581" parent="324" name="condominiumCoverageTypeCode">
+      <Position>38</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="582" parent="324" name="contentsDamageAmount">
+      <Position>39</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="583" parent="324" name="contentsDeductibleCode">
+      <Position>40</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="584" parent="324" name="contentsPropertyValue">
+      <Position>41</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="585" parent="324" name="disasterAssistanceCoverageRequired">
+      <Position>42</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="586" parent="324" name="eventDesignationNumber">
+      <Position>43</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="587" parent="324" name="ficoNumber">
+      <Position>44</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="588" parent="324" name="floodCharacteristicsIndicator">
+      <Position>45</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="589" parent="324" name="floodWaterDuration">
+      <Position>46</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="590" parent="324" name="floodproofedIndicator">
+      <Position>47</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="591" parent="324" name="floodEvent">
+      <Position>48</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="592" parent="324" name="iccCoverage">
+      <Position>49</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="593" parent="324" name="netIccPaymentAmount">
+      <Position>50</Position>
+      <StoredType>decimal(8,2 digit)|0s</StoredType>
+    </column>
+    <column id="594" parent="324" name="nfipRatedCommunityNumber">
+      <Position>51</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="595" parent="324" name="nfipCommunityNumberCurrent">
+      <Position>52</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="596" parent="324" name="nfipCommunityName">
+      <Position>53</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="597" parent="324" name="nonPaymentReasonContents">
+      <Position>54</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="598" parent="324" name="nonPaymentReasonBuilding">
+      <Position>55</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="599" parent="324" name="numberOfUnits">
+      <Position>56</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="600" parent="324" name="buildingReplacementCost">
+      <Position>57</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="601" parent="324" name="contentsReplacementCost">
+      <Position>58</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="602" parent="324" name="replacementCostBasis">
+      <Position>59</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="603" parent="324" name="stateOwnedIndicator">
+      <Position>60</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="604" parent="324" name="waterDepth">
+      <Position>61</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="605" parent="324" name="floodZoneCurrent">
+      <Position>62</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="606" parent="324" name="buildingDescriptionCode">
+      <Position>63</Position>
+      <StoredType>smallint|0s</StoredType>
+    </column>
+    <column id="607" parent="324" name="rentalPropertyIndicator">
+      <Position>64</Position>
+      <StoredType>tinyint(1)|0s</StoredType>
+    </column>
+    <column id="608" parent="324" name="state">
+      <Position>65</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="609" parent="324" name="reportedCity">
+      <Position>66</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="610" parent="324" name="reportedZipCode">
+      <Position>67</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="611" parent="324" name="countyCode">
+      <Position>68</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="612" parent="324" name="censusTract">
+      <Position>69</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="613" parent="324" name="censusBlockGroupFips">
+      <Position>70</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="614" parent="324" name="latitude">
+      <Position>71</Position>
+      <StoredType>decimal(9,1 digit)|0s</StoredType>
+    </column>
+    <column id="615" parent="324" name="longitude">
+      <Position>72</Position>
+      <StoredType>decimal(9,1 digit)|0s</StoredType>
+    </column>
+    <column id="616" parent="324" name="id">
+      <NotNull>1</NotNull>
+      <Position>73</Position>
+      <StoredType>varchar(255)|0s</StoredType>
+    </column>
+    <column id="617" parent="324" name="clean_zip">
+      <ColumnKind>generated-stored</ColumnKind>
+      <DefaultExpression>left(trim(`reportedZipCode`),5)</DefaultExpression>
+      <Position>74</Position>
+      <StoredType>char(5)|0s</StoredType>
+    </column>
+    <index id="618" parent="324" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="619" parent="324" name="idx_year_of_loss">
+      <ColNames>yearOfLoss</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="620" parent="324" name="idx_zip_year">
+      <ColNames>reportedZipCode
+yearOfLoss</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="621" parent="324" name="idx_fima_clean_zip">
+      <ColNames>clean_zip</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="622" parent="324" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="623" parent="325" name="State Name">
+      <Position>1</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <column id="624" parent="325" name="County Name">
+      <Position>2</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <column id="625" parent="325" name="City Name">
+      <Position>3</Position>
+      <StoredType>varchar(100)|0s</StoredType>
+    </column>
+    <column id="626" parent="325" name="State Code">
+      <Position>4</Position>
+      <StoredType>varchar(10)|0s</StoredType>
+    </column>
+    <column id="627" parent="325" name="State FIPS Code">
+      <Position>5</Position>
+      <StoredType>varchar(10)|0s</StoredType>
+    </column>
+    <column id="628" parent="325" name="County Code">
+      <Position>6</Position>
+      <StoredType>varchar(10)|0s</StoredType>
+    </column>
+    <column id="629" parent="325" name="StCnty FIPS Code">
+      <Position>7</Position>
+      <StoredType>varchar(20)|0s</StoredType>
+    </column>
+    <column id="630" parent="325" name="City Code">
+      <Position>8</Position>
+      <StoredType>varchar(10)|0s</StoredType>
+    </column>
+    <column id="631" parent="325" name="StCntyCity FIPS Code">
+      <Position>9</Position>
+      <StoredType>varchar(30)|0s</StoredType>
+    </column>
+    <column id="632" parent="326" name="observation_date">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>date|0s</StoredType>
+    </column>
+    <column id="633" parent="326" name="cpi_value">
+      <Position>2</Position>
+      <StoredType>decimal(10,3 digit)|0s</StoredType>
+    </column>
+    <column id="634" parent="326" name="cpi_year">
+      <Position>3</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <index id="635" parent="326" name="PRIMARY">
+      <ColNames>observation_date</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="636" parent="326" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="637" parent="327" name="ZCTA20">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>varchar(5)|0s</StoredType>
+    </column>
+    <column id="638" parent="327" name="YEAR">
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+      <StoredType>int|0s</StoredType>
+    </column>
+    <column id="639" parent="327" name="OPENWATER">
+      <Position>3</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="640" parent="327" name="PROP_OPENWATER">
+      <Position>4</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="641" parent="327" name="PER_ICESNOW">
+      <Position>5</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="642" parent="327" name="PROP_PER_ICESNOW">
+      <Position>6</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="643" parent="327" name="DEV_OPENSPACE">
+      <Position>7</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="644" parent="327" name="PROP_DEV_OPENSPACE">
+      <Position>8</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="645" parent="327" name="DEV_LOWINTENSITY">
+      <Position>9</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="646" parent="327" name="PROP_DEV_LOWINTENSITY">
+      <Position>10</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="647" parent="327" name="DEV_MEDINTENSITY">
+      <Position>11</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="648" parent="327" name="PROP_DEV_MEDINTENSITY">
+      <Position>12</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="649" parent="327" name="DEV_HIINTENSITY">
+      <Position>13</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="650" parent="327" name="PROP_DEV_HIINTENSITY">
+      <Position>14</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="651" parent="327" name="BARREN">
+      <Position>15</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="652" parent="327" name="PROP_BARREN">
+      <Position>16</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="653" parent="327" name="DECIDUOUSFOREST">
+      <Position>17</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="654" parent="327" name="PROP_DECIDUOUSFOREST">
+      <Position>18</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="655" parent="327" name="EVERGREENFOREST">
+      <Position>19</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="656" parent="327" name="PROP_EVERGREENFOREST">
+      <Position>20</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="657" parent="327" name="MIXEDFOREST">
+      <Position>21</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="658" parent="327" name="PROP_MIXEDFOREST">
+      <Position>22</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="659" parent="327" name="SHRUBSCRUB">
+      <Position>23</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="660" parent="327" name="PROP_SHRUBSCRUB">
+      <Position>24</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="661" parent="327" name="GRASSHERB">
+      <Position>25</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="662" parent="327" name="PROP_GRASSHERB">
+      <Position>26</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="663" parent="327" name="PASTUREHAY">
+      <Position>27</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="664" parent="327" name="PROP_PASTUREHAY">
+      <Position>28</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="665" parent="327" name="CULTCROPS">
+      <Position>29</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="666" parent="327" name="PROP_CULTCROPS">
+      <Position>30</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="667" parent="327" name="WOODYWET">
+      <Position>31</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="668" parent="327" name="PROP_WOODYWET">
+      <Position>32</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <column id="669" parent="327" name="HERBWET">
+      <Position>33</Position>
+      <StoredType>bigint|0s</StoredType>
+    </column>
+    <column id="670" parent="327" name="PROP_HERBWET">
+      <Position>34</Position>
+      <StoredType>decimal(15,13 digit)|0s</StoredType>
+    </column>
+    <index id="671" parent="327" name="PRIMARY">
+      <ColNames>ZCTA20
+YEAR</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="672" parent="327" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="673" parent="328" name="zip_code">
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StoredType>char(5)|0s</StoredType>
+    </column>
+    <column id="674" parent="328" name="po_name">
+      <Position>2</Position>
+      <StoredType>varchar(50)|0s</StoredType>
+    </column>
+    <column id="675" parent="328" name="state">
+      <Position>3</Position>
+      <StoredType>char(2)|0s</StoredType>
+    </column>
+    <column id="676" parent="328" name="zip_type">
+      <Position>4</Position>
+      <StoredType>varchar(50)|0s</StoredType>
+    </column>
+    <column id="677" parent="328" name="zcta">
+      <Position>5</Position>
+      <StoredType>char(5)|0s</StoredType>
+    </column>
+    <column id="678" parent="328" name="zip_join_type">
+      <Position>6</Position>
+      <StoredType>varchar(50)|0s</StoredType>
+    </column>
+    <index id="679" parent="328" name="PRIMARY">
+      <ColNames>zip_code</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="680" parent="328" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
