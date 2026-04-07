@@ -35,15 +35,3 @@ we have financial data spanning multiple years. table allows adjustments all his
 done in folder
 
 
-
-
-
-
-Will later if time
-NOAA NCEI - Global Historical Climatology Network daily (GHCNd). Provides precipitation baseline data by ZIP code to control for heavier-than-average rain years.
-
-https://www.ncei.noaa.gov/access/search/dataset-search
-
-----
-
-----

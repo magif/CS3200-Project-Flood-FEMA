@@ -1,501 +1,1000 @@
-zip_code,po_name,state,zip_type,zcta,zip_join_type
-00501,Holtsville,NY,Post Office or large volume customer,11742,Spatial join to ZCTA
-00544,Holtsville,NY,Post Office or large volume customer,11742,Spatial join to ZCTA
-00601,Adjuntas,PR,Zip Code Area,00601,Zip matches ZCTA
-00602,Aguada,PR,Zip Code Area,00602,Zip matches ZCTA
-00603,Aguadilla,PR,Zip Code Area,00603,Zip matches ZCTA
-00604,Aguadilla,PR,Post Office or large volume customer,00603,Spatial join to ZCTA
-00605,Aguadilla,PR,Post Office or large volume customer,00603,Spatial join to ZCTA
-00606,Maricao,PR,Zip Code Area,00606,Zip matches ZCTA
-00610,Anasco,PR,Zip Code Area,00610,Zip matches ZCTA
-00611,Angeles,PR,Post Office or large volume customer,00611,Zip matches ZCTA
-00612,Arecibo,PR,Zip Code Area,00612,Zip matches ZCTA
-00613,Arecibo,PR,Post Office or large volume customer,00612,Spatial join to ZCTA
-00614,Arecibo,PR,Post Office or large volume customer,00612,Spatial join to ZCTA
-00616,Bajadero,PR,Zip Code Area,00616,Zip matches ZCTA
-00617,Barceloneta,PR,Zip Code Area,00617,Zip matches ZCTA
-00622,Boqueron,PR,Zip Code Area,00622,Zip matches ZCTA
-00623,Cabo Rojo,PR,Zip Code Area,00623,Zip matches ZCTA
-00624,Penuelas,PR,Zip Code Area,00624,Zip matches ZCTA
-00627,Camuy,PR,Zip Code Area,00627,Zip matches ZCTA
-00631,Castaner,PR,Zip Code Area,00631,Zip matches ZCTA
-00636,Rosario,PR,Post Office or large volume customer,00636,Zip matches ZCTA
-00637,Sabana Grande,PR,Zip Code Area,00637,Zip matches ZCTA
-00638,Ciales,PR,Zip Code Area,00638,Zip matches ZCTA
-00641,Utuado,PR,Zip Code Area,00641,Zip matches ZCTA
-00646,Dorado,PR,Zip Code Area,00646,Zip matches ZCTA
-00647,Ensenada,PR,Zip Code Area,00647,Zip matches ZCTA
-00650,Florida,PR,Zip Code Area,00650,Zip matches ZCTA
-00652,Garrochales,PR,Zip Code Area,00652,Zip matches ZCTA
-00653,Guanica,PR,Zip Code Area,00653,Zip matches ZCTA
-00656,Guayanilla,PR,Zip Code Area,00656,Zip matches ZCTA
-00659,Hatillo,PR,Zip Code Area,00659,Zip matches ZCTA
-00660,Hormigueros,PR,Zip Code Area,00660,Zip matches ZCTA
-00662,Isabela,PR,Zip Code Area,00662,Zip matches ZCTA
-00664,Jayuya,PR,Zip Code Area,00664,Zip matches ZCTA
-00667,Lajas,PR,Zip Code Area,00667,Zip matches ZCTA
-00669,Lares,PR,Zip Code Area,00669,Zip matches ZCTA
-00670,Las Marias,PR,Zip Code Area,00670,Zip matches ZCTA
-00674,Manati,PR,Zip Code Area,00674,Zip matches ZCTA
-00676,Moca,PR,Zip Code Area,00676,Zip matches ZCTA
-00677,Rincon,PR,Zip Code Area,00677,Zip matches ZCTA
-00678,Quebradillas,PR,Zip Code Area,00678,Zip matches ZCTA
-00680,Mayaguez,PR,Zip Code Area,00680,Zip matches ZCTA
-00681,Mayaguez,PR,Post Office or large volume customer,00682,Spatial join to ZCTA
-00682,Mayaguez,PR,Zip Code Area,00682,Zip matches ZCTA
-00683,San German,PR,Zip Code Area,00683,Zip matches ZCTA
-00685,San Sebastian,PR,Zip Code Area,00685,Zip matches ZCTA
-00687,Morovis,PR,Zip Code Area,00687,Zip matches ZCTA
-00688,Sabana Hoyos,PR,Post Office or large volume customer,00688,Zip matches ZCTA
-00690,San Antonio,PR,Zip Code Area,00690,Zip matches ZCTA
-00692,Vega Alta,PR,Zip Code Area,00692,Zip matches ZCTA
-00693,Vega Baja,PR,Zip Code Area,00693,Zip matches ZCTA
-00694,Vega Baja,PR,Post Office or large volume customer,00694,Zip matches ZCTA
-00698,Yauco,PR,Zip Code Area,00698,Zip matches ZCTA
-00703,Aguas Buenas,PR,Zip Code Area,00703,Zip matches ZCTA
-00704,Aguirre,PR,Zip Code Area,00704,Zip matches ZCTA
-00705,Aibonito,PR,Zip Code Area,00705,Zip matches ZCTA
-00707,Maunabo,PR,Zip Code Area,00707,Zip matches ZCTA
-00714,Arroyo,PR,Zip Code Area,00714,Zip matches ZCTA
-00715,Mercedita,PR,Zip Code Area,00715,Zip matches ZCTA
-00716,Ponce,PR,Zip Code Area,00716,Zip matches ZCTA
-00717,Ponce,PR,Zip Code Area,00717,Zip matches ZCTA
-00718,Naguabo,PR,Zip Code Area,00718,Zip matches ZCTA
-00719,Naranjito,PR,Zip Code Area,00719,Zip matches ZCTA
-00720,Orocovis,PR,Zip Code Area,00720,Zip matches ZCTA
-00721,Palmer,PR,Post Office or large volume customer,00745,Spatial join to ZCTA
-00723,Patillas,PR,Zip Code Area,00723,Zip matches ZCTA
-00725,Caguas,PR,Zip Code Area,00725,Zip matches ZCTA
-00726,Caguas,PR,Post Office or large volume customer,00725,Spatial join to ZCTA
-00727,Caguas,PR,Zip Code Area,00727,Zip matches ZCTA
-00728,Ponce,PR,Zip Code Area,00728,Zip matches ZCTA
-00729,Canovanas,PR,Zip Code Area,00729,Zip matches ZCTA
-00730,Ponce,PR,Zip Code Area,00730,Zip matches ZCTA
-00731,Ponce,PR,Zip Code Area,00731,Zip matches ZCTA
-00732,Ponce,PR,Post Office or large volume customer,00730,Spatial join to ZCTA
-00733,Ponce,PR,Post Office or large volume customer,00730,Spatial join to ZCTA
-00734,Ponce,PR,Post Office or large volume customer,00730,Spatial join to ZCTA
-00735,Ceiba,PR,Zip Code Area,00735,Zip matches ZCTA
-00736,Cayey,PR,Zip Code Area,00736,Zip matches ZCTA
-00737,Cayey,PR,Post Office or large volume customer,00736,Spatial join to ZCTA
-00738,Fajardo,PR,Zip Code Area,00738,Zip matches ZCTA
-00739,Cidra,PR,Zip Code Area,00739,Zip matches ZCTA
-00740,Puerto Real,PR,Zip Code Area,00740,Zip matches ZCTA
-00741,Punta Santiago,PR,Zip Code Area,00741,Zip matches ZCTA
-00742,Roosevelt Roads,PR,Post Office or large volume customer,00735,Spatial join to ZCTA
-00744,Rio Blanco,PR,Post Office or large volume customer,00718,Spatial join to ZCTA
-00745,Rio Grande,PR,Zip Code Area,00745,Zip matches ZCTA
-00751,Salinas,PR,Zip Code Area,00751,Zip matches ZCTA
-00754,San Lorenzo,PR,Zip Code Area,00754,Zip matches ZCTA
-00757,Santa Isabel,PR,Zip Code Area,00757,Zip matches ZCTA
-00765,Vieques,PR,Zip Code Area,00765,Zip matches ZCTA
-00766,Villalba,PR,Zip Code Area,00766,Zip matches ZCTA
-00767,Yabucoa,PR,Zip Code Area,00767,Zip matches ZCTA
-00769,Coamo,PR,Zip Code Area,00769,Zip matches ZCTA
-00771,Las Piedras,PR,Zip Code Area,00771,Zip matches ZCTA
-00772,Loiza,PR,Zip Code Area,00772,Zip matches ZCTA
-00773,Luquillo,PR,Zip Code Area,00773,Zip matches ZCTA
-00775,Culebra,PR,Zip Code Area,00775,Zip matches ZCTA
-00777,Juncos,PR,Zip Code Area,00777,Zip matches ZCTA
-00778,Gurabo,PR,Zip Code Area,00778,Zip matches ZCTA
-00780,Coto Laurel,PR,Zip Code Area,00780,Zip matches ZCTA
-00782,Comerio,PR,Zip Code Area,00782,Zip matches ZCTA
-00783,Corozal,PR,Zip Code Area,00783,Zip matches ZCTA
-00784,Guayama,PR,Zip Code Area,00784,Zip matches ZCTA
-00785,Guayama,PR,Post Office or large volume customer,00784,Spatial join to ZCTA
-00786,La Plata,PR,Post Office or large volume customer,00786,Zip matches ZCTA
-00791,Humacao,PR,Zip Code Area,00791,Zip matches ZCTA
-00792,Humacao,PR,Post Office or large volume customer,00791,Spatial join to ZCTA
-00794,Barranquitas,PR,Zip Code Area,00794,Zip matches ZCTA
-00795,Juana Diaz,PR,Zip Code Area,00795,Zip matches ZCTA
-00801,St Thomas,VI,Post Office or large volume customer,00802,Spatial join to ZCTA
-00802,St Thomas,VI,Zip Code Area,00802,Zip matches ZCTA
-00803,St Thomas,VI,Post Office or large volume customer,00802,Spatial join to ZCTA
-00804,St Thomas,VI,Post Office or large volume customer,00802,Spatial join to ZCTA
-00805,St Thomas,VI,Post Office or large volume customer,00802,Spatial join to ZCTA
-00820,Christiansted,VI,Zip Code Area,00820,Zip matches ZCTA
-00821,Christiansted,VI,Post Office or large volume customer,00820,Spatial join to ZCTA
-00822,Christiansted,VI,Post Office or large volume customer,00820,Spatial join to ZCTA
-00823,Christiansted,VI,Post Office or large volume customer,00820,Spatial join to ZCTA
-00824,Christiansted,VI,Post Office or large volume customer,00820,Spatial join to ZCTA
-00830,St John,VI,Zip Code Area,00830,Zip matches ZCTA
-00831,St John,VI,Post Office or large volume customer,00830,Spatial join to ZCTA
-00840,Frederiksted,VI,Zip Code Area,00840,Zip matches ZCTA
-00841,Frederiksted,VI,Post Office or large volume customer,00840,Spatial join to ZCTA
-00850,Kingshill,VI,Zip Code Area,00850,Zip matches ZCTA
-00851,Kingshill,VI,Post Office or large volume customer,00851,Zip matches ZCTA
-00901,San Juan,PR,Zip Code Area,00901,Zip matches ZCTA
-00902,San Juan,PR,Post Office or large volume customer,00901,Spatial join to ZCTA
-00906,San Juan,PR,Post Office or large volume customer,00906,Zip matches ZCTA
-00907,San Juan,PR,Zip Code Area,00907,Zip matches ZCTA
-00908,San Juan,PR,Post Office or large volume customer,00907,Spatial join to ZCTA
-00909,San Juan,PR,Zip Code Area,00909,Zip matches ZCTA
-00910,San Juan,PR,Post Office or large volume customer,00909,Spatial join to ZCTA
-00911,San Juan,PR,Zip Code Area,00911,Zip matches ZCTA
-00912,San Juan,PR,Zip Code Area,00912,Zip matches ZCTA
-00913,San Juan,PR,Zip Code Area,00913,Zip matches ZCTA
-00914,San Juan,PR,Post Office or large volume customer,00911,Spatial join to ZCTA
-00915,San Juan,PR,Zip Code Area,00915,Zip matches ZCTA
-00916,San Juan,PR,Post Office or large volume customer,00915,Spatial join to ZCTA
-00917,San Juan,PR,Zip Code Area,00917,Zip matches ZCTA
-00918,San Juan,PR,Zip Code Area,00918,Zip matches ZCTA
-00919,San Juan,PR,Post Office or large volume customer,00918,Spatial join to ZCTA
-00920,San Juan,PR,Zip Code Area,00920,Zip matches ZCTA
-00921,San Juan,PR,Zip Code Area,00921,Zip matches ZCTA
-00922,San Juan,PR,Post Office or large volume customer,00966,Spatial join to ZCTA
-00923,San Juan,PR,Zip Code Area,00923,Zip matches ZCTA
-00924,San Juan,PR,Zip Code Area,00924,Zip matches ZCTA
-00925,San Juan,PR,Zip Code Area,00925,Zip matches ZCTA
-00926,San Juan,PR,Zip Code Area,00926,Zip matches ZCTA
-00927,San Juan,PR,Zip Code Area,00927,Zip matches ZCTA
-00928,San Juan,PR,Post Office or large volume customer,00925,Spatial join to ZCTA
-00929,San Juan,PR,Post Office or large volume customer,00924,Spatial join to ZCTA
-00930,San Juan,PR,Post Office or large volume customer,00923,Spatial join to ZCTA
-00931,San Juan,PR,Post Office or large volume customer,00925,Spatial join to ZCTA
-00933,San Juan,PR,Post Office or large volume customer,00918,Spatial join to ZCTA
-00934,Fort Buchanan,PR,Zip Code Area,00934,Zip matches ZCTA
-00935,San Juan,PR,Post Office or large volume customer,00921,Spatial join to ZCTA
-00936,San Juan,PR,Post Office or large volume customer,00918,Spatial join to ZCTA
-00937,San Juan,PR,Post Office or large volume customer,00979,Spatial join to ZCTA
-00939,San Juan,PR,Post Office or large volume customer,00918,Spatial join to ZCTA
-00940,San Juan,PR,Post Office or large volume customer,00909,Spatial join to ZCTA
-00949,Toa Baja,PR,Zip Code Area,00949,Zip matches ZCTA
-00950,Toa Baja,PR,Post Office or large volume customer,00950,Zip matches ZCTA
-00951,Toa Baja,PR,Post Office or large volume customer,00951,Zip matches ZCTA
-00952,Sabana Seca,PR,Zip Code Area,00952,Zip matches ZCTA
-00953,Toa Alta,PR,Zip Code Area,00953,Zip matches ZCTA
-00954,Toa Alta,PR,Post Office or large volume customer,00953,Spatial join to ZCTA
-00955,San Juan,PR,Post Office or large volume customer,00921,Spatial join to ZCTA
-00956,Bayamon,PR,Zip Code Area,00956,Zip matches ZCTA
-00957,Bayamon,PR,Zip Code Area,00957,Zip matches ZCTA
-00958,Bayamon,PR,Post Office or large volume customer,00957,Spatial join to ZCTA
-00959,Bayamon,PR,Zip Code Area,00959,Zip matches ZCTA
-00960,Bayamon,PR,Post Office or large volume customer,00960,Zip matches ZCTA
-00961,Bayamon,PR,Zip Code Area,00961,Zip matches ZCTA
-00962,Catano,PR,Zip Code Area,00962,Zip matches ZCTA
-00963,Catano,PR,Post Office or large volume customer,00962,Spatial join to ZCTA
-00965,Guaynabo,PR,Zip Code Area,00965,Zip matches ZCTA
-00966,Guaynabo,PR,Zip Code Area,00966,Zip matches ZCTA
-00968,Guaynabo,PR,Zip Code Area,00968,Zip matches ZCTA
-00969,Guaynabo,PR,Zip Code Area,00969,Zip matches ZCTA
-00970,Guaynabo,PR,Post Office or large volume customer,00969,Spatial join to ZCTA
-00971,Guaynabo,PR,Post Office or large volume customer,00971,Zip matches ZCTA
-00975,San Juan,PR,Post Office or large volume customer,00917,Spatial join to ZCTA
-00976,Trujillo Alto,PR,Zip Code Area,00976,Zip matches ZCTA
-00977,Trujillo Alto,PR,Post Office or large volume customer,00962,Spatial join to ZCTA
-00978,Saint Just,PR,Post Office or large volume customer,00976,Spatial join to ZCTA
-00979,Carolina,PR,Zip Code Area,00979,Zip matches ZCTA
-00981,Carolina,PR,Post Office or large volume customer,00979,Spatial join to ZCTA
-00982,Carolina,PR,Zip Code Area,00982,Zip matches ZCTA
-00983,Carolina,PR,Zip Code Area,00983,Zip matches ZCTA
-00984,Carolina,PR,Post Office or large volume customer,00983,Spatial join to ZCTA
-00985,Carolina,PR,Zip Code Area,00985,Zip matches ZCTA
-00986,Carolina,PR,Post Office or large volume customer,00985,Spatial join to ZCTA
-00987,Carolina,PR,Zip Code Area,00987,Zip matches ZCTA
-00988,Carolina,PR,Post Office or large volume customer,00983,Spatial join to ZCTA
-01001,Agawam,MA,Zip Code Area,01001,Zip matches ZCTA
-01002,Amherst,MA,Zip Code Area,01002,Zip matches ZCTA
-01003,Amherst,MA,Zip Code Area,01003,Zip matches ZCTA
-01004,Amherst,MA,Post Office or large volume customer,01002,Spatial join to ZCTA
-01005,Barre,MA,Zip Code Area,01005,Zip matches ZCTA
-01007,Belchertown,MA,Zip Code Area,01007,Zip matches ZCTA
-01008,Blandford,MA,Zip Code Area,01008,Zip matches ZCTA
-01009,Bondsville,MA,Zip Code Area,01009,Zip matches ZCTA
-01010,Brimfield,MA,Zip Code Area,01010,Zip matches ZCTA
-01011,Chester,MA,Zip Code Area,01011,Zip matches ZCTA
-01012,Chesterfield,MA,Zip Code Area,01012,Zip matches ZCTA
-01013,Chicopee,MA,Zip Code Area,01013,Zip matches ZCTA
-01014,Chicopee,MA,Post Office or large volume customer,01013,Spatial join to ZCTA
-01020,Chicopee,MA,Zip Code Area,01020,Zip matches ZCTA
-01021,Chicopee,MA,Post Office or large volume customer,01020,Spatial join to ZCTA
-01022,Chicopee,MA,Zip Code Area,01022,Zip matches ZCTA
-01026,Cummington,MA,Zip Code Area,01026,Zip matches ZCTA
-01027,Easthampton,MA,Zip Code Area,01027,Zip matches ZCTA
-01028,East Longmeadow,MA,Zip Code Area,01028,Zip matches ZCTA
-01029,East Otis,MA,Zip Code Area,01029,Zip matches ZCTA
-01030,Feeding Hills,MA,Zip Code Area,01030,Zip matches ZCTA
-01031,Gilbertville,MA,Zip Code Area,01031,Zip matches ZCTA
-01032,Goshen,MA,Zip Code Area,01032,Zip matches ZCTA
-01033,Granby,MA,Zip Code Area,01033,Zip matches ZCTA
-01034,Granville,MA,Zip Code Area,01034,Zip matches ZCTA
-01035,Hadley,MA,Zip Code Area,01035,Zip matches ZCTA
-01036,Hampden,MA,Zip Code Area,01036,Zip matches ZCTA
-01037,Hardwick,MA,Zip Code Area,01037,Zip matches ZCTA
-01038,Hatfield,MA,Zip Code Area,01038,Zip matches ZCTA
-01039,Haydenville,MA,Zip Code Area,01039,Zip matches ZCTA
-01040,Holyoke,MA,Zip Code Area,01040,Zip matches ZCTA
-01041,Holyoke,MA,Post Office or large volume customer,01040,Spatial join to ZCTA
-01050,Huntington,MA,Zip Code Area,01050,Zip matches ZCTA
-01053,Leeds,MA,Zip Code Area,01053,Zip matches ZCTA
-01054,Leverett,MA,Zip Code Area,01054,Zip matches ZCTA
-01056,Ludlow,MA,Zip Code Area,01056,Zip matches ZCTA
-01057,Monson,MA,Zip Code Area,01057,Zip matches ZCTA
-01059,North Amherst,MA,Post Office or large volume customer,01002,Spatial join to ZCTA
-01060,Northampton,MA,Zip Code Area,01060,Zip matches ZCTA
-01061,Northampton,MA,Post Office or large volume customer,01060,Spatial join to ZCTA
-01062,Florence,MA,Zip Code Area,01062,Zip matches ZCTA
-01063,Northampton,MA,Zip Code Area,01063,Zip matches ZCTA
-01066,North Hatfield,MA,Zip Code Area,01066,Zip matches ZCTA
-01068,Oakham,MA,Zip Code Area,01068,Zip matches ZCTA
-01069,Palmer,MA,Zip Code Area,01069,Zip matches ZCTA
-01070,Plainfield,MA,Zip Code Area,01070,Zip matches ZCTA
-01071,Russell,MA,Zip Code Area,01071,Zip matches ZCTA
-01072,Shutesbury,MA,Zip Code Area,01072,Zip matches ZCTA
-01073,Southampton,MA,Zip Code Area,01073,Zip matches ZCTA
-01074,South Barre,MA,Zip Code Area,01074,Zip matches ZCTA
-01075,South Hadley,MA,Zip Code Area,01075,Zip matches ZCTA
-01077,Southwick,MA,Zip Code Area,01077,Zip matches ZCTA
-01079,Thorndike,MA,Zip Code Area,01079,Zip matches ZCTA
-01080,Three Rivers,MA,Zip Code Area,01080,Zip matches ZCTA
-01081,Wales,MA,Zip Code Area,01081,Zip matches ZCTA
-01082,Ware,MA,Zip Code Area,01082,Zip matches ZCTA
-01083,Warren,MA,Zip Code Area,01083,Zip matches ZCTA
-01084,West Chesterfield,MA,Zip Code Area,01084,Zip matches ZCTA
-01085,Westfield,MA,Zip Code Area,01085,Zip matches ZCTA
-01086,Westfield,MA,Post Office or large volume customer,01085,Spatial join to ZCTA
-01088,West Hatfield,MA,Zip Code Area,01088,Zip matches ZCTA
-01089,West Springfield,MA,Zip Code Area,01089,Zip matches ZCTA
-01090,West Springfield,MA,Post Office or large volume customer,01089,Spatial join to ZCTA
-01092,West Warren,MA,Zip Code Area,01092,Zip matches ZCTA
-01093,Whately,MA,Post Office or large volume customer,01093,Zip matches ZCTA
-01094,Wheelwright,MA,Post Office or large volume customer,01094,Zip matches ZCTA
-01095,Wilbraham,MA,Zip Code Area,01095,Zip matches ZCTA
-01096,Williamsburg,MA,Zip Code Area,01096,Zip matches ZCTA
-01097,Woronoco,MA,Post Office or large volume customer,01097,Zip matches ZCTA
-01098,Worthington,MA,Zip Code Area,01098,Zip matches ZCTA
+78419,Corpus Christi,TX,Zip Code Area,78419,Zip matches ZCTA
+87110,Albuquerque,NM,Zip Code Area,87110,Zip matches ZCTA
+53786,Madison,WI,Post Office or large volume customer,53703,Spatial join to ZCTA
+98950,Vantage,WA,Zip Code Area,98950,Zip matches ZCTA
+46932,Galveston,IN,Zip Code Area,46932,Zip matches ZCTA
+08801,Annandale,NJ,Zip Code Area,08801,Zip matches ZCTA
+56014,Bricelyn,MN,Zip Code Area,56014,Zip matches ZCTA
+14213,Buffalo,NY,Zip Code Area,14213,Zip matches ZCTA
+36046,Lapine,AL,Zip Code Area,36046,Zip matches ZCTA
+85323,Avondale,AZ,Zip Code Area,85323,Zip matches ZCTA
+26802,Brandywine,WV,Zip Code Area,26802,Zip matches ZCTA
+62253,Keyesport,IL,Zip Code Area,62253,Zip matches ZCTA
+08057,Moorestown,NJ,Zip Code Area,08057,Zip matches ZCTA
+33033,Homestead,FL,Zip Code Area,33033,Zip matches ZCTA
+90661,Pico Rivera,CA,Post Office or large volume customer,90660,Spatial join to ZCTA
+17219,Doylesburg,PA,Zip Code Area,17219,Zip matches ZCTA
+50072,Earlham,IA,Zip Code Area,50072,Zip matches ZCTA
+96839,Honolulu,HI,Post Office or large volume customer,96822,Spatial join to ZCTA
+95233,Hathaway Pines,CA,Post Office or large volume customer,95233,Zip matches ZCTA
+68413,Nehawka,NE,Zip Code Area,68413,Zip matches ZCTA
+48188,Canton,MI,Zip Code Area,48188,Zip matches ZCTA
+67235,Wichita,KS,Zip Code Area,67235,Zip matches ZCTA
+04077,South Casco,ME,Post Office or large volume customer,04015,Spatial join to ZCTA
+29102,Manning,SC,Zip Code Area,29102,Zip matches ZCTA
+21857,Rehobeth,MD,Post Office or large volume customer,21871,Spatial join to ZCTA
+52327,Riverside,IA,Zip Code Area,52327,Zip matches ZCTA
+72410,Alicia,AR,Zip Code Area,72410,Zip matches ZCTA
+50368,Des Moines,IA,Post Office or large volume customer,50266,Spatial join to ZCTA
+32967,Vero Beach,FL,Zip Code Area,32967,Zip matches ZCTA
+62535,Forsyth,IL,Zip Code Area,62535,Zip matches ZCTA
+61236,Barstow,IL,Post Office or large volume customer,61236,Zip matches ZCTA
+22402,Fredericksburg,VA,Post Office or large volume customer,22401,Spatial join to ZCTA
+25723,Huntington,WV,Post Office or large volume customer,25701,Spatial join to ZCTA
+14717,Caneadea,NY,Zip Code Area,14717,Zip matches ZCTA
+04985,West Forks,ME,Zip Code Area,04985,Zip matches ZCTA
+26537,Kingwood,WV,Zip Code Area,26537,Zip matches ZCTA
+45239,Cincinnati,OH,Zip Code Area,45239,Zip matches ZCTA
+21060,Glen Burnie,MD,Zip Code Area,21060,Zip matches ZCTA
+75937,Chireno,TX,Zip Code Area,75937,Zip matches ZCTA
+27516,Chapel Hill,NC,Zip Code Area,27516,Zip matches ZCTA
+74837,Cromwell,OK,Post Office or large volume customer,74837,Zip matches ZCTA
+04085,Steep Falls,ME,Zip Code Area,04085,Zip matches ZCTA
+25671,Dingess,WV,Zip Code Area,25671,Zip matches ZCTA
+27515,Chapel Hill,NC,Post Office or large volume customer,27514,Spatial join to ZCTA
+55077,Inver Grove Heights,MN,Zip Code Area,55077,Zip matches ZCTA
+59018,Clyde Park,MT,Zip Code Area,59018,Zip matches ZCTA
+72641,Jasper,AR,Zip Code Area,72641,Zip matches ZCTA
+27517,Chapel Hill,NC,Zip Code Area,27517,Zip matches ZCTA
+71221,Bastrop,LA,Post Office or large volume customer,71220,Spatial join to ZCTA
+83313,Bellevue,ID,Zip Code Area,83313,Zip matches ZCTA
+19131,Philadelphia,PA,Zip Code Area,19131,Zip matches ZCTA
+11719,Brookhaven,NY,Zip Code Area,11719,Zip matches ZCTA
+72316,Blytheville,AR,Post Office or large volume customer,72315,Spatial join to ZCTA
+94710,Berkeley,CA,Zip Code Area,94710,Zip matches ZCTA
+42204,Allensville,KY,Zip Code Area,42204,Zip matches ZCTA
+68920,Alma,NE,Zip Code Area,68920,Zip matches ZCTA
+04629,East Blue Hill,ME,Post Office or large volume customer,04614,Spatial join to ZCTA
+03852,Milton Mills,NH,Zip Code Area,03852,Zip matches ZCTA
+30305,Atlanta,GA,Zip Code Area,30305,Zip matches ZCTA
+27514,Chapel Hill,NC,Zip Code Area,27514,Zip matches ZCTA
+60156,Lake in the Hills,IL,Zip Code Area,60156,Zip matches ZCTA
+99921,Craig,AK,Zip Code Area,99921,Zip matches ZCTA
+77963,Goliad,TX,Zip Code Area,77963,Zip matches ZCTA
+93022,Oak View,CA,Zip Code Area,93022,Zip matches ZCTA
+45304,Arcanum,OH,Zip Code Area,45304,Zip matches ZCTA
+33844,Haines City,FL,Zip Code Area,33844,Zip matches ZCTA
+38675,Oxford,MS,Post Office or large volume customer,38655,Spatial join to ZCTA
+92096,San Marcos,CA,Zip Code Area,92096,Zip matches ZCTA
+35144,Siluria,AL,Post Office or large volume customer,35007,Spatial join to ZCTA
+97756,Redmond,OR,Zip Code Area,97756,Zip matches ZCTA
+45374,Troy,OH,Post Office or large volume customer,45373,Spatial join to ZCTA
+28101,Mc Adenville,NC,Zip Code Area,28101,Zip matches ZCTA
 01101,Springfield,MA,Post Office or large volume customer,01103,Spatial join to ZCTA
-01102,Springfield,MA,Post Office or large volume customer,01103,Spatial join to ZCTA
-01103,Springfield,MA,Zip Code Area,01103,Zip matches ZCTA
-01104,Springfield,MA,Zip Code Area,01104,Zip matches ZCTA
-01105,Springfield,MA,Zip Code Area,01105,Zip matches ZCTA
-01106,Longmeadow,MA,Zip Code Area,01106,Zip matches ZCTA
-01107,Springfield,MA,Zip Code Area,01107,Zip matches ZCTA
-01108,Springfield,MA,Zip Code Area,01108,Zip matches ZCTA
-01109,Springfield,MA,Zip Code Area,01109,Zip matches ZCTA
-01111,Springfield,MA,Post Office or large volume customer,01109,Spatial join to ZCTA
-01115,Springfield,MA,Post Office or large volume customer,01144,Spatial join to ZCTA
-01116,Longmeadow,MA,Post Office or large volume customer,01106,Spatial join to ZCTA
-01118,Springfield,MA,Zip Code Area,01118,Zip matches ZCTA
-01119,Springfield,MA,Zip Code Area,01119,Zip matches ZCTA
-01128,Springfield,MA,Zip Code Area,01128,Zip matches ZCTA
-01129,Springfield,MA,Zip Code Area,01129,Zip matches ZCTA
-01138,Springfield,MA,Post Office or large volume customer,01108,Spatial join to ZCTA
-01139,Springfield,MA,Post Office or large volume customer,01109,Spatial join to ZCTA
-01144,Springfield,MA,Post Office or large volume customer,01144,Zip matches ZCTA
-01151,Indian Orchard,MA,Zip Code Area,01151,Zip matches ZCTA
-01152,Springfield,MA,Post Office or large volume customer,01151,Spatial join to ZCTA
-01199,Springfield,MA,Post Office or large volume customer,01107,Spatial join to ZCTA
-01201,Pittsfield,MA,Zip Code Area,01201,Zip matches ZCTA
-01202,Pittsfield,MA,Post Office or large volume customer,01201,Spatial join to ZCTA
-01203,Pittsfield,MA,Post Office or large volume customer,01201,Spatial join to ZCTA
-01220,Adams,MA,Zip Code Area,01220,Zip matches ZCTA
-01222,Ashley Falls,MA,Zip Code Area,01222,Zip matches ZCTA
-01223,Becket,MA,Zip Code Area,01223,Zip matches ZCTA
-01224,Berkshire,MA,Zip Code Area,01224,Zip matches ZCTA
-01225,Cheshire,MA,Zip Code Area,01225,Zip matches ZCTA
-01226,Dalton,MA,Zip Code Area,01226,Zip matches ZCTA
-01227,Dalton,MA,Post Office or large volume customer,01226,Spatial join to ZCTA
-01229,Glendale,MA,Post Office or large volume customer,01229,Zip matches ZCTA
-01230,Great Barrington,MA,Zip Code Area,01230,Zip matches ZCTA
-01235,Hinsdale,MA,Zip Code Area,01235,Zip matches ZCTA
-01236,Housatonic,MA,Zip Code Area,01236,Zip matches ZCTA
-01237,Lanesborough,MA,Zip Code Area,01237,Zip matches ZCTA
-01238,Lee,MA,Zip Code Area,01238,Zip matches ZCTA
-01240,Lenox,MA,Zip Code Area,01240,Zip matches ZCTA
-01242,Lenox Dale,MA,Zip Code Area,01242,Zip matches ZCTA
-01243,Middlefield,MA,Zip Code Area,01243,Zip matches ZCTA
-01244,Mill River,MA,Zip Code Area,01244,Zip matches ZCTA
-01245,Monterey,MA,Zip Code Area,01245,Zip matches ZCTA
-01247,North Adams,MA,Zip Code Area,01247,Zip matches ZCTA
-01252,North Egremont,MA,Post Office or large volume customer,01230,Spatial join to ZCTA
-01253,Otis,MA,Zip Code Area,01253,Zip matches ZCTA
-01254,Richmond,MA,Zip Code Area,01254,Zip matches ZCTA
-01255,Sandisfield,MA,Zip Code Area,01255,Zip matches ZCTA
-01256,Savoy,MA,Zip Code Area,01256,Zip matches ZCTA
-01257,Sheffield,MA,Zip Code Area,01257,Zip matches ZCTA
-01258,South Egremont,MA,Zip Code Area,01258,Zip matches ZCTA
-01259,Southfield,MA,Zip Code Area,01259,Zip matches ZCTA
-01260,South Lee,MA,Zip Code Area,01260,Zip matches ZCTA
-01262,Stockbridge,MA,Zip Code Area,01262,Zip matches ZCTA
-01263,Stockbridge,MA,Post Office or large volume customer,01262,Spatial join to ZCTA
-01264,Tyringham,MA,Zip Code Area,01264,Zip matches ZCTA
-01266,West Stockbridge,MA,Zip Code Area,01266,Zip matches ZCTA
-01267,Williamstown,MA,Zip Code Area,01267,Zip matches ZCTA
+20637,Hughesville,MD,Zip Code Area,20637,Zip matches ZCTA
+57773,Pringle,SD,Zip Code Area,57773,Zip matches ZCTA
+27599,Chapel Hill,NC,Zip Code Area,27599,Zip matches ZCTA
+36530,Elberta,AL,Zip Code Area,36530,Zip matches ZCTA
+36303,Dothan,AL,Zip Code Area,36303,Zip matches ZCTA
+55124,Saint Paul,MN,Zip Code Area,55124,Zip matches ZCTA
+58631,Glen Ullin,ND,Zip Code Area,58631,Zip matches ZCTA
+46701,Albion,IN,Zip Code Area,46701,Zip matches ZCTA
+47967,New Richmond,IN,Zip Code Area,47967,Zip matches ZCTA
+11853,Jericho,NY,Post Office or large volume customer,11590,Spatial join to ZCTA
+85204,Mesa,AZ,Zip Code Area,85204,Zip matches ZCTA
+32868,Orlando,FL,Post Office or large volume customer,32818,Spatial join to ZCTA
+88350,Timberon,NM,Zip Code Area,88350,Zip matches ZCTA
+71377,Wildsville,LA,Post Office or large volume customer,71343,Spatial join to ZCTA
+48223,Detroit,MI,Zip Code Area,48223,Zip matches ZCTA
+36054,Millbrook,AL,Zip Code Area,36054,Zip matches ZCTA
+75926,Apple Springs,TX,Zip Code Area,75926,Zip matches ZCTA
+19082,Upper Darby,PA,Zip Code Area,19082,Zip matches ZCTA
+20818,Cabin John,MD,Zip Code Area,20818,Zip matches ZCTA
+60511,Big Rock,IL,Zip Code Area,60511,Zip matches ZCTA
+01089,West Springfield,MA,Zip Code Area,01089,Zip matches ZCTA
+48703,Au Gres,MI,Zip Code Area,48703,Zip matches ZCTA
+87416,Fruitland,NM,Zip Code Area,87416,Zip matches ZCTA
+23150,Sandston,VA,Zip Code Area,23150,Zip matches ZCTA
+75758,Chandler,TX,Zip Code Area,75758,Zip matches ZCTA
+86021,Colorado City,AZ,Zip Code Area,86021,Zip matches ZCTA
+79935,El Paso,TX,Zip Code Area,79935,Zip matches ZCTA
+77494,Katy,TX,Zip Code Area,77494,Zip matches ZCTA
+72902,Fort Smith,AR,Post Office or large volume customer,72901,Spatial join to ZCTA
+37222,Nashville,TN,Post Office or large volume customer,37211,Spatial join to ZCTA
+55413,Minneapolis,MN,Zip Code Area,55413,Zip matches ZCTA
+07092,Mountainside,NJ,Zip Code Area,07092,Zip matches ZCTA
+61932,Hume,IL,Zip Code Area,61932,Zip matches ZCTA
+68651,Osceola,NE,Zip Code Area,68651,Zip matches ZCTA
+15076,Russellton,PA,Zip Code Area,15076,Zip matches ZCTA
+61019,Davis,IL,Zip Code Area,61019,Zip matches ZCTA
+81403,Montrose,CO,Zip Code Area,81403,Zip matches ZCTA
+10249,New York,NY,Post Office or large volume customer,10007,Spatial join to ZCTA
+06855,Norwalk,CT,Zip Code Area,06855,Zip matches ZCTA
+60301,Oak Park,IL,Zip Code Area,60301,Zip matches ZCTA
+15638,Hostetter,PA,Zip Code Area,15638,Zip matches ZCTA
+65650,Flemington,MO,Zip Code Area,65650,Zip matches ZCTA
+60102,Algonquin,IL,Zip Code Area,60102,Zip matches ZCTA
+73147,Oklahoma City,OK,Post Office or large volume customer,73107,Spatial join to ZCTA
+17019,Dillsburg,PA,Zip Code Area,17019,Zip matches ZCTA
+18425,Greeley,PA,Zip Code Area,18425,Zip matches ZCTA
+25124,Liberty,WV,Zip Code Area,25124,Zip matches ZCTA
+97344,Falls City,OR,Zip Code Area,97344,Zip matches ZCTA
+53098,Watertown,WI,Zip Code Area,53098,Zip matches ZCTA
+73463,Wilson,OK,Zip Code Area,73463,Zip matches ZCTA
+55741,Gilbert,MN,Zip Code Area,55741,Zip matches ZCTA
+62882,Sandoval,IL,Zip Code Area,62882,Zip matches ZCTA
+43338,Mount Gilead,OH,Zip Code Area,43338,Zip matches ZCTA
+29230,Columbia,SC,Post Office or large volume customer,29203,Spatial join to ZCTA
+76101,Fort Worth,TX,Post Office or large volume customer,76102,Spatial join to ZCTA
+99011,Fairchild Air Force Base,WA,Zip Code Area,99011,Zip matches ZCTA
+49622,Central Lake,MI,Zip Code Area,49622,Zip matches ZCTA
+63663,Pilot Knob,MO,Post Office or large volume customer,63663,Zip matches ZCTA
+77979,Port Lavaca,TX,Zip Code Area,77979,Zip matches ZCTA
+22821,Dayton,VA,Zip Code Area,22821,Zip matches ZCTA
+76650,Irene,TX,Post Office or large volume customer,76650,Zip matches ZCTA
+13112,Memphis,NY,Zip Code Area,13112,Zip matches ZCTA
+34267,Fort Ogden,FL,Post Office or large volume customer,34267,Zip matches ZCTA
+22733,Rapidan,VA,Zip Code Area,22733,Zip matches ZCTA
+28237,Charlotte,NC,Post Office or large volume customer,28204,Spatial join to ZCTA
+14134,Sardinia,NY,Zip Code Area,14134,Zip matches ZCTA
+75398,Dallas,TX,Post Office or large volume customer,75211,Spatial join to ZCTA
+50054,Colfax,IA,Zip Code Area,50054,Zip matches ZCTA
+68976,Smithfield,NE,Zip Code Area,68976,Zip matches ZCTA
+27518,Cary,NC,Zip Code Area,27518,Zip matches ZCTA
+98315,Silverdale,WA,Zip Code Area,98315,Zip matches ZCTA
+00652,Garrochales,PR,Zip Code Area,00652,Zip matches ZCTA
+91326,Porter Ranch,CA,Zip Code Area,91326,Zip matches ZCTA
+41848,Roxana,KY,Zip Code Area,41848,Zip matches ZCTA
+18764,Wilkes Barre,PA,Post Office or large volume customer,18702,Spatial join to ZCTA
+98421,Tacoma,WA,Zip Code Area,98421,Zip matches ZCTA
+62341,Hamilton,IL,Zip Code Area,62341,Zip matches ZCTA
+95601,Amador City,CA,Post Office or large volume customer,95601,Zip matches ZCTA
+61936,La Place,IL,Zip Code Area,61936,Zip matches ZCTA
+31083,Scotland,GA,Post Office or large volume customer,31083,Zip matches ZCTA
+58558,Menoken,ND,Zip Code Area,58558,Zip matches ZCTA
+21207,Gwynn Oak,MD,Zip Code Area,21207,Zip matches ZCTA
+00937,San Juan,PR,Post Office or large volume customer,00979,Spatial join to ZCTA
+61364,Streator,IL,Zip Code Area,61364,Zip matches ZCTA
+33130,Miami,FL,Zip Code Area,33130,Zip matches ZCTA
+97119,Gaston,OR,Zip Code Area,97119,Zip matches ZCTA
+93307,Bakersfield,CA,Zip Code Area,93307,Zip matches ZCTA
+41408,Cannel City,KY,Zip Code Area,41408,Zip matches ZCTA
+76271,Tioga,TX,Zip Code Area,76271,Zip matches ZCTA
+28480,Wrightsville Beach,NC,Zip Code Area,28480,Zip matches ZCTA
+49682,Suttons Bay,MI,Zip Code Area,49682,Zip matches ZCTA
+65068,Prairie Home,MO,Zip Code Area,65068,Zip matches ZCTA
+91702,Azusa,CA,Zip Code Area,91702,Zip matches ZCTA
+56304,Saint Cloud,MN,Zip Code Area,56304,Zip matches ZCTA
+33664,Tampa,FL,Post Office or large volume customer,33607,Spatial join to ZCTA
+12159,Slingerlands,NY,Zip Code Area,12159,Zip matches ZCTA
+79033,Farnsworth,TX,Post Office or large volume customer,79033,Zip matches ZCTA
+18833,New Albany,PA,Zip Code Area,18833,Zip matches ZCTA
+45761,Millfield,OH,Zip Code Area,45761,Zip matches ZCTA
+56567,New York Mills,MN,Zip Code Area,56567,Zip matches ZCTA
+06604,Bridgeport,CT,Zip Code Area,06604,Zip matches ZCTA
+38930,Greenwood,MS,Zip Code Area,38930,Zip matches ZCTA
+93438,Lompoc,CA,Post Office or large volume customer,93436,Spatial join to ZCTA
+39159,Rolling Fork,MS,Zip Code Area,39159,Zip matches ZCTA
+94621,Oakland,CA,Zip Code Area,94621,Zip matches ZCTA
+10003,New York,NY,Zip Code Area,10003,Zip matches ZCTA
+13695,Wanakena,NY,Zip Code Area,13695,Zip matches ZCTA
+48080,Saint Clair Shores,MI,Zip Code Area,48080,Zip matches ZCTA
+52536,Blakesburg,IA,Zip Code Area,52536,Zip matches ZCTA
+21675,Wingate,MD,Zip Code Area,21675,Zip matches ZCTA
+21117,Owings Mills,MD,Zip Code Area,21117,Zip matches ZCTA
+15635,Hannastown,PA,Zip Code Area,15635,Zip matches ZCTA
+76845,Gouldbusk,TX,Zip Code Area,76845,Zip matches ZCTA
+92555,Moreno Valley,CA,Zip Code Area,92555,Zip matches ZCTA
+77078,Houston,TX,Zip Code Area,77078,Zip matches ZCTA
+97121,Hammond,OR,Zip Code Area,97121,Zip matches ZCTA
+97910,Jordan Valley,OR,Zip Code Area,97910,Zip matches ZCTA
+54177,Wausaukee,WI,Zip Code Area,54177,Zip matches ZCTA
+81027,Branson,CO,Zip Code Area,81027,Zip matches ZCTA
+85344,Parker,AZ,Zip Code Area,85344,Zip matches ZCTA
+47244,Hartsville,IN,Zip Code Area,47244,Zip matches ZCTA
+55901,Rochester,MN,Zip Code Area,55901,Zip matches ZCTA
+77583,Rosharon,TX,Zip Code Area,77583,Zip matches ZCTA
+38358,Milan,TN,Zip Code Area,38358,Zip matches ZCTA
+18810,Athens,PA,Zip Code Area,18810,Zip matches ZCTA
+38581,Rock Island,TN,Zip Code Area,38581,Zip matches ZCTA
+73932,Beaver,OK,Zip Code Area,73932,Zip matches ZCTA
+56479,Staples,MN,Zip Code Area,56479,Zip matches ZCTA
+38369,Rutherford,TN,Zip Code Area,38369,Zip matches ZCTA
+75507,Texarkana,TX,Post Office or large volume customer,75501,Spatial join to ZCTA
+85626,Pirtleville,AZ,Zip Code Area,85626,Zip matches ZCTA
+38760,Metcalfe,MS,Post Office or large volume customer,38760,Zip matches ZCTA
+21918,Conowingo,MD,Zip Code Area,21918,Zip matches ZCTA
+13743,Candor,NY,Zip Code Area,13743,Zip matches ZCTA
+40110,Clermont,KY,Zip Code Area,40110,Zip matches ZCTA
+76267,Slidell,TX,Post Office or large volume customer,76267,Zip matches ZCTA
+80016,Aurora,CO,Zip Code Area,80016,Zip matches ZCTA
+60302,Oak Park,IL,Zip Code Area,60302,Zip matches ZCTA
+33427,Boca Raton,FL,Post Office or large volume customer,33486,Spatial join to ZCTA
+02370,Rockland,MA,Zip Code Area,02370,Zip matches ZCTA
+56327,Farwell,MN,Zip Code Area,56327,Zip matches ZCTA
+58047,Horace,ND,Zip Code Area,58047,Zip matches ZCTA
+37354,Madisonville,TN,Zip Code Area,37354,Zip matches ZCTA
+95222,Angels Camp,CA,Zip Code Area,95222,Zip matches ZCTA
+55604,Grand Marais,MN,Zip Code Area,55604,Zip matches ZCTA
+43942,Powhatan Point,OH,Zip Code Area,43942,Zip matches ZCTA
+04992,West Farmington,ME,Post Office or large volume customer,04992,Zip matches ZCTA
+25209,Whitesville,WV,Zip Code Area,25209,Zip matches ZCTA
+47431,Freedom,IN,Zip Code Area,47431,Zip matches ZCTA
+83423,Dubois,ID,Zip Code Area,83423,Zip matches ZCTA
+04970,Rangeley,ME,Zip Code Area,04970,Zip matches ZCTA
+90712,Lakewood,CA,Zip Code Area,90712,Zip matches ZCTA
+27501,Angier,NC,Zip Code Area,27501,Zip matches ZCTA
+07834,Denville,NJ,Zip Code Area,07834,Zip matches ZCTA
+54458,Nelsonville,WI,Post Office or large volume customer,54458,Zip matches ZCTA
+27207,Bear Creek,NC,Zip Code Area,27207,Zip matches ZCTA
+93412,Los Osos,CA,Post Office or large volume customer,93402,Spatial join to ZCTA
+80480,Walden,CO,Zip Code Area,80480,Zip matches ZCTA
+60548,Sandwich,IL,Zip Code Area,60548,Zip matches ZCTA
+17343,Mc Knightstown,PA,Post Office or large volume customer,17343,Zip matches ZCTA
+13402,Madison,NY,Zip Code Area,13402,Zip matches ZCTA
+45868,Mount Cory,OH,Zip Code Area,45868,Zip matches ZCTA
+95559,Phillipsville,CA,Post Office or large volume customer,95559,Zip matches ZCTA
+64444,Edgerton,MO,Zip Code Area,64444,Zip matches ZCTA
+99361,Waitsburg,WA,Zip Code Area,99361,Zip matches ZCTA
+04733,Benedicta,ME,Zip Code Area,04733,Zip matches ZCTA
+89117,Las Vegas,NV,Zip Code Area,89117,Zip matches ZCTA
+33526,Dade City,FL,Post Office or large volume customer,33525,Spatial join to ZCTA
+73754,Lahoma,OK,Zip Code Area,73754,Zip matches ZCTA
+64050,Independence,MO,Zip Code Area,64050,Zip matches ZCTA
+61884,White Heath,IL,Zip Code Area,61884,Zip matches ZCTA
+59825,Clinton,MT,Zip Code Area,59825,Zip matches ZCTA
+89423,Minden,NV,Zip Code Area,89423,Zip matches ZCTA
+96847,Honolulu,HI,Post Office or large volume customer,96814,Spatial join to ZCTA
+45154,Mount Orab,OH,Zip Code Area,45154,Zip matches ZCTA
+56284,Renville,MN,Zip Code Area,56284,Zip matches ZCTA
+26591,Worthington,WV,Zip Code Area,26591,Zip matches ZCTA
+05471,Montgomery Center,VT,Zip Code Area,05471,Zip matches ZCTA
+53018,Delafield,WI,Zip Code Area,53018,Zip matches ZCTA
+38174,Memphis,TN,Post Office or large volume customer,38104,Spatial join to ZCTA
+42325,Bremen,KY,Zip Code Area,42325,Zip matches ZCTA
+36373,Shorterville,AL,Zip Code Area,36373,Zip matches ZCTA
+77015,Houston,TX,Zip Code Area,77015,Zip matches ZCTA
+58496,Woodworth,ND,Zip Code Area,58496,Zip matches ZCTA
+85613,Fort Huachuca,AZ,Zip Code Area,85613,Zip matches ZCTA
+71485,Woodworth,LA,Zip Code Area,71485,Zip matches ZCTA
+60542,North Aurora,IL,Zip Code Area,60542,Zip matches ZCTA
+32119,Daytona Beach,FL,Zip Code Area,32119,Zip matches ZCTA
+49831,Felch,MI,Zip Code Area,49831,Zip matches ZCTA
+30137,Emerson,GA,Zip Code Area,30137,Zip matches ZCTA
+06488,Southbury,CT,Zip Code Area,06488,Zip matches ZCTA
+57780,Scenic,SD,Zip Code Area,57780,Zip matches ZCTA
+79777,Pyote,TX,Zip Code Area,79777,Zip matches ZCTA
+80309,Boulder,CO,Zip Code Area,80310,Spatial join to ZCTA
+20635,Helen,MD,Post Office or large volume customer,20659,Spatial join to ZCTA
+85376,Sun City West,AZ,Post Office or large volume customer,85375,Spatial join to ZCTA
+77837,Calvert,TX,Zip Code Area,77837,Zip matches ZCTA
+45298,Cincinnati,KY,Post Office or large volume customer,45202,Spatial join to ZCTA
+17723,Cammal,PA,Zip Code Area,17723,Zip matches ZCTA
+40361,Paris,KY,Zip Code Area,40361,Zip matches ZCTA
+28711,Black Mountain,NC,Zip Code Area,28711,Zip matches ZCTA
+81006,Pueblo,CO,Zip Code Area,81006,Zip matches ZCTA
+93042,Point Mugu Nawc,CA,Zip Code Area,93042,Zip matches ZCTA
+25148,Orgas,WV,Zip Code Area,25148,Zip matches ZCTA
+62445,Montrose,IL,Zip Code Area,62445,Zip matches ZCTA
+27588,Wake Forest,NC,Post Office or large volume customer,27587,Spatial join to ZCTA
+15927,Colver,PA,Zip Code Area,15927,Zip matches ZCTA
+65035,Freeburg,MO,Zip Code Area,65035,Zip matches ZCTA
+19801,Wilmington,DE,Zip Code Area,19801,Zip matches ZCTA
+75689,Selman City,TX,Zip Code Area,75689,Zip matches ZCTA
+59241,Hinsdale,MT,Zip Code Area,59241,Zip matches ZCTA
+81503,Grand Junction,CO,Zip Code Area,81503,Zip matches ZCTA
+28408,Wilmington,NC,Post Office or large volume customer,28412,Spatial join to ZCTA
+41364,Ricetown,KY,Zip Code Area,41364,Zip matches ZCTA
+82833,Big Horn,WY,Zip Code Area,82833,Zip matches ZCTA
+15205,Pittsburgh,PA,Zip Code Area,15205,Zip matches ZCTA
+89434,Sparks,NV,Zip Code Area,89434,Zip matches ZCTA
+12465,Pine Hill,NY,Zip Code Area,12465,Zip matches ZCTA
+48653,Roscommon,MI,Zip Code Area,48653,Zip matches ZCTA
+52651,Stockport,IA,Zip Code Area,52651,Zip matches ZCTA
+70339,Pierre Part,LA,Zip Code Area,70339,Zip matches ZCTA
+22713,Boston,VA,Zip Code Area,22713,Zip matches ZCTA
+92661,Newport Beach,CA,Zip Code Area,92661,Zip matches ZCTA
+13617,Canton,NY,Zip Code Area,13617,Zip matches ZCTA
+82221,LaGrange,WY,Zip Code Area,82221,Zip matches ZCTA
+27606,Raleigh,NC,Zip Code Area,27606,Zip matches ZCTA
+50381,Des Moines,IA,Post Office or large volume customer,50309,Spatial join to ZCTA
+61871,Royal,IL,Zip Code Area,61871,Zip matches ZCTA
+71902,Hot Springs National Park,AR,Post Office or large volume customer,71901,Spatial join to ZCTA
+98563,Montesano,WA,Zip Code Area,98563,Zip matches ZCTA
+42050,Hickman,KY,Zip Code Area,42050,Zip matches ZCTA
+47370,Pershing,IN,Post Office or large volume customer,47370,Zip matches ZCTA
+27923,Coinjock,NC,Zip Code Area,27923,Zip matches ZCTA
+95364,Pinecrest,CA,Zip Code Area,95364,Zip matches ZCTA
+41005,Burlington,KY,Zip Code Area,41005,Zip matches ZCTA
+67475,Ramona,KS,Zip Code Area,67475,Zip matches ZCTA
+22153,Springfield,VA,Zip Code Area,22153,Zip matches ZCTA
+14475,Ionia,NY,Zip Code Area,14475,Zip matches ZCTA
+63640,Farmington,MO,Zip Code Area,63640,Zip matches ZCTA
+53701,Madison,WI,Post Office or large volume customer,53703,Spatial join to ZCTA
+33835,Bradley,FL,Zip Code Area,33835,Zip matches ZCTA
+48641,Midland,MI,Post Office or large volume customer,48640,Spatial join to ZCTA
+15071,Oakdale,PA,Zip Code Area,15071,Zip matches ZCTA
+18060,Limeport,PA,Post Office or large volume customer,18036,Spatial join to ZCTA
+47836,Bridgeton,IN,Zip Code Area,47836,Zip matches ZCTA
+45308,Bradford,OH,Zip Code Area,45308,Zip matches ZCTA
+38464,Lawrenceburg,TN,Zip Code Area,38464,Zip matches ZCTA
+62633,Easton,IL,Zip Code Area,62633,Zip matches ZCTA
+43218,Columbus,OH,Post Office or large volume customer,43218,Zip matches ZCTA
+85550,San Carlos,AZ,Zip Code Area,85550,Zip matches ZCTA
+67443,Galva,KS,Zip Code Area,67443,Zip matches ZCTA
+52099,Dubuque,IA,Post Office or large volume customer,52001,Spatial join to ZCTA
 01270,Windsor,MA,Zip Code Area,01270,Zip matches ZCTA
-01301,Greenfield,MA,Zip Code Area,01301,Zip matches ZCTA
-01302,Greenfield,MA,Post Office or large volume customer,01301,Spatial join to ZCTA
-01330,Ashfield,MA,Zip Code Area,01330,Zip matches ZCTA
-01331,Athol,MA,Zip Code Area,01331,Zip matches ZCTA
-01337,Bernardston,MA,Zip Code Area,01337,Zip matches ZCTA
-01338,Buckland,MA,Zip Code Area,01338,Zip matches ZCTA
-01339,Charlemont,MA,Zip Code Area,01339,Zip matches ZCTA
-01340,Colrain,MA,Zip Code Area,01340,Zip matches ZCTA
-01341,Conway,MA,Zip Code Area,01341,Zip matches ZCTA
-01342,Deerfield,MA,Zip Code Area,01342,Zip matches ZCTA
-01343,Drury,MA,Zip Code Area,01343,Zip matches ZCTA
-01344,Erving,MA,Zip Code Area,01344,Zip matches ZCTA
-01346,Heath,MA,Zip Code Area,01346,Zip matches ZCTA
-01347,Lake Pleasant,MA,Zip Code Area,01347,Zip matches ZCTA
-01349,Millers Falls,MA,Zip Code Area,01349,Zip matches ZCTA
-01350,Monroe Bridge,MA,Zip Code Area,01350,Zip matches ZCTA
-01351,Montague,MA,Zip Code Area,01351,Zip matches ZCTA
-01354,Gill,MA,Zip Code Area,01354,Zip matches ZCTA
-01355,New Salem,MA,Zip Code Area,01355,Zip matches ZCTA
-01360,Northfield,MA,Zip Code Area,01360,Zip matches ZCTA
-01364,Orange,MA,Zip Code Area,01364,Zip matches ZCTA
-01366,Petersham,MA,Zip Code Area,01366,Zip matches ZCTA
-01367,Rowe,MA,Zip Code Area,01367,Zip matches ZCTA
-01368,Royalston,MA,Zip Code Area,01368,Zip matches ZCTA
-01370,Shelburne Falls,MA,Zip Code Area,01370,Zip matches ZCTA
-01373,South Deerfield,MA,Zip Code Area,01373,Zip matches ZCTA
-01375,Sunderland,MA,Zip Code Area,01375,Zip matches ZCTA
-01376,Turners Falls,MA,Zip Code Area,01376,Zip matches ZCTA
-01378,Warwick,MA,Zip Code Area,01378,Zip matches ZCTA
-01379,Wendell,MA,Zip Code Area,01379,Zip matches ZCTA
-01380,Wendell Depot,MA,Zip Code Area,01380,Zip matches ZCTA
-01420,Fitchburg,MA,Zip Code Area,01420,Zip matches ZCTA
-01430,Ashburnham,MA,Zip Code Area,01430,Zip matches ZCTA
-01431,Ashby,MA,Zip Code Area,01431,Zip matches ZCTA
-01432,Ayer,MA,Zip Code Area,01432,Zip matches ZCTA
-01434,Devens,MA,Zip Code Area,01434,Zip matches ZCTA
-01436,Baldwinville,MA,Zip Code Area,01436,Zip matches ZCTA
-01438,East Templeton,MA,Post Office or large volume customer,01438,Zip matches ZCTA
-01440,Gardner,MA,Zip Code Area,01440,Zip matches ZCTA
-01441,Westminster,MA,Post Office or large volume customer,01473,Spatial join to ZCTA
-01450,Groton,MA,Zip Code Area,01450,Zip matches ZCTA
-01451,Harvard,MA,Zip Code Area,01451,Zip matches ZCTA
-01452,Hubbardston,MA,Zip Code Area,01452,Zip matches ZCTA
-01453,Leominster,MA,Zip Code Area,01453,Zip matches ZCTA
-01460,Littleton,MA,Zip Code Area,01460,Zip matches ZCTA
-01462,Lunenburg,MA,Zip Code Area,01462,Zip matches ZCTA
-01463,Pepperell,MA,Zip Code Area,01463,Zip matches ZCTA
-01464,Shirley,MA,Zip Code Area,01464,Zip matches ZCTA
-01467,Still River,MA,Post Office or large volume customer,01451,Spatial join to ZCTA
-01468,Templeton,MA,Zip Code Area,01468,Zip matches ZCTA
-01469,Townsend,MA,Zip Code Area,01469,Zip matches ZCTA
-01470,Groton,MA,Post Office or large volume customer,01450,Spatial join to ZCTA
-01471,Groton,MA,Post Office or large volume customer,01450,Spatial join to ZCTA
-01472,West Groton,MA,Post Office or large volume customer,01450,Spatial join to ZCTA
-01473,Westminster,MA,Zip Code Area,01473,Zip matches ZCTA
-01474,West Townsend,MA,Zip Code Area,01474,Zip matches ZCTA
-01475,Winchendon,MA,Zip Code Area,01475,Zip matches ZCTA
-01501,Auburn,MA,Zip Code Area,01501,Zip matches ZCTA
-01503,Berlin,MA,Zip Code Area,01503,Zip matches ZCTA
-01504,Blackstone,MA,Zip Code Area,01504,Zip matches ZCTA
-01505,Boylston,MA,Zip Code Area,01505,Zip matches ZCTA
-01506,Brookfield,MA,Zip Code Area,01506,Zip matches ZCTA
-01507,Charlton,MA,Zip Code Area,01507,Zip matches ZCTA
-01508,Charlton City,MA,Post Office or large volume customer,01507,Spatial join to ZCTA
-01509,Charlton Depot,MA,Post Office or large volume customer,01507,Spatial join to ZCTA
-01510,Clinton,MA,Zip Code Area,01510,Zip matches ZCTA
-01515,East Brookfield,MA,Zip Code Area,01515,Zip matches ZCTA
-01516,Douglas,MA,Zip Code Area,01516,Zip matches ZCTA
-01518,Fiskdale,MA,Zip Code Area,01518,Zip matches ZCTA
-01519,Grafton,MA,Zip Code Area,01519,Zip matches ZCTA
-01520,Holden,MA,Zip Code Area,01520,Zip matches ZCTA
-01521,Holland,MA,Zip Code Area,01521,Zip matches ZCTA
-01522,Jefferson,MA,Zip Code Area,01522,Zip matches ZCTA
-01523,Lancaster,MA,Zip Code Area,01523,Zip matches ZCTA
-01524,Leicester,MA,Zip Code Area,01524,Zip matches ZCTA
-01525,Linwood,MA,Post Office or large volume customer,01525,Zip matches ZCTA
-01526,Manchaug,MA,Post Office or large volume customer,01590,Spatial join to ZCTA
-01527,Millbury,MA,Zip Code Area,01527,Zip matches ZCTA
-01529,Millville,MA,Zip Code Area,01529,Zip matches ZCTA
-01531,New Braintree,MA,Zip Code Area,01531,Zip matches ZCTA
-01532,Northborough,MA,Zip Code Area,01532,Zip matches ZCTA
-01534,Northbridge,MA,Zip Code Area,01534,Zip matches ZCTA
-01535,North Brookfield,MA,Zip Code Area,01535,Zip matches ZCTA
-01536,North Grafton,MA,Zip Code Area,01536,Zip matches ZCTA
-01537,North Oxford,MA,Zip Code Area,01537,Zip matches ZCTA
-01538,North Uxbridge,MA,Post Office or large volume customer,01569,Spatial join to ZCTA
-01540,Oxford,MA,Zip Code Area,01540,Zip matches ZCTA
-01541,Princeton,MA,Zip Code Area,01541,Zip matches ZCTA
-01542,Rochdale,MA,Zip Code Area,01542,Zip matches ZCTA
-01543,Rutland,MA,Zip Code Area,01543,Zip matches ZCTA
-01545,Shrewsbury,MA,Zip Code Area,01545,Zip matches ZCTA
-01546,Shrewsbury,MA,Post Office or large volume customer,01545,Spatial join to ZCTA
-01550,Southbridge,MA,Zip Code Area,01550,Zip matches ZCTA
-01560,South Grafton,MA,Zip Code Area,01560,Zip matches ZCTA
-01561,South Lancaster,MA,Post Office or large volume customer,01561,Zip matches ZCTA
-01562,Spencer,MA,Zip Code Area,01562,Zip matches ZCTA
-01564,Sterling,MA,Zip Code Area,01564,Zip matches ZCTA
-01566,Sturbridge,MA,Zip Code Area,01566,Zip matches ZCTA
-01568,Upton,MA,Zip Code Area,01568,Zip matches ZCTA
-01569,Uxbridge,MA,Zip Code Area,01569,Zip matches ZCTA
-01570,Webster,MA,Zip Code Area,01570,Zip matches ZCTA
-01571,Dudley,MA,Zip Code Area,01571,Zip matches ZCTA
-01581,Westborough,MA,Zip Code Area,01581,Zip matches ZCTA
-01583,West Boylston,MA,Zip Code Area,01583,Zip matches ZCTA
-01585,West Brookfield,MA,Zip Code Area,01585,Zip matches ZCTA
-01586,West Millbury,MA,Post Office or large volume customer,01527,Spatial join to ZCTA
-01588,Whitinsville,MA,Zip Code Area,01588,Zip matches ZCTA
-01590,Sutton,MA,Zip Code Area,01590,Zip matches ZCTA
-01601,Worcester,MA,Post Office or large volume customer,01608,Spatial join to ZCTA
-01602,Worcester,MA,Zip Code Area,01602,Zip matches ZCTA
-01603,Worcester,MA,Zip Code Area,01603,Zip matches ZCTA
-01604,Worcester,MA,Zip Code Area,01604,Zip matches ZCTA
-01605,Worcester,MA,Zip Code Area,01605,Zip matches ZCTA
-01606,Worcester,MA,Zip Code Area,01606,Zip matches ZCTA
-01607,Worcester,MA,Zip Code Area,01607,Zip matches ZCTA
-01608,Worcester,MA,Zip Code Area,01608,Zip matches ZCTA
-01609,Worcester,MA,Zip Code Area,01609,Zip matches ZCTA
+43520,Farmer,OH,Post Office or large volume customer,43520,Zip matches ZCTA
+56251,Kandiyohi,MN,Zip Code Area,56251,Zip matches ZCTA
+61085,Stockton,IL,Zip Code Area,61085,Zip matches ZCTA
+20899,Gaithersburg,MD,Post Office or large volume customer,20899,Zip matches ZCTA
+49648,Kewadin,MI,Zip Code Area,49648,Zip matches ZCTA
+61776,Towanda,IL,Zip Code Area,61776,Zip matches ZCTA
+79503,Avoca,TX,Zip Code Area,79503,Zip matches ZCTA
+29210,Columbia,SC,Zip Code Area,29210,Zip matches ZCTA
+78010,Center Point,TX,Zip Code Area,78010,Zip matches ZCTA
+26149,Middlebourne,WV,Zip Code Area,26149,Zip matches ZCTA
+08608,Trenton,NJ,Zip Code Area,08608,Zip matches ZCTA
+43468,Williston,OH,Zip Code Area,43468,Zip matches ZCTA
+14891,Watkins Glen,NY,Zip Code Area,14891,Zip matches ZCTA
+16745,Rixford,PA,Zip Code Area,16745,Zip matches ZCTA
+60173,Schaumburg,IL,Zip Code Area,60173,Zip matches ZCTA
+75441,Enloe,TX,Zip Code Area,75441,Zip matches ZCTA
+14140,Spring Brook,NY,Post Office or large volume customer,14059,Spatial join to ZCTA
+48158,Manchester,MI,Zip Code Area,48158,Zip matches ZCTA
+14040,Darien Center,NY,Zip Code Area,14040,Zip matches ZCTA
+59854,Ovando,MT,Zip Code Area,59854,Zip matches ZCTA
+59002,Acton,MT,Zip Code Area,59002,Zip matches ZCTA
+33713,Saint Petersburg,FL,Zip Code Area,33713,Zip matches ZCTA
+23962,Randolph,VA,Zip Code Area,23962,Zip matches ZCTA
+44650,Maximo,OH,Post Office or large volume customer,44601,Spatial join to ZCTA
+30750,Lookout Mountain,GA,Zip Code Area,30750,Zip matches ZCTA
+04236,Greene,ME,Zip Code Area,04236,Zip matches ZCTA
+17847,Milton,PA,Zip Code Area,17847,Zip matches ZCTA
+52635,Lockridge,IA,Zip Code Area,52635,Zip matches ZCTA
+71743,Gurdon,AR,Zip Code Area,71743,Zip matches ZCTA
+25040,Charlton Heights,WV,Post Office or large volume customer,25040,Zip matches ZCTA
+83421,Chester,ID,Zip Code Area,83421,Zip matches ZCTA
+28730,Fairview,NC,Zip Code Area,28730,Zip matches ZCTA
+71852,Nashville,AR,Zip Code Area,71852,Zip matches ZCTA
+95227,Clements,CA,Zip Code Area,95227,Zip matches ZCTA
+46952,Marion,IN,Zip Code Area,46952,Zip matches ZCTA
+52351,Walford,IA,Zip Code Area,52351,Zip matches ZCTA
+15559,Schellsburg,PA,Zip Code Area,15559,Zip matches ZCTA
+38475,Olivehill,TN,Zip Code Area,38475,Zip matches ZCTA
+12977,Ray Brook,NY,Zip Code Area,12977,Zip matches ZCTA
+72948,Natural Dam,AR,Zip Code Area,72948,Zip matches ZCTA
+48350,Davisburg,MI,Zip Code Area,48350,Zip matches ZCTA
+33773,Largo,FL,Zip Code Area,33773,Zip matches ZCTA
+65564,Solo,MO,Zip Code Area,65564,Zip matches ZCTA
+12568,Plattekill,NY,Post Office or large volume customer,12589,Spatial join to ZCTA
+96750,Kealakekua,HI,Zip Code Area,96750,Zip matches ZCTA
+61742,Goodfield,IL,Zip Code Area,61742,Zip matches ZCTA
+06382,Uncasville,CT,Zip Code Area,06382,Zip matches ZCTA
+19083,Havertown,PA,Zip Code Area,19083,Zip matches ZCTA
+95493,Witter Springs,CA,Zip Code Area,95493,Zip matches ZCTA
+72156,Solgohachia,AR,Zip Code Area,72156,Zip matches ZCTA
+37227,Nashville,TN,Post Office or large volume customer,37217,Spatial join to ZCTA
+05767,Rochester,VT,Zip Code Area,05767,Zip matches ZCTA
+35474,Moundville,AL,Zip Code Area,35474,Zip matches ZCTA
+35950,Albertville,AL,Zip Code Area,35950,Zip matches ZCTA
+28553,Marshallberg,NC,Zip Code Area,28553,Zip matches ZCTA
+44613,Brewster,OH,Zip Code Area,44613,Zip matches ZCTA
+53527,Cottage Grove,WI,Zip Code Area,53527,Zip matches ZCTA
+71496,Leesville,LA,Post Office or large volume customer,71446,Spatial join to ZCTA
+75039,Irving,TX,Zip Code Area,75039,Zip matches ZCTA
+77373,Spring,TX,Zip Code Area,77373,Zip matches ZCTA
+28687,Statesville,NC,Post Office or large volume customer,28677,Spatial join to ZCTA
+84637,Kanosh,UT,Zip Code Area,84637,Zip matches ZCTA
+93276,Tupman,CA,Zip Code Area,93276,Zip matches ZCTA
+43154,Stoutsville,OH,Zip Code Area,43154,Zip matches ZCTA
+96739,Keauhou,HI,Post Office or large volume customer,96740,Spatial join to ZCTA
+75455,Mount Pleasant,TX,Zip Code Area,75455,Zip matches ZCTA
+12017,Austerlitz,NY,Zip Code Area,12017,Zip matches ZCTA
+00730,Ponce,PR,Zip Code Area,00730,Zip matches ZCTA
+21620,Chestertown,MD,Zip Code Area,21620,Zip matches ZCTA
+80805,Bethune,CO,Zip Code Area,80805,Zip matches ZCTA
+19708,Kirkwood,DE,Post Office or large volume customer,19701,Spatial join to ZCTA
+21784,Sykesville,MD,Zip Code Area,21784,Zip matches ZCTA
+03036,Chester,NH,Zip Code Area,03036,Zip matches ZCTA
+61725,Carlock,IL,Zip Code Area,61725,Zip matches ZCTA
+78951,Oakland,TX,Zip Code Area,78951,Zip matches ZCTA
+21713,Boonsboro,MD,Zip Code Area,21713,Zip matches ZCTA
+70633,Dequincy,LA,Zip Code Area,70633,Zip matches ZCTA
+00638,Ciales,PR,Zip Code Area,00638,Zip matches ZCTA
+58504,Bismarck,ND,Zip Code Area,58504,Zip matches ZCTA
+65444,Bucyrus,MO,Zip Code Area,65444,Zip matches ZCTA
+11697,Breezy Point,NY,Zip Code Area,11697,Zip matches ZCTA
+98687,Vancouver,WA,Post Office or large volume customer,98684,Spatial join to ZCTA
+12060,East Chatham,NY,Zip Code Area,12060,Zip matches ZCTA
+80110,Englewood,CO,Zip Code Area,80110,Zip matches ZCTA
+71461,New Llano,LA,Zip Code Area,71461,Zip matches ZCTA
+13662,Massena,NY,Zip Code Area,13662,Zip matches ZCTA
+43791,White Cottage,OH,Zip Code Area,43791,Zip matches ZCTA
+80010,Aurora,CO,Zip Code Area,80010,Zip matches ZCTA
+10211,New York,NY,Post Office or large volume customer,10199,Spatial join to ZCTA
+20911,Silver Spring,MD,Post Office or large volume customer,20910,Spatial join to ZCTA
+84090,Sandy,UT,Post Office or large volume customer,84093,Spatial join to ZCTA
+49835,Garden,MI,Zip Code Area,49835,Zip matches ZCTA
+85712,Tucson,AZ,Zip Code Area,85712,Zip matches ZCTA
+87321,Ramah,NM,Zip Code Area,87321,Zip matches ZCTA
+03431,Keene,NH,Zip Code Area,03431,Zip matches ZCTA
+75865,Woodlake,TX,Post Office or large volume customer,75865,Zip matches ZCTA
+68812,Amherst,NE,Zip Code Area,68812,Zip matches ZCTA
+72683,Vendor,AR,Zip Code Area,72683,Zip matches ZCTA
+87037,Nageezi,NM,Zip Code Area,87037,Zip matches ZCTA
+32466,Youngstown,FL,Zip Code Area,32466,Zip matches ZCTA
+72225,Little Rock,AR,Post Office or large volume customer,72205,Spatial join to ZCTA
+54610,Alma,WI,Zip Code Area,54610,Zip matches ZCTA
+77058,Houston,TX,Zip Code Area,77058,Zip matches ZCTA
+67574,Rozel,KS,Zip Code Area,67574,Zip matches ZCTA
+38863,Pontotoc,MS,Zip Code Area,38863,Zip matches ZCTA
+06404,Botsford,CT,Post Office or large volume customer,06470,Spatial join to ZCTA
+00931,San Juan,PR,Post Office or large volume customer,00925,Spatial join to ZCTA
+05150,North Springfield,VT,Zip Code Area,05150,Zip matches ZCTA
+30580,Turnerville,GA,Post Office or large volume customer,30523,Spatial join to ZCTA
+27612,Raleigh,NC,Zip Code Area,27612,Zip matches ZCTA
+32512,Pensacola,FL,Zip Code Area,32512,Zip matches ZCTA
+04259,Monmouth,ME,Zip Code Area,04259,Zip matches ZCTA
+28698,Zionville,NC,Zip Code Area,28698,Zip matches ZCTA
+02760,North Attleboro,MA,Zip Code Area,02760,Zip matches ZCTA
+39109,Madden,MS,Post Office or large volume customer,39051,Spatial join to ZCTA
+76958,Water Valley,TX,Post Office or large volume customer,76958,Zip matches ZCTA
+93106,Santa Barbara,CA,Zip Code Area,93106,Zip matches ZCTA
+23314,Carrollton,VA,Zip Code Area,23314,Zip matches ZCTA
+47352,Lewisville,IN,Zip Code Area,47352,Zip matches ZCTA
+20757,Temple Hills,MD,Post Office or large volume customer,20748,Spatial join to ZCTA
+26219,Frenchton,WV,Post Office or large volume customer,26218,Spatial join to ZCTA
+70634,Deridder,LA,Zip Code Area,70634,Zip matches ZCTA
+16630,Cresson,PA,Zip Code Area,16630,Zip matches ZCTA
+23941,Fort Mitchell,VA,Post Office or large volume customer,23924,Spatial join to ZCTA
+55923,Chatfield,MN,Zip Code Area,55923,Zip matches ZCTA
+01071,Russell,MA,Zip Code Area,01071,Zip matches ZCTA
+15067,New Eagle,PA,Zip Code Area,15067,Zip matches ZCTA
+74034,Hallett,OK,Post Office or large volume customer,74034,Zip matches ZCTA
+40387,Wellington,KY,Zip Code Area,40387,Zip matches ZCTA
+68632,David City,NE,Zip Code Area,68632,Zip matches ZCTA
+64152,Kansas City,MO,Zip Code Area,64152,Zip matches ZCTA
+62880,Saint Peter,IL,Zip Code Area,62880,Zip matches ZCTA
+85261,Scottsdale,AZ,Post Office or large volume customer,85258,Spatial join to ZCTA
+10167,New York,NY,Post Office or large volume customer,10167,Zip matches ZCTA
+60071,Richmond,IL,Zip Code Area,60071,Zip matches ZCTA
+55057,Northfield,MN,Zip Code Area,55057,Zip matches ZCTA
+17557,New Holland,PA,Zip Code Area,17557,Zip matches ZCTA
+48825,East Lansing,MI,Zip Code Area,48825,Zip matches ZCTA
+72330,Dyess,AR,Zip Code Area,72330,Zip matches ZCTA
+73736,Fairmont,OK,Zip Code Area,73736,Zip matches ZCTA
+43314,Caledonia,OH,Zip Code Area,43314,Zip matches ZCTA
+62358,Niota,IL,Zip Code Area,62358,Zip matches ZCTA
+52223,Delhi,IA,Zip Code Area,52223,Zip matches ZCTA
+27288,Eden,NC,Zip Code Area,27288,Zip matches ZCTA
+11765,Mill Neck,NY,Zip Code Area,11765,Zip matches ZCTA
+50213,Osceola,IA,Zip Code Area,50213,Zip matches ZCTA
+80541,Masonville,CO,Post Office or large volume customer,80538,Spatial join to ZCTA
+23459,Virginia Beach,VA,Zip Code Area,23459,Zip matches ZCTA
+42142,Glasgow,KY,Post Office or large volume customer,42141,Spatial join to ZCTA
+95164,San Jose,CA,Post Office or large volume customer,95134,Spatial join to ZCTA
+42345,Greenville,KY,Zip Code Area,42345,Zip matches ZCTA
+56570,Osage,MN,Zip Code Area,56570,Zip matches ZCTA
+86506,Houck,AZ,Post Office or large volume customer,86506,Zip matches ZCTA
+24931,Crawley,WV,Zip Code Area,24931,Zip matches ZCTA
+61643,Peoria,IL,Post Office or large volume customer,61614,Spatial join to ZCTA
+30055,Mansfield,GA,Zip Code Area,30055,Zip matches ZCTA
+49328,Hopkins,MI,Zip Code Area,49328,Zip matches ZCTA
+06029,Ellington,CT,Zip Code Area,06029,Zip matches ZCTA
 01610,Worcester,MA,Zip Code Area,01610,Zip matches ZCTA
-01611,Cherry Valley,MA,Zip Code Area,01611,Zip matches ZCTA
-01612,Paxton,MA,Zip Code Area,01612,Zip matches ZCTA
-01613,Worcester,MA,Post Office or large volume customer,01604,Spatial join to ZCTA
-01614,Worcester,MA,Post Office or large volume customer,01608,Spatial join to ZCTA
-01615,Worcester,MA,Post Office or large volume customer,01605,Spatial join to ZCTA
-01653,Worcester,MA,Post Office or large volume customer,01605,Spatial join to ZCTA
-01655,Worcester,MA,Post Office or large volume customer,01605,Spatial join to ZCTA
-01701,Framingham,MA,Zip Code Area,01701,Zip matches ZCTA
-01702,Framingham,MA,Zip Code Area,01702,Zip matches ZCTA
-01703,Framingham,MA,Post Office or large volume customer,01701,Spatial join to ZCTA
-01704,Framingham,MA,Post Office or large volume customer,01702,Spatial join to ZCTA
-01705,Framingham,MA,Post Office or large volume customer,01701,Spatial join to ZCTA
-01718,Acton,MA,Zip Code Area,01718,Zip matches ZCTA
-01719,Boxborough,MA,Zip Code Area,01719,Zip matches ZCTA
-01720,Acton,MA,Zip Code Area,01720,Zip matches ZCTA
-01721,Ashland,MA,Zip Code Area,01721,Zip matches ZCTA
-01730,Bedford,MA,Zip Code Area,01730,Zip matches ZCTA
-01731,Hanscom AFB,MA,Zip Code Area,01731,Zip matches ZCTA
-01740,Bolton,MA,Zip Code Area,01740,Zip matches ZCTA
-01741,Carlisle,MA,Zip Code Area,01741,Zip matches ZCTA
-01742,Concord,MA,Zip Code Area,01742,Zip matches ZCTA
-01745,Fayville,MA,Zip Code Area,01745,Zip matches ZCTA
-01746,Holliston,MA,Zip Code Area,01746,Zip matches ZCTA
+55760,McGregor,MN,Zip Code Area,55760,Zip matches ZCTA
+12831,Gansevoort,NY,Zip Code Area,12831,Zip matches ZCTA
+85924,Concho,AZ,Zip Code Area,85924,Zip matches ZCTA
+79085,Summerfield,TX,Zip Code Area,79085,Zip matches ZCTA
+30818,Matthews,GA,Zip Code Area,30818,Zip matches ZCTA
+41601,Allen,KY,Zip Code Area,41601,Zip matches ZCTA
+57779,Saint Onge,SD,Zip Code Area,57779,Zip matches ZCTA
+64424,Bethany,MO,Zip Code Area,64424,Zip matches ZCTA
+48033,Southfield,MI,Zip Code Area,48033,Zip matches ZCTA
+97122,Hebo,OR,Zip Code Area,97122,Zip matches ZCTA
+12122,Middleburgh,NY,Zip Code Area,12122,Zip matches ZCTA
+58441,Fullerton,ND,Zip Code Area,58441,Zip matches ZCTA
+89070,Indian Springs,NV,Post Office or large volume customer,89070,Zip matches ZCTA
+24224,Castlewood,VA,Zip Code Area,24224,Zip matches ZCTA
+12974,Port Henry,NY,Zip Code Area,12974,Zip matches ZCTA
+98546,Grapeview,WA,Zip Code Area,98546,Zip matches ZCTA
+49039,Hagar Shores,MI,Post Office or large volume customer,49038,Spatial join to ZCTA
+49258,Mosherville,MI,Post Office or large volume customer,49258,Zip matches ZCTA
+34691,Holiday,FL,Zip Code Area,34691,Zip matches ZCTA
+21556,Pinto,MD,Post Office or large volume customer,21502,Spatial join to ZCTA
+03307,Loudon,NH,Zip Code Area,03307,Zip matches ZCTA
+86332,Kirkland,AZ,Zip Code Area,86332,Zip matches ZCTA
+39190,Washington,MS,Post Office or large volume customer,39120,Spatial join to ZCTA
+72583,Viola,AR,Zip Code Area,72583,Zip matches ZCTA
+34605,Brooksville,FL,Post Office or large volume customer,34601,Spatial join to ZCTA
+79457,Lubbock,TX,Post Office or large volume customer,79402,Spatial join to ZCTA
+08853,Neshanic Station,NJ,Zip Code Area,08853,Zip matches ZCTA
+01966,Rockport,MA,Zip Code Area,01966,Zip matches ZCTA
+32952,Merritt Island,FL,Zip Code Area,32952,Zip matches ZCTA
+43612,Toledo,OH,Zip Code Area,43612,Zip matches ZCTA
+49099,White Pigeon,MI,Zip Code Area,49099,Zip matches ZCTA
+97106,Banks,OR,Zip Code Area,97106,Zip matches ZCTA
+22331,Alexandria,VA,Post Office or large volume customer,22314,Spatial join to ZCTA
+62462,Sigel,IL,Zip Code Area,62462,Zip matches ZCTA
+32059,Lee,FL,Zip Code Area,32059,Zip matches ZCTA
+08050,Manahawkin,NJ,Zip Code Area,08050,Zip matches ZCTA
+68340,Deshler,NE,Zip Code Area,68340,Zip matches ZCTA
+83877,Post Falls,ID,Post Office or large volume customer,83854,Spatial join to ZCTA
+13314,Brookfield,NY,Zip Code Area,13314,Zip matches ZCTA
+76135,Fort Worth,TX,Zip Code Area,76135,Zip matches ZCTA
+94611,Oakland,CA,Zip Code Area,94611,Zip matches ZCTA
+54895,Weyerhaeuser,WI,Zip Code Area,54895,Zip matches ZCTA
+11706,Bay Shore,NY,Zip Code Area,11706,Zip matches ZCTA
+47618,Inglefield,IN,Post Office or large volume customer,47725,Spatial join to ZCTA
+81221,Coal Creek,CO,Post Office or large volume customer,81221,Zip matches ZCTA
+29431,Bonneau,SC,Zip Code Area,29431,Zip matches ZCTA
+04276,Rumford,ME,Zip Code Area,04276,Zip matches ZCTA
+08319,Estell Manor,NJ,Zip Code Area,08319,Zip matches ZCTA
+54463,Pelican Lake,WI,Zip Code Area,54463,Zip matches ZCTA
+56262,Milan,MN,Zip Code Area,56262,Zip matches ZCTA
+72311,Aubrey,AR,Zip Code Area,72311,Zip matches ZCTA
+29446,Green Pond,SC,Zip Code Area,29446,Zip matches ZCTA
+91394,Granada Hills,CA,Post Office or large volume customer,91344,Spatial join to ZCTA
+57339,Fort Thompson,SD,Zip Code Area,57339,Zip matches ZCTA
+67120,Peck,KS,Zip Code Area,67120,Zip matches ZCTA
+20065,Washington,DC,Post Office or large volume customer,20002,Spatial join to ZCTA
+67439,Ellsworth,KS,Zip Code Area,67439,Zip matches ZCTA
+27519,Cary,NC,Zip Code Area,27519,Zip matches ZCTA
+87577,Tres Piedras,NM,Post Office or large volume customer,87577,Zip matches ZCTA
+03435,Keene,NH,Post Office or large volume customer,03431,Spatial join to ZCTA
+14225,Buffalo,NY,Zip Code Area,14225,Zip matches ZCTA
+48362,Lake Orion,MI,Zip Code Area,48362,Zip matches ZCTA
+61554,Pekin,IL,Zip Code Area,61554,Zip matches ZCTA
+24599,Wingina,VA,Zip Code Area,24599,Zip matches ZCTA
+35603,Decatur,AL,Zip Code Area,35603,Zip matches ZCTA
+84667,Wales,UT,Zip Code Area,84667,Zip matches ZCTA
+57572,Saint Francis,SD,Zip Code Area,57572,Zip matches ZCTA
+32601,Gainesville,FL,Zip Code Area,32601,Zip matches ZCTA
+81128,Chromo,CO,Post Office or large volume customer,81128,Zip matches ZCTA
+79111,Amarillo,TX,Zip Code Area,79111,Zip matches ZCTA
+88351,Tinnie,NM,Zip Code Area,88351,Zip matches ZCTA
+01905,Lynn,MA,Zip Code Area,01905,Zip matches ZCTA
+36859,Holy Trinity,AL,Post Office or large volume customer,36856,Spatial join to ZCTA
+35078,Harpersville,AL,Zip Code Area,35078,Zip matches ZCTA
+53503,Arena,WI,Zip Code Area,53503,Zip matches ZCTA
+19536,Lyon Station,PA,Zip Code Area,19536,Zip matches ZCTA
+99569,Clarks Point,AK,Zip Code Area,99569,Zip matches ZCTA
+03830,East Wakefield,NH,Zip Code Area,03830,Zip matches ZCTA
+91115,Pasadena,CA,Post Office or large volume customer,91105,Spatial join to ZCTA
+20632,Faulkner,MD,Zip Code Area,20632,Zip matches ZCTA
+49819,Arnold,MI,Zip Code Area,49818,Spatial join to ZCTA
+61073,Roscoe,IL,Zip Code Area,61073,Zip matches ZCTA
+17560,New Providence,PA,Zip Code Area,17560,Zip matches ZCTA
+15632,Export,PA,Zip Code Area,15632,Zip matches ZCTA
+45502,Springfield,OH,Zip Code Area,45502,Zip matches ZCTA
+83203,Fort Hall,ID,Post Office or large volume customer,83203,Zip matches ZCTA
+76888,Voss,TX,Zip Code Area,76888,Zip matches ZCTA
+61824,Champaign,IL,Post Office or large volume customer,61820,Spatial join to ZCTA
+55041,Lake City,MN,Zip Code Area,55041,Zip matches ZCTA
+64865,Seneca,MO,Zip Code Area,64865,Zip matches ZCTA
+75972,San Augustine,TX,Zip Code Area,75972,Zip matches ZCTA
+06095,Windsor,CT,Zip Code Area,06095,Zip matches ZCTA
+49072,Mendon,MI,Zip Code Area,49072,Zip matches ZCTA
+90231,Culver City,CA,Post Office or large volume customer,90230,Spatial join to ZCTA
+59070,Roberts,MT,Zip Code Area,59070,Zip matches ZCTA
+17504,Bausman,PA,Post Office or large volume customer,17504,Zip matches ZCTA
+73632,Cordell,OK,Zip Code Area,73632,Zip matches ZCTA
+12233,Albany,NY,Post Office or large volume customer,12207,Spatial join to ZCTA
+53122,Elm Grove,WI,Zip Code Area,53122,Zip matches ZCTA
+23035,Cobbs Creek,VA,Zip Code Area,23035,Zip matches ZCTA
+59063,Park City,MT,Zip Code Area,59063,Zip matches ZCTA
+57107,Sioux Falls,SD,Zip Code Area,57107,Zip matches ZCTA
+43222,Columbus,OH,Zip Code Area,43222,Zip matches ZCTA
+13303,Ava,NY,Zip Code Area,13303,Zip matches ZCTA
+90233,Culver City,CA,Post Office or large volume customer,90230,Spatial join to ZCTA
+12212,Albany,NY,Post Office or large volume customer,12205,Spatial join to ZCTA
+63151,Saint Louis,MO,Post Office or large volume customer,63129,Spatial join to ZCTA
+43015,Delaware,OH,Zip Code Area,43015,Zip matches ZCTA
+15439,Gans,PA,Post Office or large volume customer,15451,Spatial join to ZCTA
+98204,Everett,WA,Zip Code Area,98204,Zip matches ZCTA
+07657,Ridgefield,NJ,Zip Code Area,07657,Zip matches ZCTA
+77850,Concord,TX,Post Office or large volume customer,75846,Spatial join to ZCTA
+31565,Waverly,GA,Zip Code Area,31565,Zip matches ZCTA
+87575,Tierra Amarilla,NM,Zip Code Area,87575,Zip matches ZCTA
+40445,Livingston,KY,Zip Code Area,40445,Zip matches ZCTA
+72137,Rose Bud,AR,Zip Code Area,72137,Zip matches ZCTA
+24330,Fries,VA,Zip Code Area,24330,Zip matches ZCTA
+74883,Wetumka,OK,Zip Code Area,74883,Zip matches ZCTA
+97413,Blue River,OR,Zip Code Area,97413,Zip matches ZCTA
+92093,La Jolla,CA,Zip Code Area,92093,Zip matches ZCTA
+77333,Dobbin,TX,Post Office or large volume customer,77356,Spatial join to ZCTA
+95415,Boonville,CA,Zip Code Area,95415,Zip matches ZCTA
+06147,Hartford,CT,Post Office or large volume customer,06120,Spatial join to ZCTA
+17853,Mount Pleasant Mills,PA,Zip Code Area,17853,Zip matches ZCTA
+18451,Paupack,PA,Zip Code Area,18451,Zip matches ZCTA
+26050,Newell,WV,Zip Code Area,26050,Zip matches ZCTA
+42464,White Plains,KY,Zip Code Area,42464,Zip matches ZCTA
+96099,Redding,CA,Post Office or large volume customer,96001,Spatial join to ZCTA
+02145,Somerville,MA,Zip Code Area,02145,Zip matches ZCTA
+46209,Indianapolis,IN,Post Office or large volume customer,46225,Spatial join to ZCTA
+19962,Magnolia,DE,Zip Code Area,19962,Zip matches ZCTA
+76820,Art,TX,Zip Code Area,76820,Zip matches ZCTA
+88054,Radium Springs,NM,Post Office or large volume customer,87937,Spatial join to ZCTA
+78204,San Antonio,TX,Zip Code Area,78204,Zip matches ZCTA
+95922,Camptonville,CA,Zip Code Area,95922,Zip matches ZCTA
+50620,Colwell,IA,Zip Code Area,50620,Zip matches ZCTA
+13790,Johnson City,NY,Zip Code Area,13790,Zip matches ZCTA
+06374,Plainfield,CT,Zip Code Area,06374,Zip matches ZCTA
+08723,Brick,NJ,Zip Code Area,08723,Zip matches ZCTA
+60510,Batavia,IL,Zip Code Area,60510,Zip matches ZCTA
+56517,Beltrami,MN,Zip Code Area,56517,Zip matches ZCTA
+28319,Barnesville,NC,Post Office or large volume customer,28369,Spatial join to ZCTA
+22160,Springfield,VA,Post Office or large volume customer,22151,Spatial join to ZCTA
+62044,Greenfield,IL,Zip Code Area,62044,Zip matches ZCTA
+97624,Chiloquin,OR,Zip Code Area,97624,Zip matches ZCTA
+04915,Belfast,ME,Zip Code Area,04915,Zip matches ZCTA
+28227,Charlotte,NC,Zip Code Area,28227,Zip matches ZCTA
+33166,Miami,FL,Zip Code Area,33166,Zip matches ZCTA
+13069,Fulton,NY,Zip Code Area,13069,Zip matches ZCTA
+31551,Mershon,GA,Zip Code Area,31551,Zip matches ZCTA
+88213,Caprock,NM,Zip Code Area,88267,Spatial join to ZCTA
+40060,Raywick,KY,Zip Code Area,40060,Zip matches ZCTA
+50006,Alden,IA,Zip Code Area,50006,Zip matches ZCTA
+28521,Chinquapin,NC,Zip Code Area,28521,Zip matches ZCTA
+56185,Wilmont,MN,Zip Code Area,56185,Zip matches ZCTA
+64623,Bosworth,MO,Zip Code Area,64623,Zip matches ZCTA
+72503,Batesville,AR,Post Office or large volume customer,72501,Spatial join to ZCTA
+30721,Dalton,GA,Zip Code Area,30721,Zip matches ZCTA
+77279,Houston,TX,Post Office or large volume customer,77024,Spatial join to ZCTA
+15416,Brownfield,PA,Post Office or large volume customer,15416,Zip matches ZCTA
+89419,Lovelock,NV,Zip Code Area,89419,Zip matches ZCTA
+72057,Grapevine,AR,Zip Code Area,72057,Zip matches ZCTA
+33004,Dania,FL,Zip Code Area,33004,Zip matches ZCTA
+85648,Rio Rico,AZ,Zip Code Area,85648,Zip matches ZCTA
+37236,Nashville,TN,Post Office or large volume customer,37203,Spatial join to ZCTA
+01109,Springfield,MA,Zip Code Area,01109,Zip matches ZCTA
+72461,Rector,AR,Zip Code Area,72461,Zip matches ZCTA
+56731,Humboldt,MN,Zip Code Area,56731,Zip matches ZCTA
+02130,Jamaica Plain,MA,Zip Code Area,02130,Zip matches ZCTA
+63033,Florissant,MO,Zip Code Area,63033,Zip matches ZCTA
+54170,Shiocton,WI,Zip Code Area,54170,Zip matches ZCTA
+76097,Burleson,TX,Post Office or large volume customer,76028,Spatial join to ZCTA
+70543,Iota,LA,Zip Code Area,70543,Zip matches ZCTA
+45614,Bidwell,OH,Zip Code Area,45614,Zip matches ZCTA
+40040,Mackville,KY,Zip Code Area,40040,Zip matches ZCTA
+04014,Cape Porpoise,ME,Post Office or large volume customer,04046,Spatial join to ZCTA
+38850,Houlka,MS,Zip Code Area,38850,Zip matches ZCTA
+30642,Greensboro,GA,Zip Code Area,30642,Zip matches ZCTA
+32505,Pensacola,FL,Zip Code Area,32505,Zip matches ZCTA
+21623,Church Hill,MD,Zip Code Area,21623,Zip matches ZCTA
 01747,Hopedale,MA,Zip Code Area,01747,Zip matches ZCTA
-01748,Hopkinton,MA,Zip Code Area,01748,Zip matches ZCTA
-01749,Hudson,MA,Zip Code Area,01749,Zip matches ZCTA
-01752,Marlborough,MA,Zip Code Area,01752,Zip matches ZCTA
-01754,Maynard,MA,Zip Code Area,01754,Zip matches ZCTA
-01756,Mendon,MA,Zip Code Area,01756,Zip matches ZCTA
-01757,Milford,MA,Zip Code Area,01757,Zip matches ZCTA
-01760,Natick,MA,Zip Code Area,01760,Zip matches ZCTA
-01770,Sherborn,MA,Zip Code Area,01770,Zip matches ZCTA
-01772,Southborough,MA,Zip Code Area,01772,Zip matches ZCTA
-01773,Lincoln,MA,Zip Code Area,01773,Zip matches ZCTA
-01775,Stow,MA,Zip Code Area,01775,Zip matches ZCTA
-01776,Sudbury,MA,Zip Code Area,01776,Zip matches ZCTA
-01778,Wayland,MA,Zip Code Area,01778,Zip matches ZCTA
-01784,Woodville,MA,Post Office or large volume customer,01748,Spatial join to ZCTA
-01801,Woburn,MA,Zip Code Area,01801,Zip matches ZCTA
-01803,Burlington,MA,Zip Code Area,01803,Zip matches ZCTA
-01805,Burlington,MA,Post Office or large volume customer,01803,Spatial join to ZCTA
-01810,Andover,MA,Zip Code Area,01810,Zip matches ZCTA
-01812,Andover,MA,Post Office or large volume customer,01810,Spatial join to ZCTA
-01813,Woburn,MA,Post Office or large volume customer,01801,Spatial join to ZCTA
-01815,Woburn,MA,Post Office or large volume customer,01801,Spatial join to ZCTA
-01821,Billerica,MA,Zip Code Area,01821,Zip matches ZCTA
-01822,Billerica,MA,Post Office or large volume customer,01821,Spatial join to ZCTA
-01824,Chelmsford,MA,Zip Code Area,01824,Zip matches ZCTA
-01826,Dracut,MA,Zip Code Area,01826,Zip matches ZCTA
-01827,Dunstable,MA,Zip Code Area,01827,Zip matches ZCTA
-01830,Haverhill,MA,Zip Code Area,01830,Zip matches ZCTA
-01831,Haverhill,MA,Post Office or large volume customer,01830,Spatial join to ZCTA
-01832,Haverhill,MA,Zip Code Area,01832,Zip matches ZCTA
-01833,Georgetown,MA,Zip Code Area,01833,Zip matches ZCTA
-01834,Groveland,MA,Zip Code Area,01834,Zip matches ZCTA
-01835,Haverhill,MA,Zip Code Area,01835,Zip matches ZCTA
-01840,Lawrence,MA,Zip Code Area,01840,Zip matches ZCTA
-01841,Lawrence,MA,Zip Code Area,01841,Zip matches ZCTA
-01842,Lawrence,MA,Post Office or large volume customer,01840,Spatial join to ZCTA
+12090,Hoosick Falls,NY,Zip Code Area,12090,Zip matches ZCTA
+36258,Delta,AL,Zip Code Area,36258,Zip matches ZCTA
+07302,Jersey City,NJ,Zip Code Area,07302,Zip matches ZCTA
+20904,Silver Spring,MD,Zip Code Area,20904,Zip matches ZCTA
+21662,Royal Oak,MD,Zip Code Area,21662,Zip matches ZCTA
+50481,Toeterville,IA,Zip Code Area,50472,Spatial join to ZCTA
+44639,Leesville,OH,Zip Code Area,44639,Zip matches ZCTA
+46802,Fort Wayne,IN,Zip Code Area,46802,Zip matches ZCTA
+16617,Bellwood,PA,Zip Code Area,16617,Zip matches ZCTA
+90024,Los Angeles,CA,Zip Code Area,90024,Zip matches ZCTA
+72023,Cabot,AR,Zip Code Area,72023,Zip matches ZCTA
+37023,Big Rock,TN,Zip Code Area,37023,Zip matches ZCTA
+30342,Atlanta,GA,Zip Code Area,30342,Zip matches ZCTA
+10701,Yonkers,NY,Zip Code Area,10701,Zip matches ZCTA
+56208,Appleton,MN,Zip Code Area,56208,Zip matches ZCTA
+17857,Northumberland,PA,Zip Code Area,17857,Zip matches ZCTA
+94297,Sacramento,CA,Post Office or large volume customer,95818,Spatial join to ZCTA
+64168,Kansas City,MO,Post Office or large volume customer,64150,Spatial join to ZCTA
+10014,New York,NY,Zip Code Area,10014,Zip matches ZCTA
+54406,Amherst,WI,Zip Code Area,54406,Zip matches ZCTA
+79407,Lubbock,TX,Zip Code Area,79407,Zip matches ZCTA
+41739,Dwarf,KY,Zip Code Area,41739,Zip matches ZCTA
+47831,Blanford,IN,Post Office or large volume customer,47831,Zip matches ZCTA
+13335,Edmeston,NY,Zip Code Area,13335,Zip matches ZCTA
+42463,Wheatcroft,KY,Post Office or large volume customer,42463,Zip matches ZCTA
+64652,Laredo,MO,Zip Code Area,64652,Zip matches ZCTA
+58641,Lefor,ND,Zip Code Area,58641,Zip matches ZCTA
+07751,Morganville,NJ,Zip Code Area,07751,Zip matches ZCTA
+69157,Purdum,NE,Zip Code Area,69157,Zip matches ZCTA
+27823,Enfield,NC,Zip Code Area,27823,Zip matches ZCTA
+79233,Estelline,TX,Post Office or large volume customer,79233,Zip matches ZCTA
+12981,Saranac,NY,Zip Code Area,12981,Zip matches ZCTA
+99663,Seldovia,AK,Zip Code Area,99663,Zip matches ZCTA
+74401,Muskogee,OK,Zip Code Area,74401,Zip matches ZCTA
+12770,Pond Eddy,NY,Zip Code Area,12770,Zip matches ZCTA
+68927,Bertrand,NE,Zip Code Area,68927,Zip matches ZCTA
+61702,Bloomington,IL,Post Office or large volume customer,61701,Spatial join to ZCTA
+33852,Lake Placid,FL,Zip Code Area,33852,Zip matches ZCTA
+84165,Salt Lake City,UT,Post Office or large volume customer,84115,Spatial join to ZCTA
+19093,Philadelphia,PA,Post Office or large volume customer,19104,Spatial join to ZCTA
+54519,Conover,WI,Zip Code Area,54519,Zip matches ZCTA
+24828,Davy,WV,Zip Code Area,24828,Zip matches ZCTA
+58258,Mekinock,ND,Zip Code Area,58258,Zip matches ZCTA
+29404,Charleston AFB,SC,Zip Code Area,29404,Zip matches ZCTA
+85607,Douglas,AZ,Zip Code Area,85607,Zip matches ZCTA
+35542,Bankston,AL,Zip Code Area,35542,Zip matches ZCTA
+76678,Prairie Hill,TX,Zip Code Area,76678,Zip matches ZCTA
+95136,San Jose,CA,Zip Code Area,95136,Zip matches ZCTA
+48092,Warren,MI,Zip Code Area,48092,Zip matches ZCTA
+77476,Simonton,TX,Post Office or large volume customer,77476,Zip matches ZCTA
+70606,Lake Charles,LA,Post Office or large volume customer,70605,Spatial join to ZCTA
+19539,Mertztown,PA,Zip Code Area,19539,Zip matches ZCTA
+76865,Norton,TX,Zip Code Area,76865,Zip matches ZCTA
+56433,Akeley,MN,Zip Code Area,56433,Zip matches ZCTA
+49806,Au Train,MI,Zip Code Area,49806,Zip matches ZCTA
+45067,Trenton,OH,Zip Code Area,45067,Zip matches ZCTA
+21403,Annapolis,MD,Zip Code Area,21403,Zip matches ZCTA
+67876,Spearville,KS,Zip Code Area,67876,Zip matches ZCTA
+76476,Tolar,TX,Zip Code Area,76476,Zip matches ZCTA
+32056,Lake City,FL,Post Office or large volume customer,32055,Spatial join to ZCTA
+14211,Buffalo,NY,Zip Code Area,14211,Zip matches ZCTA
+34447,Homosassa Springs,FL,Post Office or large volume customer,34446,Spatial join to ZCTA
+83541,Lenore,ID,Zip Code Area,83541,Zip matches ZCTA
+32815,Orlando,FL,Zip Code Area,32780,Spatial join to ZCTA
+70760,New Roads,LA,Zip Code Area,70760,Zip matches ZCTA
+39116,Mize,MS,Zip Code Area,39116,Zip matches ZCTA
+88101,Clovis,NM,Zip Code Area,88101,Zip matches ZCTA
+32771,Sanford,FL,Zip Code Area,32771,Zip matches ZCTA
+77456,Markham,TX,Zip Code Area,77456,Zip matches ZCTA
+31052,Lizella,GA,Zip Code Area,31052,Zip matches ZCTA
+68450,Tecumseh,NE,Zip Code Area,68450,Zip matches ZCTA
+40489,Waynesburg,KY,Zip Code Area,40489,Zip matches ZCTA
+01913,Amesbury,MA,Zip Code Area,01913,Zip matches ZCTA
+67504,Hutchinson,KS,Post Office or large volume customer,67501,Spatial join to ZCTA
+77642,Port Arthur,TX,Zip Code Area,77642,Zip matches ZCTA
+28742,Horse Shoe,NC,Zip Code Area,28742,Zip matches ZCTA
+48860,Muir,MI,Zip Code Area,48860,Zip matches ZCTA
+23228,Henrico,VA,Zip Code Area,23228,Zip matches ZCTA
+90509,Torrance,CA,Post Office or large volume customer,90501,Spatial join to ZCTA
+08221,Linwood,NJ,Zip Code Area,08221,Zip matches ZCTA
+23138,Port Haywood,VA,Zip Code Area,23138,Zip matches ZCTA
+53022,Germantown,WI,Zip Code Area,53022,Zip matches ZCTA
+60419,Dolton,IL,Zip Code Area,60419,Zip matches ZCTA
+92418,San Bernardino,CA,Post Office or large volume customer,92401,Spatial join to ZCTA
+11952,Mattituck,NY,Zip Code Area,11952,Zip matches ZCTA
+47453,Owensburg,IN,Zip Code Area,47453,Zip matches ZCTA
+97408,Eugene,OR,Zip Code Area,97408,Zip matches ZCTA
+56069,Montgomery,MN,Zip Code Area,56069,Zip matches ZCTA
+56715,Brooks,MN,Zip Code Area,56715,Zip matches ZCTA
+13319,Chadwicks,NY,Zip Code Area,13319,Zip matches ZCTA
+08224,New Gretna,NJ,Post Office or large volume customer,08224,Zip matches ZCTA
+61655,Peoria,IL,Post Office or large volume customer,61602,Spatial join to ZCTA
+11552,West Hempstead,NY,Zip Code Area,11552,Zip matches ZCTA
+19382,West Chester,PA,Zip Code Area,19382,Zip matches ZCTA
+68457,Verdon,NE,Zip Code Area,68457,Zip matches ZCTA
+76041,Forreston,TX,Zip Code Area,76041,Zip matches ZCTA
+62820,Burnt Prairie,IL,Zip Code Area,62820,Zip matches ZCTA
+13652,Hermon,NY,Zip Code Area,13652,Zip matches ZCTA
+17943,Lavelle,PA,Post Office or large volume customer,17943,Zip matches ZCTA
+70057,Hahnville,LA,Zip Code Area,70057,Zip matches ZCTA
+43725,Cambridge,OH,Zip Code Area,43725,Zip matches ZCTA
+66710,Altoona,KS,Zip Code Area,66710,Zip matches ZCTA
+53214,Milwaukee,WI,Zip Code Area,53214,Zip matches ZCTA
+43754,Lewisville,OH,Zip Code Area,43754,Zip matches ZCTA
+15430,Dickerson Run,PA,Zip Code Area,15430,Zip matches ZCTA
+33949,Port Charlotte,FL,Post Office or large volume customer,33952,Spatial join to ZCTA
+78953,Rosanky,TX,Zip Code Area,78953,Zip matches ZCTA
+92815,Anaheim,CA,Post Office or large volume customer,92805,Spatial join to ZCTA
+79996,El Paso,TX,Post Office or large volume customer,79936,Spatial join to ZCTA
+21218,Baltimore,MD,Zip Code Area,21218,Zip matches ZCTA
+98107,Seattle,WA,Zip Code Area,98107,Zip matches ZCTA
+35805,Huntsville,AL,Zip Code Area,35805,Zip matches ZCTA
+30064,Marietta,GA,Zip Code Area,30064,Zip matches ZCTA
+57314,Artesian,SD,Zip Code Area,57314,Zip matches ZCTA
+61435,Gerlaw,IL,Zip Code Area,61435,Zip matches ZCTA
+73068,Noble,OK,Zip Code Area,73068,Zip matches ZCTA
+71306,Alexandria,LA,Post Office or large volume customer,71301,Spatial join to ZCTA
+10113,New York,NY,Post Office or large volume customer,10011,Spatial join to ZCTA
+94070,San Carlos,CA,Zip Code Area,94070,Zip matches ZCTA
+07946,Millington,NJ,Zip Code Area,07946,Zip matches ZCTA
+01915,Beverly,MA,Zip Code Area,01915,Zip matches ZCTA
+38036,Gallaway,TN,Post Office or large volume customer,38036,Zip matches ZCTA
+57238,Goodwin,SD,Zip Code Area,57238,Zip matches ZCTA
+45816,Benton Ridge,OH,Post Office or large volume customer,45816,Zip matches ZCTA
+77662,Vidor,TX,Zip Code Area,77662,Zip matches ZCTA
+14558,South Lima,NY,Post Office or large volume customer,14487,Spatial join to ZCTA
+59761,Wisdom,MT,Zip Code Area,59761,Zip matches ZCTA
+75058,Gunter,TX,Zip Code Area,75058,Zip matches ZCTA
+63783,Uniontown,MO,Zip Code Area,63783,Zip matches ZCTA
+14707,Allentown,NY,Zip Code Area,14707,Zip matches ZCTA
+60968,Thawville,IL,Zip Code Area,60968,Zip matches ZCTA
+45208,Cincinnati,OH,Zip Code Area,45208,Zip matches ZCTA
+13616,Calcium,NY,Zip Code Area,13616,Zip matches ZCTA
+68106,Omaha,NE,Zip Code Area,68106,Zip matches ZCTA
+92233,Calipatria,CA,Zip Code Area,92233,Zip matches ZCTA
+28726,East Flat Rock,NC,Zip Code Area,28726,Zip matches ZCTA
+60303,Oak Park,IL,Post Office or large volume customer,60301,Spatial join to ZCTA
+49261,Napoleon,MI,Zip Code Area,49261,Zip matches ZCTA
+80483,Yampa,CO,Zip Code Area,80483,Zip matches ZCTA
+77954,Cuero,TX,Zip Code Area,77954,Zip matches ZCTA
+98443,Tacoma,WA,Zip Code Area,98443,Zip matches ZCTA
+53038,Johnson Creek,WI,Zip Code Area,53038,Zip matches ZCTA
+12325,Schenectady,NY,Post Office or large volume customer,12302,Spatial join to ZCTA
+85718,Tucson,AZ,Zip Code Area,85718,Zip matches ZCTA
+87014,Cubero,NM,Zip Code Area,87014,Zip matches ZCTA
+56244,Hancock,MN,Zip Code Area,56244,Zip matches ZCTA
+43948,Smithfield,OH,Zip Code Area,43948,Zip matches ZCTA
+55733,Esko,MN,Zip Code Area,55733,Zip matches ZCTA
+02111,Boston,MA,Zip Code Area,02111,Zip matches ZCTA
+26270,Harman,WV,Zip Code Area,26270,Zip matches ZCTA
+11051,Port Washington,NY,Post Office or large volume customer,11050,Spatial join to ZCTA
+10958,New Hampton,NY,Zip Code Area,10958,Zip matches ZCTA
+40456,Mount Vernon,KY,Zip Code Area,40456,Zip matches ZCTA
+03087,Windham,NH,Zip Code Area,03087,Zip matches ZCTA
+99729,Cantwell,AK,Zip Code Area,99729,Zip matches ZCTA
+73446,Madill,OK,Zip Code Area,73446,Zip matches ZCTA
+75706,Tyler,TX,Zip Code Area,75706,Zip matches ZCTA
+62896,West Frankfort,IL,Zip Code Area,62896,Zip matches ZCTA
+19460,Phoenixville,PA,Zip Code Area,19460,Zip matches ZCTA
+57737,Enning,SD,Zip Code Area,57737,Zip matches ZCTA
+43773,Quaker City,OH,Zip Code Area,43773,Zip matches ZCTA
+27531,Goldsboro,NC,Zip Code Area,27531,Zip matches ZCTA
+93239,Kettleman City,CA,Zip Code Area,93239,Zip matches ZCTA
+59462,Moccasin,MT,Zip Code Area,59462,Zip matches ZCTA
+59256,Raymond,MT,Zip Code Area,59256,Zip matches ZCTA
+29166,Ward,SC,Zip Code Area,29166,Zip matches ZCTA
+05151,Perkinsville,VT,Zip Code Area,05151,Zip matches ZCTA
+21503,Cumberland,MD,Post Office or large volume customer,21502,Spatial join to ZCTA
+60684,Chicago,IL,Post Office or large volume customer,60606,Spatial join to ZCTA
+23441,Tasley,VA,Post Office or large volume customer,23441,Zip matches ZCTA
+78341,Benavides,TX,Zip Code Area,78341,Zip matches ZCTA
+97135,Pacific City,OR,Zip Code Area,97135,Zip matches ZCTA
+07727,Farmingdale,NJ,Zip Code Area,07727,Zip matches ZCTA
+83612,Council,ID,Zip Code Area,83612,Zip matches ZCTA
+71118,Shreveport,LA,Zip Code Area,71118,Zip matches ZCTA
+27120,Winston Salem,NC,Post Office or large volume customer,27101,Spatial join to ZCTA
+99755,Denali National Park,AK,Zip Code Area,99755,Zip matches ZCTA
+29724,Lando,SC,Post Office or large volume customer,29724,Zip matches ZCTA
+04575,West Boothbay Harbor,ME,Zip Code Area,04575,Zip matches ZCTA
+31209,Macon,GA,Post Office or large volume customer,31204,Spatial join to ZCTA
+62816,Bonnie,IL,Zip Code Area,62816,Zip matches ZCTA
+52217,Clutier,IA,Zip Code Area,52217,Zip matches ZCTA
+15254,Pittsburgh,PA,Post Office or large volume customer,15219,Spatial join to ZCTA
+45805,Lima,OH,Zip Code Area,45805,Zip matches ZCTA
+53032,Horicon,WI,Zip Code Area,53032,Zip matches ZCTA
+01508,Charlton City,MA,Post Office or large volume customer,01507,Spatial join to ZCTA
+28312,Fayetteville,NC,Zip Code Area,28312,Zip matches ZCTA
+97042,Mulino,OR,Zip Code Area,97042,Zip matches ZCTA
+92259,Ocotillo,CA,Zip Code Area,92259,Zip matches ZCTA
+28083,Kannapolis,NC,Zip Code Area,28083,Zip matches ZCTA
+06090,West Granby,CT,Zip Code Area,06090,Zip matches ZCTA
+72737,Greenland,AR,Post Office or large volume customer,72701,Spatial join to ZCTA
+36038,Gantt,AL,Zip Code Area,36038,Zip matches ZCTA
+43783,Somerset,OH,Zip Code Area,43783,Zip matches ZCTA
+65258,Holliday,MO,Zip Code Area,65258,Zip matches ZCTA
+38256,Springville,TN,Zip Code Area,38256,Zip matches ZCTA
+41655,Printer,KY,Zip Code Area,41655,Zip matches ZCTA
+34762,Okahumpka,FL,Zip Code Area,34762,Zip matches ZCTA
+34292,Venice,FL,Zip Code Area,34292,Zip matches ZCTA
+19183,Philadelphia,PA,Post Office or large volume customer,19106,Spatial join to ZCTA
+61486,Viola,IL,Zip Code Area,61486,Zip matches ZCTA
+48555,Flint,MI,Post Office or large volume customer,48504,Spatial join to ZCTA
+18502,Scranton,PA,Post Office or large volume customer,18503,Spatial join to ZCTA
+98266,Maple Falls,WA,Zip Code Area,98266,Zip matches ZCTA
+17353,Orrtanna,PA,Zip Code Area,17353,Zip matches ZCTA
+27553,Manson,NC,Zip Code Area,27553,Zip matches ZCTA
+32008,Branford,FL,Zip Code Area,32008,Zip matches ZCTA
+52031,Bellevue,IA,Zip Code Area,52031,Zip matches ZCTA
+28555,Maysville,NC,Zip Code Area,28555,Zip matches ZCTA
+13810,Mount Vision,NY,Zip Code Area,13810,Zip matches ZCTA
+43502,Archbold,OH,Zip Code Area,43502,Zip matches ZCTA
+90742,Sunset Beach,CA,Zip Code Area,90742,Zip matches ZCTA
+49938,Ironwood,MI,Zip Code Area,49938,Zip matches ZCTA
+93586,Lancaster,CA,Post Office or large volume customer,93536,Spatial join to ZCTA
+92808,Anaheim,CA,Zip Code Area,92808,Zip matches ZCTA
+46733,Decatur,IN,Zip Code Area,46733,Zip matches ZCTA
+02119,Roxbury,MA,Zip Code Area,02119,Zip matches ZCTA
+21144,Severn,MD,Zip Code Area,21144,Zip matches ZCTA
+45837,Dupont,OH,Post Office or large volume customer,45831,Spatial join to ZCTA
+08505,Bordentown,NJ,Zip Code Area,08505,Zip matches ZCTA
+93121,Santa Barbara,CA,Post Office or large volume customer,93101,Spatial join to ZCTA
+71326,Clayton,LA,Zip Code Area,71326,Zip matches ZCTA
+44424,Hartford,OH,Post Office or large volume customer,44424,Zip matches ZCTA
+12943,Keene Valley,NY,Zip Code Area,12943,Zip matches ZCTA
+07963,Morristown,NJ,Post Office or large volume customer,07960,Spatial join to ZCTA
+70358,Grand Isle,LA,Zip Code Area,70358,Zip matches ZCTA
+08020,Clarksboro,NJ,Zip Code Area,08020,Zip matches ZCTA
+37096,Linden,TN,Zip Code Area,37096,Zip matches ZCTA
+79107,Amarillo,TX,Zip Code Area,79107,Zip matches ZCTA
+80942,Colorado Springs,CO,Post Office or large volume customer,80903,Spatial join to ZCTA
+05748,Hancock,VT,Zip Code Area,05748,Zip matches ZCTA
+68351,Exeter,NE,Zip Code Area,68351,Zip matches ZCTA
+03890,West Ossipee,NH,Zip Code Area,03890,Zip matches ZCTA
+61375,Varna,IL,Zip Code Area,61375,Zip matches ZCTA
+46613,South Bend,IN,Zip Code Area,46613,Zip matches ZCTA
+28618,Deep Gap,NC,Zip Code Area,28618,Zip matches ZCTA
+79105,Amarillo,TX,Post Office or large volume customer,79101,Spatial join to ZCTA
+83837,Kellogg,ID,Zip Code Area,83837,Zip matches ZCTA
+72201,Little Rock,AR,Zip Code Area,72201,Zip matches ZCTA
+36080,Titus,AL,Zip Code Area,36080,Zip matches ZCTA
+27541,Hurdle Mills,NC,Zip Code Area,27541,Zip matches ZCTA
+21057,Glen Arm,MD,Zip Code Area,21057,Zip matches ZCTA
+02379,West Bridgewater,MA,Zip Code Area,02379,Zip matches ZCTA
+80222,Denver,CO,Zip Code Area,80222,Zip matches ZCTA
+70643,Grand Chenier,LA,Zip Code Area,70643,Zip matches ZCTA
+06840,New Canaan,CT,Zip Code Area,06840,Zip matches ZCTA
+13633,De Peyster,NY,Zip Code Area,13633,Zip matches ZCTA
+55942,Homer,MN,Post Office or large volume customer,55987,Spatial join to ZCTA
+78061,Pearsall,TX,Zip Code Area,78061,Zip matches ZCTA
+30083,Stone Mountain,GA,Zip Code Area,30083,Zip matches ZCTA
+30673,Washington,GA,Zip Code Area,30673,Zip matches ZCTA
+27715,Durham,NC,Post Office or large volume customer,27705,Spatial join to ZCTA
+56536,Felton,MN,Zip Code Area,56536,Zip matches ZCTA
+73648,Elk City,OK,Post Office or large volume customer,73644,Spatial join to ZCTA
+29551,Hartsville,SC,Post Office or large volume customer,29550,Spatial join to ZCTA
+30410,Ailey,GA,Zip Code Area,30410,Zip matches ZCTA
+31009,Cadwell,GA,Zip Code Area,31009,Zip matches ZCTA
+57467,Orient,SD,Zip Code Area,57467,Zip matches ZCTA
+25154,Peytona,WV,Zip Code Area,25154,Zip matches ZCTA
+62345,Kinderhook,IL,Zip Code Area,62345,Zip matches ZCTA
+79370,Spur,TX,Zip Code Area,79370,Zip matches ZCTA
+76626,Blooming Grove,TX,Zip Code Area,76626,Zip matches ZCTA
+73093,Washington,OK,Zip Code Area,73093,Zip matches ZCTA
+71865,Wilton,AR,Zip Code Area,71865,Zip matches ZCTA
+35759,Meridianville,AL,Zip Code Area,35759,Zip matches ZCTA
+48360,Lake Orion,MI,Zip Code Area,48360,Zip matches ZCTA
+15333,Fredericktown,PA,Zip Code Area,15333,Zip matches ZCTA
+89107,Las Vegas,NV,Zip Code Area,89107,Zip matches ZCTA
+75672,Marshall,TX,Zip Code Area,75672,Zip matches ZCTA
+07191,Newark,NJ,Post Office or large volume customer,07102,Spatial join to ZCTA
+04401,Bangor,ME,Zip Code Area,04401,Zip matches ZCTA
+64161,Kansas City,MO,Zip Code Area,64161,Zip matches ZCTA
+75637,Clayton,TX,Post Office or large volume customer,75633,Spatial join to ZCTA
+81654,Snowmass,CO,Zip Code Area,81654,Zip matches ZCTA
+60047,Lake Zurich,IL,Zip Code Area,60047,Zip matches ZCTA
+47001,Aurora,IN,Zip Code Area,47001,Zip matches ZCTA
+17830,Herndon,PA,Zip Code Area,17830,Zip matches ZCTA
+72451,Paragould,AR,Post Office or large volume customer,72450,Spatial join to ZCTA
+74349,Ketchum,OK,Zip Code Area,74349,Zip matches ZCTA
+18540,Scranton,PA,Post Office or large volume customer,18505,Spatial join to ZCTA
+39483,Foxworth,MS,Zip Code Area,39483,Zip matches ZCTA
+75882,Palestine,TX,Post Office or large volume customer,75803,Spatial join to ZCTA
+43907,Cadiz,OH,Zip Code Area,43907,Zip matches ZCTA
+72532,Evening Shade,AR,Zip Code Area,72532,Zip matches ZCTA
+50340,Des Moines,IA,Post Office or large volume customer,50309,Spatial join to ZCTA
+22504,Laneview,VA,Zip Code Area,22504,Zip matches ZCTA
+01910,Lynn,MA,Post Office or large volume customer,01905,Spatial join to ZCTA
+18068,Old Zionsville,PA,Post Office or large volume customer,18092,Spatial join to ZCTA
+75435,Deport,TX,Zip Code Area,75435,Zip matches ZCTA
+03754,Guild,NH,Post Office or large volume customer,03773,Spatial join to ZCTA
+70651,Leblanc,LA,Post Office or large volume customer,70651,Zip matches ZCTA
+23839,Dendron,VA,Zip Code Area,23839,Zip matches ZCTA
+43027,Homer,OH,Post Office or large volume customer,43027,Zip matches ZCTA
+55758,Kinney,MN,Zip Code Area,55758,Zip matches ZCTA
+54466,Pittsville,WI,Zip Code Area,54466,Zip matches ZCTA
+68064,Valley,NE,Zip Code Area,68064,Zip matches ZCTA
+30276,Senoia,GA,Zip Code Area,30276,Zip matches ZCTA
+65532,Lake Spring,MO,Post Office or large volume customer,65401,Spatial join to ZCTA
+63625,Black,MO,Zip Code Area,63625,Zip matches ZCTA
+06129,Wethersfield,CT,Post Office or large volume customer,06109,Spatial join to ZCTA
+65354,Syracuse,MO,Zip Code Area,65354,Zip matches ZCTA
+82210,Chugwater,WY,Zip Code Area,82210,Zip matches ZCTA
+41052,Jonesville,KY,Zip Code Area,41052,Zip matches ZCTA
+78212,San Antonio,TX,Zip Code Area,78212,Zip matches ZCTA
+40350,Moorefield,KY,Zip Code Area,40350,Zip matches ZCTA
+77243,Houston,TX,Post Office or large volume customer,77080,Spatial join to ZCTA
+10242,New York,NY,Post Office or large volume customer,10007,Spatial join to ZCTA
+50940,Des Moines,IA,Post Office or large volume customer,50314,Spatial join to ZCTA
+22637,Gore,VA,Zip Code Area,22637,Zip matches ZCTA
+83278,Stanley,ID,Zip Code Area,83278,Zip matches ZCTA
+38485,Waynesboro,TN,Zip Code Area,38485,Zip matches ZCTA
+54511,Argonne,WI,Zip Code Area,54511,Zip matches ZCTA
+98233,Burlington,WA,Zip Code Area,98233,Zip matches ZCTA
+79118,Amarillo,TX,Zip Code Area,79118,Zip matches ZCTA
+67344,Elk City,KS,Zip Code Area,67344,Zip matches ZCTA
+12482,South Cairo,NY,Zip Code Area,12482,Zip matches ZCTA
+29914,Dale,SC,Post Office or large volume customer,29940,Spatial join to ZCTA
+32899,Orlando,FL,Post Office or large volume customer,32899,Zip matches ZCTA
+25214,Winifrede,WV,Zip Code Area,25214,Zip matches ZCTA
+44678,Somerdale,OH,Zip Code Area,44678,Zip matches ZCTA
+20546,Washington,DC,Post Office or large volume customer,20024,Spatial join to ZCTA
+53576,Orfordville,WI,Zip Code Area,53576,Zip matches ZCTA
+40995,Trosper,KY,Zip Code Area,40995,Zip matches ZCTA
+11104,Sunnyside,NY,Zip Code Area,11104,Zip matches ZCTA
+23069,Hanover,VA,Zip Code Area,23069,Zip matches ZCTA
+32091,Starke,FL,Zip Code Area,32091,Zip matches ZCTA
+32258,Jacksonville,FL,Zip Code Area,32258,Zip matches ZCTA
+37721,Corryton,TN,Zip Code Area,37721,Zip matches ZCTA
+19430,Creamery,PA,Post Office or large volume customer,19473,Spatial join to ZCTA
+99513,Anchorage,AK,Post Office or large volume customer,99513,Zip matches ZCTA
+22511,Lottsburg,VA,Zip Code Area,22511,Zip matches ZCTA
+12018,Averill Park,NY,Zip Code Area,12018,Zip matches ZCTA
+00612,Arecibo,PR,Zip Code Area,00612,Zip matches ZCTA
+14836,Dalton,NY,Zip Code Area,14836,Zip matches ZCTA

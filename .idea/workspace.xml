@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="696c77da-d10a-41ce-9c9c-8091e73dd307" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/group13_backup.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/group13_backup_SAMPLE_DATA.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/83357dde-f35a-4911-a321-e809132882e3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/83357dde-f35a-4911-a321-e809132882e3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis and Charts/Flash Flood Vs River Flood.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis and Charts/Query 4 flash v river flood.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis and Charts/control for storms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis and Charts/Query 5 Controlling for the Storms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis and Charts/imperv buckets bar &amp; Trend.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis and Charts/Query 3 imperv dev buckets Trend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis and Charts/imperv buckets heat maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis and Charts/Query 3 imperv dev buckets heat maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analysis and Charts/macro level.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analysis and Charts/Query 1 Macro trend.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data load READ.sql" beforeDir="false" afterPath="$PROJECT_DIR$/zzz_deal with  later/Data load orig no.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/Controlling for the Storms.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/Query 5 Controlling for the Storms.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/Data per archetype cumul.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/Query 2 Data per archetype.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/Flash Flooding vs. River Flooding.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/Query 4 flash v river flood.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/development % buckets payout by year.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/Query 3 imperv dev buckets.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exports/macro-level temporal trends floods.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exports/Query 1 Macro trend.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qry wip.sql" beforeDir="false" afterPath="$PROJECT_DIR$/zzz_deal with  later/qry wip.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queries prime.sql" beforeDir="false" afterPath="$PROJECT_DIR$/group13_queries.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/fima_nfip_claims.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/fima_nfip_claims.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/fips_code_refs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/fips_code_refs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/inflation_cpi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/inflation_cpi.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/nanda_land_cover.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/nanda_land_cover.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/zip_to_zcta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/zip_to_zcta.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +44,7 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "database.data.extractors.current.export.id": "SQL-Insert-Multirow.sql.groovy",
+    "database.data.extractors.current.export.id": "CSV-Groovy.csv.groovy",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/magif/Documents/CS3200-Project-Flood-FEMA"
   },
