@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="696c77da-d10a-41ce-9c9c-8091e73dd307" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/fima_nfip_claims.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/fima_nfip_claims.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/fips_code_refs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/fips_code_refs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/inflation_cpi.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/inflation_cpi.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/nanda_land_cover.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/nanda_land_cover.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATA/Sample Data/zip_to_zcta.csv" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/Sample Data/zip_to_zcta.csv" afterDir="false" />
-    </list>
+    <list default="true" id="696c77da-d10a-41ce-9c9c-8091e73dd307" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,16 +49,17 @@
 }]]></component>
   <component name="RecapSpentCounter">
     <option name="endsOfQuotaMs" value="1777669200000" />
-    <option name="spentUsd" value="0.00332925" />
+    <option name="spentUsd" value="0.07351775" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="4" />
+    <option name="suspendCountdown" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\magif\Documents\CS3200-Project-Flood-FEMA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\magif\Documents\CS3200-Project-Flood-FEMA\DATA\Sample Data" />
       <recent name="C:\Users\magif\Documents\CS3200-Project-Flood-FEMA\zzz_deal with  later" />
     </key>
   </component>
